@@ -72,7 +72,7 @@ class PublicationHistoryTest(unittest.TestCase):
         self.assertEqual(first, second)
         self.assertEqual(
             sum(item["rss"]["status"] == RSS_PUBLISHED for item in first["items"]),
-            2,
+            4,
         )
 
     def test_unconfirmed_item_becomes_overdue_after_24_hours(self):
@@ -92,7 +92,7 @@ class PublicationHistoryTest(unittest.TestCase):
         self.assertEqual(by_id["recipe_101"]["pinterest"]["status"], PINTEREST_OVERDUE)
         self.assertEqual(
             by_id["recipe_101"]["pinterest"]["expected_import_by"],
-            "2026-07-23T03:00:00Z",
+            "2026-07-22T21:28:00Z",
         )
 
     def test_sync_transitions_due_items_and_preserves_confirmations(self):

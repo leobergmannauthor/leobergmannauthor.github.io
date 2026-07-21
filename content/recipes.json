@@ -19,7 +19,7 @@
         "servings":  "6",
         "difficulty":  "Leicht",
         "image":  "assets/recipes/recipe_101.jpg",
-        "publish_at":  "2026-07-22T03:00:00Z"
+        "publish_at":  "2026-07-21T21:28:00Z"
     },
     {
         "id":  "recipe_102",
@@ -30,7 +30,7 @@
         "servings":  "6",
         "difficulty":  "Mittel",
         "image":  "assets/recipes/recipe_102.jpg",
-        "publish_at":  "2026-07-22T14:00:00Z"
+        "publish_at":  "2026-07-21T21:29:00Z"
     },
     {
         "id":  "recipe_103",
@@ -41,7 +41,7 @@
         "servings":  "4",
         "difficulty":  "Leicht",
         "image":  "assets/recipes/recipe_103.jpg",
-        "publish_at":  "2026-07-23T03:00:00Z"
+        "publish_at":  "2026-07-21T21:30:00Z"
     },
     {
         "id":  "recipe_104",

@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-07-21T20:54:12Z",
+  "last_updated_at": "2026-07-21T21:33:05Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -27,17 +27,17 @@
     {
       "content_id": "recipe_101",
       "title": "Taquitos mexikanisch",
-      "scheduled_at": "2026-07-22T03:00:00Z",
+      "scheduled_at": "2026-07-21T21:28:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_101.html",
       "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_101.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-07-21T21:28:00Z",
+        "first_repository_observed_at": "2026-07-21T21:33:05Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
-        "expected_import_by": "2026-07-23T03:00:00Z",
+        "status": "awaiting_import_confirmation",
+        "expected_import_by": "2026-07-22T21:28:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -46,17 +46,17 @@
     {
       "content_id": "recipe_102",
       "title": "Pizzabrötchen gefüllt",
-      "scheduled_at": "2026-07-22T14:00:00Z",
+      "scheduled_at": "2026-07-21T21:29:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_102.html",
       "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_102.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-07-21T21:29:00Z",
+        "first_repository_observed_at": "2026-07-21T21:33:05Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
-        "expected_import_by": "2026-07-23T14:00:00Z",
+        "status": "awaiting_import_confirmation",
+        "expected_import_by": "2026-07-22T21:29:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -65,17 +65,17 @@
     {
       "content_id": "recipe_103",
       "title": "Bacon-Wrapped Dates",
-      "scheduled_at": "2026-07-23T03:00:00Z",
+      "scheduled_at": "2026-07-21T21:30:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_103.html",
       "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_103.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-07-21T21:30:00Z",
+        "first_repository_observed_at": "2026-07-21T21:33:05Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
-        "expected_import_by": "2026-07-24T03:00:00Z",
+        "status": "awaiting_import_confirmation",
+        "expected_import_by": "2026-07-22T21:30:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
