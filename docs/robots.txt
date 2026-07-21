@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leobergmannauthor.github.io/sitemap.xml

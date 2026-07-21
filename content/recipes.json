@@ -1,0 +1,189 @@
+[
+    {
+        "id":  "airfryer-kochbuch",
+        "title":  "XXL Airfryer Kochbuch: 140 schnelle Rezepte",
+        "description":  "Schnelle, einfache Airfryer-Ideen für knusprige Alltagsgerichte mit wenig Aufwand.",
+        "prep":  "",
+        "cook":  "",
+        "servings":  "",
+        "difficulty":  "",
+        "image":  "assets/book-cover.jpg",
+        "publish_at":  "2026-07-21T00:00:00Z"
+    },
+    {
+        "id":  "recipe_101",
+        "title":  "Taquitos mexikanisch",
+        "description":  "Knusprige mexikanische Taquitos gefüllt mit Hähnchen und Käse. Das perfekte Fingerfood für Taco-Dienstag oder jede Fiesta.",
+        "prep":  "20 min",
+        "cook":  "10 min",
+        "servings":  "6",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_101.jpg",
+        "publish_at":  "2026-07-22T03:00:00Z"
+    },
+    {
+        "id":  "recipe_102",
+        "title":  "Pizzabrötchen gefüllt",
+        "description":  "Weiche Brötchen gefüllt mit Pizza-Zutaten wie Käse, Schinken und Tomatenmark. Ein Liebling bei Kindern und perfekt für die Lunchbox.",
+        "prep":  "25 min",
+        "cook":  "12 min",
+        "servings":  "6",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_102.jpg",
+        "publish_at":  "2026-07-22T14:00:00Z"
+    },
+    {
+        "id":  "recipe_103",
+        "title":  "Bacon-Wrapped Dates",
+        "description":  "Süße Datteln umwickelt mit salzigem Speck - eine unwiderstehliche Kombination. Einfach, elegant und perfekt für festliche Anlässe.",
+        "prep":  "15 min",
+        "cook":  "10 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_103.jpg",
+        "publish_at":  "2026-07-23T03:00:00Z"
+    },
+    {
+        "id":  "recipe_104",
+        "title":  "Avocado-Pommes knusprig",
+        "description":  "Ungewöhnliche Pommes aus cremiger Avocado mit knuspriger Panade. Eine trendige Low-Carb-Variante, die optisch und geschmacklich überzeugt.",
+        "prep":  "20 min",
+        "cook":  "10 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_104.jpg",
+        "publish_at":  "2026-07-23T14:00:00Z"
+    },
+    {
+        "id":  "recipe_105",
+        "title":  "Pommes Frites klassisch",
+        "description":  "Perfekte Pommes Frites wie aus der Frittenbude - außen goldbraun und knusprig, innen fluffig. Mit dem Airfryer gelingen sie mit minimalem Fett.",
+        "prep":  "15 min",
+        "cook":  "20 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_105.jpg",
+        "publish_at":  "2026-07-24T03:00:00Z"
+    },
+    {
+        "id":  "recipe_106",
+        "title":  "Kartoffel-Wedges würzig",
+        "description":  "Knusprige Kartoffel-Wedges mit einer würzigen Gewürzmischung. Rustikale Kartoffelspalten mit der perfekten Balance aus Knusprigkeit und Weichheit.",
+        "prep":  "10 min",
+        "cook":  "22 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_106.jpg",
+        "publish_at":  "2026-07-24T14:00:00Z"
+    },
+    {
+        "id":  "recipe_107",
+        "title":  "Kroketten knusprig goldbraun",
+        "description":  "Klassische Kartoffelkroketten mit einer knusprigen goldbraunen Hülle. Innen cremig, außen kross - die perfekte Beilage zu Fleischgerichten.",
+        "prep":  "30 min",
+        "cook":  "12 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_107.jpg",
+        "publish_at":  "2026-07-25T03:00:00Z"
+    },
+    {
+        "id":  "recipe_108",
+        "title":  "Hasselback-Kartoffeln mit Butter",
+        "description":  "Elegante schwedische Hasselback-Kartoffeln mit knusprigen Fächern und schmelzender Butter. Ein optisches Highlight für jeden festlichen Tisch.",
+        "prep":  "15 min",
+        "cook":  "35 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_108.jpg",
+        "publish_at":  "2026-07-25T14:00:00Z"
+    },
+    {
+        "id":  "recipe_109",
+        "title":  "Rösti goldbraun und knusprig",
+        "description":  "Schweizer Rösti mit perfekt gebräunter, knuspriger Kruste. Das Geheimnis liegt im Andrücken - so werden sie außen kross und innen cremig.",
+        "prep":  "15 min",
+        "cook":  "18 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_109.jpg",
+        "publish_at":  "2026-07-26T03:00:00Z"
+    },
+    {
+        "id":  "recipe_110",
+        "title":  "Kartoffelgratin im Airfryer",
+        "description":  "Cremiges Kartoffelgratin mit goldbrauner Käsekruste. Im Airfryer wird es schneller fertig und entwickelt trotzdem die perfekte Gratinkruste.",
+        "prep":  "20 min",
+        "cook":  "25 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_110.jpg",
+        "publish_at":  "2026-07-26T14:00:00Z"
+    },
+    {
+        "id":  "recipe_111",
+        "title":  "Süßkartoffel-Pommes mit Paprika",
+        "description":  "Knusprige Süßkartoffel-Pommes mit würzigem Paprika. Die natürliche Süße karamellisiert leicht und sorgt für ein besonderes Geschmackserlebnis.",
+        "prep":  "15 min",
+        "cook":  "18 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_111.jpg",
+        "publish_at":  "2026-07-27T03:00:00Z"
+    },
+    {
+        "id":  "recipe_112",
+        "title":  "Polenta-Schnitten knusprig",
+        "description":  "Knusprig gebratene Polenta-Schnitten als Alternative zu Kartoffeln. Außen goldbraun und kross, innen cremig-weich mit leichtem Maisgeschmack.",
+        "prep":  "20 min",
+        "cook":  "15 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_112.jpg",
+        "publish_at":  "2026-07-27T14:00:00Z"
+    },
+    {
+        "id":  "recipe_113",
+        "title":  "Gnocchi geröstet mit Salbei",
+        "description":  "Knusprig geröstete Gnocchi mit aromatischer Salbeibutter. Die italienischen Kartoffelklößchen werden im Airfryer wunderbar kross und nussig.",
+        "prep":  "10 min",
+        "cook":  "12 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_113.jpg",
+        "publish_at":  "2026-07-28T03:00:00Z"
+    },
+    {
+        "id":  "recipe_114",
+        "title":  "Bratkartoffeln mit Zwiebeln",
+        "description":  "Klassische deutsche Bratkartoffeln mit karamellisierten Zwiebeln. Im Airfryer werden sie gleichmäßig knusprig ohne ständiges Wenden.",
+        "prep":  "15 min",
+        "cook":  "20 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_114.jpg",
+        "publish_at":  "2026-07-28T14:00:00Z"
+    },
+    {
+        "id":  "recipe_115",
+        "title":  "Kartoffelbällchen gefüllt",
+        "description":  "Knusprige Kartoffelbällchen mit geschmolzenem Käsekern. Ein festliches Fingerfood, das außen goldbraun und innen fädenziehend ist.",
+        "prep":  "35 min",
+        "cook":  "12 min",
+        "servings":  "6",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_115.jpg",
+        "publish_at":  "2026-07-29T03:00:00Z"
+    },
+    {
+        "id":  "recipe_116",
+        "title":  "Zwiebel-Bhaji indisch",
+        "description":  "Knusprige indische Zwiebel-Bhajis mit aromatischen Gewürzen. Ein beliebter Currybeilagen-Klassiker, der auch solo als Snack überzeugt.",
+        "prep":  "20 min",
+        "cook":  "15 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_116.jpg",
+        "publish_at":  "2026-07-29T14:00:00Z"
+    }
+]
