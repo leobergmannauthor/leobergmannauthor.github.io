@@ -107,6 +107,12 @@ Because the workflow can commit to `main`, run `git pull --ff-only` before new p
 - RSS: https://leobergmannauthor.github.io/feed.xml
 - Repository: https://github.com/leobergmannauthor/leobergmannauthor.github.io
 
+## Account and domain migration
+
+The active GitHub identity, repository, website, and Pinterest RSS source are all leobergmannauthor / https://leobergmannauthor.github.io/. This repository was created on 21 July 2026 as a clean copy without the former personal account's Git history. Pinterest has verified the new domain, the public profile links to it, and the existing feed configuration for Schnelle & einfache Rezepte was edited in place to use https://leobergmannauthor.github.io/feed.xml.
+
+The former https://leanovich.github.io/leo-bergmann-books/ deployment is intentionally kept online only as a transition fallback for existing Pins whose destination URLs cannot be changed retroactively. Never use the legacy URL for new pages, feed items, Pins, profile links, or documentation. Do not delete or disable the fallback until its inbound Pin destinations have been inventoried or redirected and the user explicitly authorizes retirement.
+
 ## Current campaign context
 
 The existing Airfryer vacation campaign schedules two RSS items per day from 22 through 29 July 2026. Treat these dates as campaign-specific historical configuration, not a permanent rule. Extend or replace them only when the requested campaign scope changes.

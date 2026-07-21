@@ -20,6 +20,12 @@ The workflow checks newly due content at 03:15 UTC and 14:15 UTC. It updates the
 
 Before connecting the feed, claim the website in Pinterest. Every feed item links to the claimed website and the website links to the Amazon book.
 
+## Identity migration
+
+On 21 July 2026 this site was recreated as a clean repository under the dedicated author account leobergmannauthor; no Git history from the previous personal account was imported. Pinterest ownership of leobergmannauthor.github.io was verified, the public profile website was changed to the new domain, and the existing RSS configuration for Schnelle & einfache Rezepte was updated in place to https://leobergmannauthor.github.io/feed.xml.
+
+The former leanovich.github.io/leo-bergmann-books/ site is a transition fallback only, so existing Pins that still target old page URLs do not break. It is not the source for new RSS publications. Do not remove the fallback until all old destination URLs have been inventoried or redirected.
+
 ## Durable publication history
 
 The source-controlled ledger is `data/publication_history.json`. It contains one entry for every item in `content/recipes.json`, including its schedule, public page and image, RSS state, and separately verified Pinterest state.
