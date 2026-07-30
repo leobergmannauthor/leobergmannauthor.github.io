@@ -25,6 +25,9 @@ Read those sources when a task requires accurate book metadata or content. Do no
 - `publication_history.py`: idempotent ledger synchronization and verified Pin confirmation command.
 - `assets/`: publishable cover and social images.
 - `scripts/render_pin_creatives.cjs`: deterministic renderer for Pinterest creatives with exact German typography.
+- `scripts/pinterest_autopilot.py`: local rolling-schedule publisher used by the double-click launcher.
+- `Pinterest-Autopilot.cmd`: Windows launcher for the complete local creation, validation, commit, and push workflow.
+- `data/pin_creatives.json`: reproducible visual copy and source/output mapping for generated Pin images.
 - `build.py`: deterministic static-site and RSS generator.
 - `styles.css`: source stylesheet.
 - `docs/`: generated GitHub Pages output; never edit it by hand.
@@ -121,3 +124,8 @@ The 22–29 July 2026 vacation campaign is complete. On 30 July 2026 the public 
 A follow-up series of 12 distinct Airfryer recipes is scheduled from 30 July through 10 August 2026 at one item per day. It uses source IDs recipe_003, recipe_012, recipe_017, recipe_024, recipe_025, recipe_040, recipe_059, recipe_064, recipe_082, recipe_088, recipe_092, and recipe_117. Keep this cadence and content mix unless a later request explicitly changes it; do not publish duplicate variants of the same recipes while this series is active.
 
 The follow-up series uses branded `-pin.jpg` creatives rather than unchanged source photos. The current template places a category label, large recipe hook, benefit line, CTA, and author mark over the photo. Run the renderer again after changing creative copy, then synchronize the ledger, rebuild, test, and visually inspect representative light and dark food images before pushing.
+## Local Pinterest autopilot
+
+`Pinterest-Autopilot.cmd` is the supported user-facing entry point. It maintains a 14-day rolling schedule and adds at most seven distinct items per run. The implementation reads the German Airfryer source recipes, excludes recipe IDs and materially similar titles already present in the RSS ledger or native Pinterest run log, balances categories, copies the rights-cleared source image, renders the branded `-pin.jpg`, appends the scheduled teaser, synchronizes the ledger, builds, runs all tests, commits, pushes, and checks the deployed images. The paid-channel lock must remain at 0 EUR.
+
+The launcher must stop on a dirty website worktree instead of overwriting unrelated work. Use `python scripts/pinterest_autopilot.py --dry-run` to inspect the next selection without changing the website repository. A successful local push makes future scheduled releases independent of the notebook because GitHub Actions and Pinterest's connected RSS importer handle the remaining release path.

@@ -51,6 +51,17 @@ Never mark an item as confirmed based only on the usual Pinterest import window.
 The first RSS campaign has been publicly verified: 16 recipe Pins now have durable public `/pin/` links in `data/publication_history.json`. A second series contains 12 distinct Airfryer ideas and is scheduled at one item per day from 30 July through 10 August 2026. Its feed images are purpose-built Pinterest creatives with a recipe hook, benefit line, CTA, and author mark; the untouched source photos remain alongside the generated `-pin.jpg` files. The GitHub workflow releases each due page and feed entry without requiring a running notebook.
 
 The reproducible creative renderer is `scripts/render_pin_creatives.cjs`. It uses Sharp and the bundled fonts to keep exact German text deterministic. After changing its copy or layout, regenerate the images, run the ledger synchronization and complete build/test sequence, and visually inspect the output.
+## Double-click autopilot
+
+On Windows, double-click `Pinterest-Autopilot.cmd`. It keeps the organic plan filled for the next 14 days, creates at most seven new and distinct recipe Pins in one run, renders their branded vertical images, updates the RSS history, builds and tests the public site, and pushes the successful result to GitHub. The dashboard opens after the run.
+
+The local tool requires the BookGenPy Airfryer sources and a working GitHub login on the computer. Pinterest does not require browser automation: the connected official RSS importer reads each due entry from the deployed feed. Once a batch has been pushed, the notebook can be switched off; GitHub Actions releases scheduled items and Pinterest performs its own feed polling.
+
+Preview the next automatic selection without modifying or publishing anything:
+
+```powershell
+python scripts/pinterest_autopilot.py --dry-run
+```
 
 Pinterest may import a feed item later than its nominal publication time. A feed entry is not counted as a Pinterest success until its public Pin URL has been independently verified and recorded with `confirm-pinterest`.
 
