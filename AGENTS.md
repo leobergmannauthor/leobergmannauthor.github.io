@@ -115,4 +115,6 @@ The former https://leanovich.github.io/leo-bergmann-books/ deployment is intenti
 
 ## Current campaign context
 
-The existing Airfryer vacation campaign schedules two RSS items per day from 22 through 29 July 2026. Treat these dates as campaign-specific historical configuration, not a permanent rule. Extend or replace them only when the requested campaign scope changes.
+The 22–29 July 2026 vacation campaign is complete. On 30 July 2026 the public profile contained 28 public Pins: 16 recipe Pins imported from the active RSS feed, the earlier cookbook RSS Pin, and 11 native Pins. The 16 recipe imports are confirmed in the ledger; the earlier cookbook Pin is not confirmed against the active ledger because it still targets the legacy site.
+
+A follow-up series of 12 distinct Airfryer recipes is scheduled from 30 July through 10 August 2026 at one item per day. It uses source IDs recipe_003, recipe_012, recipe_017, recipe_024, recipe_025, recipe_040, recipe_059, recipe_064, recipe_082, recipe_088, recipe_092, and recipe_117. Keep this cadence and content mix unless a later request explicitly changes it; do not publish duplicate variants of the same recipes while this series is active.

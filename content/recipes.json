@@ -185,5 +185,137 @@
         "difficulty":  "Mittel",
         "image":  "assets/recipes/recipe_116.jpg",
         "publish_at":  "2026-07-29T14:00:00Z"
+    },
+    {
+        "id":  "recipe_003",
+        "title":  "Blumenkohl-Wings Buffalo Style",
+        "description":  "Pikante Blumenkohl-Röschen in würziger Buffalo-Sauce – die vegetarische Alternative zu Chicken Wings. Außen knusprig paniert, innen zart und angenehm pikant.",
+        "prep":  "15 min",
+        "cook":  "18 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_003.jpg",
+        "publish_at":  "2026-07-30T14:00:00Z"
+    },
+    {
+        "id":  "recipe_012",
+        "title":  "Gefüllte Champignons mit Frischkäse",
+        "description":  "Saftige Champignonköpfe mit cremigem Frischkäse und Kräutern. Ein unkompliziertes Airfryer-Fingerfood für Gäste oder den gemütlichen Abend.",
+        "prep":  "15 min",
+        "cook":  "10 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_012.jpg",
+        "publish_at":  "2026-07-31T07:00:00Z"
+    },
+    {
+        "id":  "recipe_017",
+        "title":  "Gerösteter Feta mit Tomaten",
+        "description":  "Cremiger Feta auf süßen Kirschtomaten mit Knoblauch und Kräutern. Eine mediterrane Airfryer-Idee als Vorspeise oder leichtes Hauptgericht.",
+        "prep":  "8 min",
+        "cook":  "15 min",
+        "servings":  "2",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_017.jpg",
+        "publish_at":  "2026-08-01T07:00:00Z"
+    },
+    {
+        "id":  "recipe_024",
+        "title":  "Portobello-Burger vegetarisch",
+        "description":  "Saftige Portobello-Pilze mit Pesto und geschmolzenem Käse werden zu aromatischen vegetarischen Burger-Patties aus dem Airfryer.",
+        "prep":  "15 min",
+        "cook":  "12 min",
+        "servings":  "2",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_024.jpg",
+        "publish_at":  "2026-08-02T07:00:00Z"
+    },
+    {
+        "id":  "recipe_025",
+        "title":  "Hähnchenkeulen knusprig mariniert",
+        "description":  "Saftige Hähnchenkeulen mit würziger Marinade und knuspriger Haut. Ein familienfreundlicher Airfryer-Klassiker mit wenig Aufwand.",
+        "prep":  "15 min",
+        "cook":  "25 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_025.jpg",
+        "publish_at":  "2026-08-03T07:00:00Z"
+    },
+    {
+        "id":  "recipe_040",
+        "title":  "Gyros selbstgemacht im Airfryer",
+        "description":  "Würziges Gyros mit knusprigen Rändern und saftigem Inneren. So gelingt der griechische Klassiker unkompliziert im Airfryer.",
+        "prep":  "20 min",
+        "cook":  "15 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_040.jpg",
+        "publish_at":  "2026-08-04T07:00:00Z"
+    },
+    {
+        "id":  "recipe_059",
+        "title":  "Lachsfilet mit Dillkruste",
+        "description":  "Butterzartes Lachsfilet unter einer aromatischen Dill-Senfkruste. Im Airfryer wird die Kruste knusprig, während der Fisch saftig bleibt.",
+        "prep":  "10 min",
+        "cook":  "12 min",
+        "servings":  "2",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_059.jpg",
+        "publish_at":  "2026-08-05T07:00:00Z"
+    },
+    {
+        "id":  "recipe_064",
+        "title":  "Calamari-Ringe knusprig",
+        "description":  "Goldbraune Calamari-Ringe mit leichter, knuspriger Panade. Ein mediterraner Airfryer-Snack, der ohne viel Fett herrlich kross wird.",
+        "prep":  "15 min",
+        "cook":  "10 min",
+        "servings":  "4",
+        "difficulty":  "Leicht",
+        "image":  "assets/recipes/recipe_064.jpg",
+        "publish_at":  "2026-08-06T07:00:00Z"
+    },
+    {
+        "id":  "recipe_082",
+        "title":  "Frühlingsrollen asiatisch",
+        "description":  "Knusprige Frühlingsrollen mit Gemüse und Glasnudeln. Im Airfryer gelingt der asiatische Klassiker fettarm und trotzdem kross.",
+        "prep":  "30 min",
+        "cook":  "12 min",
+        "servings":  "6",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_082.jpg",
+        "publish_at":  "2026-08-07T07:00:00Z"
+    },
+    {
+        "id":  "recipe_088",
+        "title":  "Falafel orientalisch",
+        "description":  "Aromatische Falafel aus Kichererbsen und orientalischen Gewürzen. Außen knusprig, innen saftig – direkt aus dem Airfryer.",
+        "prep":  "25 min",
+        "cook":  "15 min",
+        "servings":  "4",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_088.jpg",
+        "publish_at":  "2026-08-08T07:00:00Z"
+    },
+    {
+        "id":  "recipe_092",
+        "title":  "Empanadas argentinisch",
+        "description":  "Herzhafte argentinische Teigtaschen mit würzigem Rindfleisch und Oliven. Ein abwechslungsreicher Airfryer-Snack für Partys und Picknicks.",
+        "prep":  "35 min",
+        "cook":  "15 min",
+        "servings":  "6",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_092.jpg",
+        "publish_at":  "2026-08-09T07:00:00Z"
+    },
+    {
+        "id":  "recipe_117",
+        "title":  "Yorkshire Pudding klassisch",
+        "description":  "Luftige englische Yorkshire Puddings mit knuspriger Kruste. Eine besondere Airfryer-Beilage zum Sonntagsbraten und zu kräftiger Sauce.",
+        "prep":  "10 min",
+        "cook":  "18 min",
+        "servings":  "6",
+        "difficulty":  "Mittel",
+        "image":  "assets/recipes/recipe_117.jpg",
+        "publish_at":  "2026-08-10T07:00:00Z"
     }
 ]

@@ -46,6 +46,12 @@ python publication_history.py confirm-pinterest <content-id> <public-pin-url>
 
 Never mark an item as confirmed based only on the usual Pinterest import window.
 
+## Active organic schedule
+
+The first RSS campaign has been publicly verified: 16 recipe Pins now have durable public `/pin/` links in `data/publication_history.json`. A second series contains 12 distinct Airfryer ideas and is scheduled at one item per day from 30 July through 10 August 2026. The GitHub workflow releases each due page and feed entry without requiring a running notebook.
+
+Pinterest may import a feed item later than its nominal publication time. A feed entry is not counted as a Pinterest success until its public Pin URL has been independently verified and recorded with `confirm-pinterest`.
+
 ## Security
 
 - No account passwords, tokens, customer data, or private catalog files belong in this repository.

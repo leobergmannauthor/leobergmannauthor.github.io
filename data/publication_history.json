@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-07-30T11:20:59Z",
+  "last_updated_at": "2026-07-30T13:26:00Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -36,11 +36,11 @@
         "first_repository_observed_at": "2026-07-21T21:33:05Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-22T21:28:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018154947/",
+        "confirmed_at": "2026-07-30T13:25:57Z",
+        "last_checked_at": "2026-07-30T13:25:57Z"
       }
     },
     {
@@ -55,11 +55,11 @@
         "first_repository_observed_at": "2026-07-21T21:33:05Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-22T21:29:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018154944/",
+        "confirmed_at": "2026-07-30T13:25:58Z",
+        "last_checked_at": "2026-07-30T13:25:58Z"
       }
     },
     {
@@ -74,11 +74,11 @@
         "first_repository_observed_at": "2026-07-21T21:33:05Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-22T21:30:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018154940/",
+        "confirmed_at": "2026-07-30T13:25:58Z",
+        "last_checked_at": "2026-07-30T13:25:58Z"
       }
     },
     {
@@ -93,11 +93,11 @@
         "first_repository_observed_at": "2026-07-23T18:47:41Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-24T14:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018154932/",
+        "confirmed_at": "2026-07-30T13:25:58Z",
+        "last_checked_at": "2026-07-30T13:25:58Z"
       }
     },
     {
@@ -112,11 +112,11 @@
         "first_repository_observed_at": "2026-07-24T10:50:35Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-25T03:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018236994/",
+        "confirmed_at": "2026-07-30T13:25:58Z",
+        "last_checked_at": "2026-07-30T13:25:58Z"
       }
     },
     {
@@ -131,11 +131,11 @@
         "first_repository_observed_at": "2026-07-24T19:05:07Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-25T14:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018236991/",
+        "confirmed_at": "2026-07-30T13:25:58Z",
+        "last_checked_at": "2026-07-30T13:25:58Z"
       }
     },
     {
@@ -150,11 +150,11 @@
         "first_repository_observed_at": "2026-07-25T09:21:39Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-26T03:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018314539/",
+        "confirmed_at": "2026-07-30T13:25:59Z",
+        "last_checked_at": "2026-07-30T13:25:59Z"
       }
     },
     {
@@ -169,11 +169,11 @@
         "first_repository_observed_at": "2026-07-25T17:43:42Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-26T14:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018314533/",
+        "confirmed_at": "2026-07-30T13:25:59Z",
+        "last_checked_at": "2026-07-30T13:25:59Z"
       }
     },
     {
@@ -188,11 +188,11 @@
         "first_repository_observed_at": "2026-07-26T10:17:14Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-27T03:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018393857/",
+        "confirmed_at": "2026-07-30T13:25:59Z",
+        "last_checked_at": "2026-07-30T13:25:59Z"
       }
     },
     {
@@ -207,11 +207,11 @@
         "first_repository_observed_at": "2026-07-26T17:46:45Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-27T14:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018393855/",
+        "confirmed_at": "2026-07-30T13:25:59Z",
+        "last_checked_at": "2026-07-30T13:25:59Z"
       }
     },
     {
@@ -226,11 +226,11 @@
         "first_repository_observed_at": "2026-07-27T13:30:42Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-28T03:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018471187/",
+        "confirmed_at": "2026-07-30T13:25:59Z",
+        "last_checked_at": "2026-07-30T13:25:59Z"
       }
     },
     {
@@ -245,11 +245,11 @@
         "first_repository_observed_at": "2026-07-27T19:02:00Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-28T14:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018471176/",
+        "confirmed_at": "2026-07-30T13:26:00Z",
+        "last_checked_at": "2026-07-30T13:26:00Z"
       }
     },
     {
@@ -264,11 +264,11 @@
         "first_repository_observed_at": "2026-07-28T11:31:27Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-29T03:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018546046/",
+        "confirmed_at": "2026-07-30T13:26:00Z",
+        "last_checked_at": "2026-07-30T13:26:00Z"
       }
     },
     {
@@ -283,11 +283,11 @@
         "first_repository_observed_at": "2026-07-28T18:56:16Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-29T14:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018546044/",
+        "confirmed_at": "2026-07-30T13:26:00Z",
+        "last_checked_at": "2026-07-30T13:26:00Z"
       }
     },
     {
@@ -302,11 +302,11 @@
         "first_repository_observed_at": "2026-07-29T11:38:45Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-30T03:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018626940/",
+        "confirmed_at": "2026-07-30T13:26:00Z",
+        "last_checked_at": "2026-07-30T13:26:00Z"
       }
     },
     {
@@ -321,8 +321,236 @@
         "first_repository_observed_at": "2026-07-29T18:14:31Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmed",
         "expected_import_by": "2026-07-30T14:00:00Z",
+        "pin_url": "https://de.pinterest.com/pin/1090997079018626937/",
+        "confirmed_at": "2026-07-30T13:26:00Z",
+        "last_checked_at": "2026-07-30T13:26:00Z"
+      }
+    },
+    {
+      "content_id": "recipe_003",
+      "title": "Blumenkohl-Wings Buffalo Style",
+      "scheduled_at": "2026-07-30T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_003.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_003.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-07-31T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_012",
+      "title": "Gefüllte Champignons mit Frischkäse",
+      "scheduled_at": "2026-07-31T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_012.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_012.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-01T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_017",
+      "title": "Gerösteter Feta mit Tomaten",
+      "scheduled_at": "2026-08-01T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_017.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_017.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-02T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_024",
+      "title": "Portobello-Burger vegetarisch",
+      "scheduled_at": "2026-08-02T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-03T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_025",
+      "title": "Hähnchenkeulen knusprig mariniert",
+      "scheduled_at": "2026-08-03T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-04T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_040",
+      "title": "Gyros selbstgemacht im Airfryer",
+      "scheduled_at": "2026-08-04T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_040.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_040.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-05T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_059",
+      "title": "Lachsfilet mit Dillkruste",
+      "scheduled_at": "2026-08-05T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_059.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_059.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-06T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_064",
+      "title": "Calamari-Ringe knusprig",
+      "scheduled_at": "2026-08-06T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_064.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_064.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-07T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_082",
+      "title": "Frühlingsrollen asiatisch",
+      "scheduled_at": "2026-08-07T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_082.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_082.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-08T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_088",
+      "title": "Falafel orientalisch",
+      "scheduled_at": "2026-08-08T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_088.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_088.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-09T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_092",
+      "title": "Empanadas argentinisch",
+      "scheduled_at": "2026-08-09T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_092.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_092.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-10T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "recipe_117",
+      "title": "Yorkshire Pudding klassisch",
+      "scheduled_at": "2026-08-10T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_117.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_117.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-08-11T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
