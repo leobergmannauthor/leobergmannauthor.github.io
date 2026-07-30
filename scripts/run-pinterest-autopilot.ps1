@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 $OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
-$env:PYTHONUTF8 = '1'
+$env:PYTHONUTF8 = "1"
 
 $repository = Split-Path -Parent $PSScriptRoot
 $marketingRoot = Split-Path -Parent $repository
@@ -35,27 +35,38 @@ try {
     }
 
     $dashboardUrl = "http://127.0.0.1:8765/"
+    $dashboardHealthUrl = "http://127.0.0.1:8765/api/autopilot-status"
     $dashboardReady = $false
     try {
-        $dashboardReady = (Invoke-WebRequest -Uri $dashboardUrl -UseBasicParsing -TimeoutSec 2).StatusCode -eq 200
+        $dashboardReady = (Invoke-WebRequest -Uri $dashboardHealthUrl -UseBasicParsing -TimeoutSec 2).StatusCode -eq 200
     } catch {
         $dashboardReady = $false
     }
     if (-not $dashboardReady) {
-        $dashboardScript = Join-Path $marketingRoot "scripts\start-dashboard.ps1"
-        Start-Process -FilePath "powershell.exe" `
-            -ArgumentList @("-NoProfile", "-ExecutionPolicy", "Bypass", "-File", $dashboardScript) `
+        $env:PYTHONPATH = Join-Path $marketingRoot "src"
+        Start-Process -FilePath "python.exe" `
+            -ArgumentList @("-m", "kdp_marketing", "serve") `
             -WorkingDirectory $marketingRoot `
             -WindowStyle Hidden
-        Start-Sleep -Seconds 2
+        for ($attempt = 0; $attempt -lt 10 -and -not $dashboardReady; $attempt++) {
+            Start-Sleep -Milliseconds 500
+            try {
+                $dashboardReady = (Invoke-WebRequest -Uri $dashboardHealthUrl -UseBasicParsing -TimeoutSec 2).StatusCode -eq 200
+            } catch {
+                $dashboardReady = $false
+            }
+        }
+    }
+    if (-not $dashboardReady) {
+        throw "Dashboard konnte auf Port 8765 nicht mit der aktuellen API gestartet werden."
     }
     Start-Process $dashboardUrl
     Write-Host ""
-    Write-Host "Fertig. Das Dashboard wurde geöffnet." -ForegroundColor Green
+    Write-Host "Fertig. Das Dashboard wurde geoeffnet." -ForegroundColor Green
 } catch {
     $_ | Out-String | Tee-Object -FilePath $logFile -Append | Write-Host -ForegroundColor Red
     Write-Host ""
-    Write-Host "Der Lauf wurde sicher abgebrochen. Es wurden keine bezahlten Aktionen ausgeführt." -ForegroundColor Yellow
-    Read-Host "Enter drücken, um das Fenster zu schließen"
+    Write-Host "Der Lauf wurde sicher abgebrochen. Es wurden keine bezahlten Aktionen ausgefuehrt." -ForegroundColor Yellow
+    Read-Host "Enter druecken, um das Fenster zu schliessen"
     exit 1
 }
