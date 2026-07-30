@@ -194,7 +194,7 @@
         "cook":  "18 min",
         "servings":  "4",
         "difficulty":  "Mittel",
-        "image":  "assets/recipes/recipe_003.jpg",
+        "image":  "assets/recipes/recipe_003-pin.jpg",
         "publish_at":  "2026-07-30T14:00:00Z"
     },
     {
@@ -205,7 +205,7 @@
         "cook":  "10 min",
         "servings":  "4",
         "difficulty":  "Leicht",
-        "image":  "assets/recipes/recipe_012.jpg",
+        "image":  "assets/recipes/recipe_012-pin.jpg",
         "publish_at":  "2026-07-31T07:00:00Z"
     },
     {
@@ -216,7 +216,7 @@
         "cook":  "15 min",
         "servings":  "2",
         "difficulty":  "Leicht",
-        "image":  "assets/recipes/recipe_017.jpg",
+        "image":  "assets/recipes/recipe_017-pin.jpg",
         "publish_at":  "2026-08-01T07:00:00Z"
     },
     {
@@ -227,7 +227,7 @@
         "cook":  "12 min",
         "servings":  "2",
         "difficulty":  "Leicht",
-        "image":  "assets/recipes/recipe_024.jpg",
+        "image":  "assets/recipes/recipe_024-pin.jpg",
         "publish_at":  "2026-08-02T07:00:00Z"
     },
     {
@@ -238,7 +238,7 @@
         "cook":  "25 min",
         "servings":  "4",
         "difficulty":  "Leicht",
-        "image":  "assets/recipes/recipe_025.jpg",
+        "image":  "assets/recipes/recipe_025-pin.jpg",
         "publish_at":  "2026-08-03T07:00:00Z"
     },
     {
@@ -249,7 +249,7 @@
         "cook":  "15 min",
         "servings":  "4",
         "difficulty":  "Leicht",
-        "image":  "assets/recipes/recipe_040.jpg",
+        "image":  "assets/recipes/recipe_040-pin.jpg",
         "publish_at":  "2026-08-04T07:00:00Z"
     },
     {
@@ -260,7 +260,7 @@
         "cook":  "12 min",
         "servings":  "2",
         "difficulty":  "Leicht",
-        "image":  "assets/recipes/recipe_059.jpg",
+        "image":  "assets/recipes/recipe_059-pin.jpg",
         "publish_at":  "2026-08-05T07:00:00Z"
     },
     {
@@ -271,7 +271,7 @@
         "cook":  "10 min",
         "servings":  "4",
         "difficulty":  "Leicht",
-        "image":  "assets/recipes/recipe_064.jpg",
+        "image":  "assets/recipes/recipe_064-pin.jpg",
         "publish_at":  "2026-08-06T07:00:00Z"
     },
     {
@@ -282,7 +282,7 @@
         "cook":  "12 min",
         "servings":  "6",
         "difficulty":  "Mittel",
-        "image":  "assets/recipes/recipe_082.jpg",
+        "image":  "assets/recipes/recipe_082-pin.jpg",
         "publish_at":  "2026-08-07T07:00:00Z"
     },
     {
@@ -293,7 +293,7 @@
         "cook":  "15 min",
         "servings":  "4",
         "difficulty":  "Mittel",
-        "image":  "assets/recipes/recipe_088.jpg",
+        "image":  "assets/recipes/recipe_088-pin.jpg",
         "publish_at":  "2026-08-08T07:00:00Z"
     },
     {
@@ -304,7 +304,7 @@
         "cook":  "15 min",
         "servings":  "6",
         "difficulty":  "Mittel",
-        "image":  "assets/recipes/recipe_092.jpg",
+        "image":  "assets/recipes/recipe_092-pin.jpg",
         "publish_at":  "2026-08-09T07:00:00Z"
     },
     {
@@ -315,7 +315,7 @@
         "cook":  "18 min",
         "servings":  "6",
         "difficulty":  "Mittel",
-        "image":  "assets/recipes/recipe_117.jpg",
+        "image":  "assets/recipes/recipe_117-pin.jpg",
         "publish_at":  "2026-08-10T07:00:00Z"
     }
 ]

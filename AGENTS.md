@@ -24,6 +24,7 @@ Read those sources when a task requires accurate book metadata or content. Do no
 - `data/publication_history.json`: durable RSS-to-Pinterest publication ledger.
 - `publication_history.py`: idempotent ledger synchronization and verified Pin confirmation command.
 - `assets/`: publishable cover and social images.
+- `scripts/render_pin_creatives.cjs`: deterministic renderer for Pinterest creatives with exact German typography.
 - `build.py`: deterministic static-site and RSS generator.
 - `styles.css`: source stylesheet.
 - `docs/`: generated GitHub Pages output; never edit it by hand.
@@ -67,7 +68,7 @@ Pinterest imports the RSS title, description, destination page, and `media:conte
 
 1. Inspect the relevant book source and choose a truthful teaser. Do not publish a full paid recipe or substantial book excerpt without explicit approval.
 2. Search both the RSS ledger and the native Pinterest run log for duplicates or materially similar posts.
-3. Create or select a publishable, rights-cleared image. Prefer a square high-quality JPEG around 1000 x 1000 pixels for this feed and place it under `assets/recipes/`.
+3. Create or select a publishable, rights-cleared source image and place it under `assets/recipes/`. For Pinterest-facing items, render a distinct branded creative with `scripts/render_pin_creatives.cjs`: preserve the unmodified source JPEG, create a sibling `<content-id>-pin.jpg`, and reference that designed file from `content/recipes.json`. The creative should keep the food prominent while adding a concise hook, a truthful benefit line, an author mark, and a clear CTA. Check every German line visually; do not add invented claims, discounts, ratings, or urgency.
 4. Append an object to `content/recipes.json` with a unique, stable `id`, reader-facing `title` and `description`, optional `prep`, `cook`, `servings`, and `difficulty`, a repository-relative `image`, and an ISO-8601 UTC `publish_at`.
 5. Use natural German, useful search terms, and genuinely distinct copy. The description must make sense on both the page and Pinterest.
 6. Schedule only within the requested campaign window. Confirm UTC conversion when the requested time is local Europe/Berlin time.
@@ -118,3 +119,5 @@ The former https://leanovich.github.io/leo-bergmann-books/ deployment is intenti
 The 22–29 July 2026 vacation campaign is complete. On 30 July 2026 the public profile contained 28 public Pins: 16 recipe Pins imported from the active RSS feed, the earlier cookbook RSS Pin, and 11 native Pins. The 16 recipe imports are confirmed in the ledger; the earlier cookbook Pin is not confirmed against the active ledger because it still targets the legacy site.
 
 A follow-up series of 12 distinct Airfryer recipes is scheduled from 30 July through 10 August 2026 at one item per day. It uses source IDs recipe_003, recipe_012, recipe_017, recipe_024, recipe_025, recipe_040, recipe_059, recipe_064, recipe_082, recipe_088, recipe_092, and recipe_117. Keep this cadence and content mix unless a later request explicitly changes it; do not publish duplicate variants of the same recipes while this series is active.
+
+The follow-up series uses branded `-pin.jpg` creatives rather than unchanged source photos. The current template places a category label, large recipe hook, benefit line, CTA, and author mark over the photo. Run the renderer again after changing creative copy, then synchronize the ledger, rebuild, test, and visually inspect representative light and dark food images before pushing.

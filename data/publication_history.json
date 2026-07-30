@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-07-30T13:26:00Z",
+  "last_updated_at": "2026-07-30T15:21:11Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -333,14 +333,14 @@
       "title": "Blumenkohl-Wings Buffalo Style",
       "scheduled_at": "2026-07-30T14:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_003.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_003.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_003-pin.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-07-30T14:00:00Z",
+        "first_repository_observed_at": "2026-07-30T15:20:03Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-07-31T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -352,7 +352,7 @@
       "title": "Gefüllte Champignons mit Frischkäse",
       "scheduled_at": "2026-07-31T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_012.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_012.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_012-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -371,7 +371,7 @@
       "title": "Gerösteter Feta mit Tomaten",
       "scheduled_at": "2026-08-01T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_017.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_017.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_017-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -390,7 +390,7 @@
       "title": "Portobello-Burger vegetarisch",
       "scheduled_at": "2026-08-02T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_024.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_024.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_024-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -409,7 +409,7 @@
       "title": "Hähnchenkeulen knusprig mariniert",
       "scheduled_at": "2026-08-03T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_025.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_025.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_025-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -428,7 +428,7 @@
       "title": "Gyros selbstgemacht im Airfryer",
       "scheduled_at": "2026-08-04T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_040.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_040.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_040-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -447,7 +447,7 @@
       "title": "Lachsfilet mit Dillkruste",
       "scheduled_at": "2026-08-05T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_059.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_059.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_059-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -466,7 +466,7 @@
       "title": "Calamari-Ringe knusprig",
       "scheduled_at": "2026-08-06T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_064.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_064.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_064-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -485,7 +485,7 @@
       "title": "Frühlingsrollen asiatisch",
       "scheduled_at": "2026-08-07T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_082.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_082.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_082-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -504,7 +504,7 @@
       "title": "Falafel orientalisch",
       "scheduled_at": "2026-08-08T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_088.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_088.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_088-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -523,7 +523,7 @@
       "title": "Empanadas argentinisch",
       "scheduled_at": "2026-08-09T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_092.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_092.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_092-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,
@@ -542,7 +542,7 @@
       "title": "Yorkshire Pudding klassisch",
       "scheduled_at": "2026-08-10T07:00:00Z",
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_117.html",
-      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_117.jpg",
+      "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_117-pin.jpg",
       "rss": {
         "status": "scheduled",
         "feed_item_pub_date": null,

@@ -48,7 +48,9 @@ Never mark an item as confirmed based only on the usual Pinterest import window.
 
 ## Active organic schedule
 
-The first RSS campaign has been publicly verified: 16 recipe Pins now have durable public `/pin/` links in `data/publication_history.json`. A second series contains 12 distinct Airfryer ideas and is scheduled at one item per day from 30 July through 10 August 2026. The GitHub workflow releases each due page and feed entry without requiring a running notebook.
+The first RSS campaign has been publicly verified: 16 recipe Pins now have durable public `/pin/` links in `data/publication_history.json`. A second series contains 12 distinct Airfryer ideas and is scheduled at one item per day from 30 July through 10 August 2026. Its feed images are purpose-built Pinterest creatives with a recipe hook, benefit line, CTA, and author mark; the untouched source photos remain alongside the generated `-pin.jpg` files. The GitHub workflow releases each due page and feed entry without requiring a running notebook.
+
+The reproducible creative renderer is `scripts/render_pin_creatives.cjs`. It uses Sharp and the bundled fonts to keep exact German text deterministic. After changing its copy or layout, regenerate the images, run the ledger synchronization and complete build/test sequence, and visually inspect the output.
 
 Pinterest may import a feed item later than its nominal publication time. A feed entry is not counted as a Pinterest success until its public Pin URL has been independently verified and recorded with `confirm-pinterest`.
 
