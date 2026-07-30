@@ -39,12 +39,15 @@ On Windows, `Pinterest-Autopilot.cmd` performs the same safe all-book preparatio
 - `data/scheduler_state.json`: last refill, queue health, remaining prepared items, missing assets, and zero cost.
 - `data/publication_history.json`: separate RSS and independently verified Pinterest status for every queued item.
 - `docs/assets/pins/`: finished one-copy Pin creatives. Unlike other files in `docs`, these are prepared source artifacts preserved by `build.py`.
+- `docs/assets/books/`: authentic public book covers used by the conversion-focused recipe landing pages. Prefer visually verified German local exports; a verified official Amazon CDN cover may be configured when no language-safe local export exists.
 
 The catalog preserves each `catalog_id` across sessions. Re-running the generator or scheduler never creates a second item for the same book/recipe pair.
 
 ## Amazon destinations
 
 All eleven published books use verified direct Amazon ASIN links. Amazon search fallbacks are forbidden: a published book without a verified ASIN fails the catalog build. Books `013_hp_prep`, `014_hp_snacks`, and `015_hp_women` have no destination and cannot enter the publication queue until their listings are live, their ASINs are verified, and their `published` flags are explicitly enabled.
+
+Every recipe landing page is a genuine content page and a book-specific sales bridge: it shows the matching authentic cover, recipe count, truthful benefits, and three clear Amazon calls to action. Automatic redirects are forbidden. Amazon links open the verified direct listing with `nofollow sponsored noopener`.
 
 ## Verification
 

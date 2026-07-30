@@ -32,9 +32,9 @@ OUTPUT_ROOT = ROOT / "docs" / "assets" / "pins"
 CREATIVE_VERSION = "de-recipe-v2-1000x1500"
 
 BOOKS: dict[str, dict[str, Any]] = {
-    "001_protein": {"title": "High Protein Power-Küche für Berufstätige", "label": "HIGH PROTEIN", "promise": "Proteinreich • schnell • alltagstauglich", "asin": "B0G1KMD28S", "published": True},
+    "001_protein": {"cover": "assets/books/001_protein.png", "title": "High Protein Power-Küche für Berufstätige", "label": "HIGH PROTEIN", "promise": "Proteinreich • schnell • alltagstauglich", "asin": "B0G1KMD28S", "published": True},
     "002_airfryer": {"title": "XXL Airfryer Kochbuch: 140 schnelle Rezepte für die Heißluftfritteuse", "label": "AIRFRYER-REZEPT", "promise": "Knusprig • einfach • alltagstauglich", "asin": "B0GHFYM758", "published": True},
-    "003_vegetarisch": {"title": "Vegetarisches XXL Kochbuch: 140 schnelle Rezepte", "label": "VEGETARISCH", "promise": "Fleischlos • lecker • unkompliziert", "asin": "B0GHJLCKSV", "published": True},
+    "003_vegetarisch": {"cover": "https://m.media-amazon.com/images/I/71BaA+1wPAL._SL1430_.jpg", "title": "Vegetarisches XXL Kochbuch: 140 schnelle Rezepte", "label": "VEGETARISCH", "promise": "Fleischlos • lecker • unkompliziert", "asin": "B0GHJLCKSV", "published": True},
     "004_meal_prep": {"title": "XXL Meal Prep Kochbuch für Anfänger", "label": "MEAL PREP", "promise": "Vorkochen • mitnehmen • Zeit sparen", "asin": "B0GHMMF8LP", "published": True},
     "005_low_carb": {"title": "XXL Low Carb Kochbuch für Anfänger", "label": "LOW CARB", "promise": "Kohlenhydratarm • lecker • einfach", "asin": "B0GMBPQ4HJ", "published": True},
     "006_family": {"title": "XXL Familienkochbuch für jeden Geldbeutel", "label": "FAMILIENKÜCHE", "promise": "Familienfreundlich • günstig • lecker", "asin": "B0GMBVNP6Z", "published": True},
@@ -150,6 +150,7 @@ def prepare(*, limit: int | None = None, force: bool = False, validate_only: boo
             "amazon_url": target,
             "target_kind": target_kind,
             "recipe_count": 140,
+            "cover": book.get("cover", f"assets/books/{book_id}.jpg") if book["published"] else "",
         })
         source_root = SOURCE_LIBRARY / book_id
         recipe_root = source_root / "german" / "book_src" / "recipes"

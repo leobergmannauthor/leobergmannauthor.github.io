@@ -9,7 +9,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/001_protein.png"
     },
     {
       "id": "002_airfryer",
@@ -19,7 +20,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0GHFYM758?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/002_airfryer.jpg"
     },
     {
       "id": "003_vegetarisch",
@@ -29,7 +31,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "https://m.media-amazon.com/images/I/71BaA+1wPAL._SL1430_.jpg"
     },
     {
       "id": "004_meal_prep",
@@ -39,7 +42,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/004_meal_prep.jpg"
     },
     {
       "id": "005_low_carb",
@@ -49,7 +53,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/005_low_carb.jpg"
     },
     {
       "id": "006_family",
@@ -59,7 +64,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/006_family.jpg"
     },
     {
       "id": "007_men",
@@ -69,7 +75,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/007_men.jpg"
     },
     {
       "id": "008_liver",
@@ -79,7 +86,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/008_liver.jpg"
     },
     {
       "id": "009_anti_entzuendung",
@@ -89,7 +97,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/009_anti_entzuendung.jpg"
     },
     {
       "id": "011_hp_basics",
@@ -99,7 +108,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/011_hp_basics.jpg"
     },
     {
       "id": "012_hp_veggie",
@@ -109,7 +119,8 @@
       "published": true,
       "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
       "target_kind": "direct",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": "assets/books/012_hp_veggie.jpg"
     },
     {
       "id": "013_hp_prep",
@@ -119,7 +130,8 @@
       "published": false,
       "amazon_url": "",
       "target_kind": "unpublished",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": ""
     },
     {
       "id": "014_hp_snacks",
@@ -129,7 +141,8 @@
       "published": false,
       "amazon_url": "",
       "target_kind": "unpublished",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": ""
     },
     {
       "id": "015_hp_women",
@@ -139,7 +152,8 @@
       "published": false,
       "amazon_url": "",
       "target_kind": "unpublished",
-      "recipe_count": 140
+      "recipe_count": 140,
+      "cover": ""
     }
   ]
 }

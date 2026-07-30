@@ -74,8 +74,12 @@ def item_urls(config: dict, item: dict) -> tuple[str, str]:
 
 def book_for(item: dict, books: dict[str, dict], config: dict) -> dict:
     return books.get(item.get("book_id", "002_airfryer"), {
+        "id": "002_airfryer",
         "title": config.get("book_title", "Leo Bergmann Kochbuch"),
         "label": "REZEPTIDEE",
+        "promise": "Einfach • abwechslungsreich • alltagstauglich",
+        "recipe_count": 140,
+        "cover": "assets/book-cover.jpg",
         "amazon_url": config["amazon_url"],
     })
 
@@ -84,22 +88,87 @@ def render_item(config: dict, books: dict[str, dict], item: dict) -> str:
     canonical, image = item_urls(config, item)
     book = book_for(item, books, config)
     target = item.get("amazon_url") or book["amazon_url"]
+    cover_source = book.get("cover") or "assets/book-cover.jpg"
+    cover = cover_source if str(cover_source).startswith("https://") else f"{config['base_url']}/{cover_source}"
+    recipe_count = int(book.get("recipe_count", 140))
+    promise_parts = [part.strip() for part in str(book.get("promise", "")).split("•") if part.strip()]
+    if not promise_parts:
+        promise_parts = ["Abwechslungsreich", "Alltagstauglich", "Verständlich"]
     facts = []
     for label, key in (("Vorbereitung", "prep"), ("Zubereitung", "cook"), ("Portionen", "servings"), ("Schwierigkeit", "difficulty")):
         if item.get(key):
             facts.append(f"<li><span>{esc(label)}</span><strong>{esc(item[key])}</strong></li>")
     facts_html = '<ul class="facts">' + "".join(facts) + "</ul>" if facts else ""
+    compact_benefits = "".join(f"<li>{esc(part)}</li>" for part in promise_parts[:3])
+    promise = " · ".join(promise_parts[:3])
+    amazon_label = f"{book['title']} bei Amazon ansehen"
+    amazon_link = (
+        f'<a class="cta cta-primary" data-amazon-cta href="{esc(target)}" '
+        f'target="_blank" rel="nofollow sponsored noopener" aria-label="{esc(amazon_label)}">'
+        f'<strong>Buch bei Amazon ansehen</strong><span>Aktueller Preis und verfügbare Formate auf Amazon.de</span></a>'
+    )
     body = f"""
-<article class="recipe">
-  <div class="recipe-copy"><p class="eyebrow">{esc(book.get('label', 'REZEPTIDEE'))}</p><h1>{esc(item['title'])}</h1><p class="lead">{esc(item['description'])}</p>
+<article class="sales-page">
+  <section class="recipe-hero">
+    <div class="recipe-copy">
+      <p class="eyebrow">{esc(book.get('label', 'REZEPTIDEE'))}</p>
+      <h1>{esc(item['title'])}</h1>
+      <p class="lead">{esc(item['description'])}</p>
 {facts_html}
-    <p class="teaser-note">Dies ist ein Rezept-Teaser. Die vollständige Zubereitung und viele weitere Ideen findest du im passenden Buch.</p>
-    <a class="cta" href="{esc(target)}" rel="nofollow sponsored">{esc(book['title'])} bei Amazon ansehen</a>
-  </div>
-  <figure><img src="{esc(image)}" alt="{esc(item['title'])}" width="1000" height="1500"><figcaption>{esc(item['title'])}</figcaption></figure>
+      <div class="conversion-card" aria-label="Passendes Kochbuch">
+        <img class="mini-cover" src="{esc(cover)}" alt="Buchcover: {esc(book['title'])}" width="160" height="226" decoding="async">
+        <div class="conversion-copy">
+          <p class="microcopy">DAS PASSENDE KOCHBUCH</p>
+          <h2>{esc(book['title'])}</h2>
+          <p>Diese Rezeptidee ist ein Vorgeschmack auf <strong>{recipe_count} Rezepte</strong> im Buch von Leo Bergmann.</p>
+          <ul class="compact-benefits">{compact_benefits}</ul>
+          {amazon_link}
+        </div>
+      </div>
+    </div>
+    <figure class="recipe-visual"><img src="{esc(image)}" alt="{esc(item['title'])}" width="1000" height="1500" fetchpriority="high" decoding="async"><figcaption>{esc(item['title'])}</figcaption></figure>
+  </section>
+
+  <section class="book-offer" id="buch">
+    <div class="cover-stage"><img class="book-cover" src="{esc(cover)}" alt="Buchcover: {esc(book['title'])}" width="484" height="685" loading="lazy" decoding="async"></div>
+    <div class="offer-copy">
+      <p class="eyebrow eyebrow-light">MEHR AUS DIESER REZEPTWELT</p>
+      <h2>Aus einer Rezeptidee werden {recipe_count}.</h2>
+      <p class="offer-lead">Wenn dir <strong>{esc(item['title'])}</strong> gefällt, findest du im passenden Kochbuch viele weitere Ideen zum Auswählen, Nachkochen und Genießen.</p>
+      <div class="benefit-grid" aria-label="Vorteile des Buches">
+        <div><strong>{recipe_count}</strong><span>Rezeptideen in einem Buch</span></div>
+        <div><strong>Passend</strong><span>{esc(promise)}</span></div>
+        <div><strong>Direkt</strong><span>Zur Produktseite auf Amazon.de</span></div>
+      </div>
+      {amazon_link}
+      <p class="amazon-note">Der Link öffnet die Produktseite bei Amazon.de. Dort siehst du den aktuellen Preis und die verfügbaren Buchformate.</p>
+    </div>
+  </section>
+
+  <section class="closing-cta">
+    <p class="eyebrow">BEREIT FÜR DIE NÄCHSTE REZEPTIDEE?</p>
+    <h2>{esc(book['title'])}</h2>
+    <p>{recipe_count} Rezeptideen gesammelt an einem Ort – {esc(promise)}.</p>
+    {amazon_link}
+  </section>
+
+  <aside class="mobile-buy-bar" aria-label="Buch bei Amazon ansehen">
+    <div><span>{recipe_count} Rezepte</span><strong>{esc(book.get('label', 'KOCHBUCH'))}</strong></div>
+    <a href="{esc(target)}" target="_blank" rel="nofollow sponsored noopener">Bei Amazon ansehen</a>
+  </aside>
 </article>
 """
-    structured = {"@context": "https://schema.org", "@type": "Article", "headline": item["title"], "description": item["description"], "image": image, "author": {"@type": "Person", "name": config["author"]}, "datePublished": item["publish_at"], "mainEntityOfPage": canonical}
+    structured = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": item["title"],
+        "description": item["description"],
+        "image": image,
+        "author": {"@type": "Person", "name": config["author"]},
+        "datePublished": item["publish_at"],
+        "mainEntityOfPage": canonical,
+        "about": {"@type": "Book", "name": book["title"], "url": target},
+    }
     return page_shell(config, item["title"], item["description"], canonical, body, image, structured)
 
 
@@ -115,7 +184,7 @@ def render_index(config: dict, books: dict[str, dict], items: list[dict]) -> str
 
 
 def render_privacy(config: dict) -> str:
-    body = """<article class="prose"><p class="eyebrow">Datenschutz</p><h1>Datenschutzhinweise</h1><p>Diese statische Website setzt keine Cookies ein, verwendet keine Formulare und bindet keine externen Analyse- oder Werbedienste ein.</p><p>Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Serverdaten. Beim Klick auf einen Amazon-Link gelten die Datenschutzbestimmungen von Amazon.</p><p>Die Links führen zu den jeweiligen Buchangeboten bei Amazon. Auf dieser Website werden keine Zahlungs- oder Kundendaten verarbeitet.</p></article>"""
+    body = """<article class="prose"><p class="eyebrow">Datenschutz</p><h1>Datenschutzhinweise</h1><p>Diese statische Website setzt keine eigenen Cookies ein, verwendet keine Formulare und bindet keine externen Analyse- oder Werbedienste ein. Einzelne Buchcover können technisch von einem Bildserver von Amazon geladen werden; dabei kann Amazon Verbindungsdaten wie die IP-Adresse verarbeiten.</p><p>Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Serverdaten. Beim Klick auf einen Amazon-Link gelten die Datenschutzbestimmungen von Amazon.</p><p>Die Links führen zu den jeweiligen Buchangeboten bei Amazon. Auf dieser Website werden keine Zahlungs- oder Kundendaten verarbeitet.</p></article>"""
     return page_shell(config, "Datenschutz", "Datenschutzhinweise der Website", config["base_url"] + "/datenschutz.html", body)
 
 

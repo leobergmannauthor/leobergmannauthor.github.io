@@ -86,5 +86,34 @@ class SiteBuildTest(unittest.TestCase):
         self.assertIn(test_command, workflow)
         self.assertLess(workflow.index(install_command), workflow.index(test_command))
 
+    def test_published_books_have_public_covers(self):
+        books = json.loads((ROOT / "data" / "books.json").read_text(encoding="utf-8"))["books"]
+        published = [book for book in books if book.get("published")]
+        self.assertEqual(len(published), 11)
+        for book in published:
+            self.assertTrue(book.get("cover"), book["id"])
+            parsed = urlparse(book["cover"])
+            if parsed.scheme:
+                self.assertEqual(parsed.scheme, "https", book["id"])
+                self.assertEqual(parsed.netloc, "m.media-amazon.com", book["id"])
+                self.assertTrue(parsed.path.endswith(".jpg"), book["id"])
+            else:
+                cover = DOCS / book["cover"]
+                self.assertTrue(cover.is_file(), book["id"])
+                self.assertGreater(cover.stat().st_size, 50_000, book["id"])
+
+    def test_every_recipe_page_has_conversion_sections_and_direct_amazon_ctas(self):
+        pages = sorted((DOCS / "rezepte").glob("*.html"))
+        self.assertGreaterEqual(len(pages), 1)
+        for page in pages:
+            text = page.read_text(encoding="utf-8")
+            self.assertIn('class="conversion-card"', text, page.name)
+            self.assertIn('class="book-offer"', text, page.name)
+            self.assertIn('class="mobile-buy-bar"', text, page.name)
+            self.assertGreaterEqual(text.count("data-amazon-cta"), 3, page.name)
+            self.assertGreaterEqual(text.count("https://www.amazon.de/dp/"), 4, page.name)
+            self.assertIn('rel="nofollow sponsored noopener"', text, page.name)
+            self.assertNotIn("https://www.amazon.de/s?", text, page.name)
+
 if __name__ == "__main__":
     unittest.main()

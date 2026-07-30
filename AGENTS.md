@@ -42,6 +42,7 @@ Each contributes 140 German recipes. At the July 2026 baseline, 1,540 source ima
 - `Pinterest-Autopilot.cmd` and `scripts/run-pinterest-autopilot.ps1`: local maintenance launcher.
 - `build.py`: deterministic multi-book website, RSS, sitemap, and page generator.
 - `docs/assets/pins/`: prepared final creatives stored only once to keep the Pages repository below size limits.
+- `docs/assets/books/`: authentic public cover images for published books; preserve them during builds. Prefer visually verified German local exports. A verified official Amazon CDN URL is acceptable only when no language-safe local export exists; never trust a generic `output/covers` file without visual inspection.
 - `.github/workflows/publish.yml`: twice-daily queue refill, ledger sync, build, test, and commit.
 
 Most of `docs/` is generated. The exception is `docs/assets/pins/`: it is prepared source material and `build.py` must preserve it. Do not restore a blanket deletion of `docs/`.
@@ -109,6 +110,7 @@ Read both `data/publication_history.json` and the external native `run_log.json`
 - Pinterest publication uses the claimed-site RSS feature; do not automate CAPTCHA, identity, phone, or email verification.
 - Each RSS item requires a canonical URL on `https://leobergmannauthor.github.io/` and an absolute image URL.
 - Keep Amazon links `nofollow sponsored`. Never invent ASINs and never use search-result fallbacks. Every published book must have a verified direct ASIN or the catalog build fails closed. Books 013-015 stay unpublished and unscheduled until their listings and direct ASINs are verified.
+- Recipe landing pages must remain genuine, useful content pages with a matching cover, truthful book-specific benefits, and prominent direct Amazon CTAs. Never replace them with automatic redirects, fake urgency, fabricated reviews, or hidden commercial behavior.
 - Paid actions require explicit current authorization. The current policy is strictly 0 EUR.
 
 ## Build and verification
