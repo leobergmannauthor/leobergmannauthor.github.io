@@ -5,7 +5,9 @@
       "content_id": "recipe_003",
       "source_image": "assets/recipes/recipe_003.jpg",
       "output_image": "assets/recipes/recipe_003-pin.jpg",
-      "headline_lines": ["BLUMENKOHL-WINGS"],
+      "headline_lines": [
+        "BLUMENKOHL-WINGS"
+      ],
       "benefit": "pikant · knusprig · vegetarisch",
       "template": "airfryer_v1"
     },
@@ -13,7 +15,10 @@
       "content_id": "recipe_012",
       "source_image": "assets/recipes/recipe_012.jpg",
       "output_image": "assets/recipes/recipe_012-pin.jpg",
-      "headline_lines": ["GEFÜLLTE", "CHAMPIGNONS"],
+      "headline_lines": [
+        "GEFÜLLTE",
+        "CHAMPIGNONS"
+      ],
       "benefit": "cremig · würzig · 10 Min. Garzeit",
       "template": "airfryer_v1"
     },
@@ -21,7 +26,9 @@
       "content_id": "recipe_017",
       "source_image": "assets/recipes/recipe_017.jpg",
       "output_image": "assets/recipes/recipe_017-pin.jpg",
-      "headline_lines": ["FETA & TOMATEN"],
+      "headline_lines": [
+        "FETA & TOMATEN"
+      ],
       "benefit": "mediterran · cremig · einfach",
       "template": "airfryer_v1"
     },
@@ -29,7 +36,9 @@
       "content_id": "recipe_024",
       "source_image": "assets/recipes/recipe_024.jpg",
       "output_image": "assets/recipes/recipe_024-pin.jpg",
-      "headline_lines": ["PORTOBELLO-BURGER"],
+      "headline_lines": [
+        "PORTOBELLO-BURGER"
+      ],
       "benefit": "saftig · vegetarisch · voller Aroma",
       "template": "airfryer_v1"
     },
@@ -37,7 +46,10 @@
       "content_id": "recipe_025",
       "source_image": "assets/recipes/recipe_025.jpg",
       "output_image": "assets/recipes/recipe_025-pin.jpg",
-      "headline_lines": ["KNUSPRIGE", "HÄHNCHENKEULEN"],
+      "headline_lines": [
+        "KNUSPRIGE",
+        "HÄHNCHENKEULEN"
+      ],
       "benefit": "würzig mariniert · familienfreundlich",
       "template": "airfryer_v1"
     },
@@ -45,7 +57,10 @@
       "content_id": "recipe_040",
       "source_image": "assets/recipes/recipe_040.jpg",
       "output_image": "assets/recipes/recipe_040-pin.jpg",
-      "headline_lines": ["GYROS AUS DEM", "AIRFRYER"],
+      "headline_lines": [
+        "GYROS AUS DEM",
+        "AIRFRYER"
+      ],
       "benefit": "würzig · saftig · knusprige Ränder",
       "template": "airfryer_v1"
     },
@@ -53,7 +68,10 @@
       "content_id": "recipe_059",
       "source_image": "assets/recipes/recipe_059.jpg",
       "output_image": "assets/recipes/recipe_059-pin.jpg",
-      "headline_lines": ["LACHS MIT", "DILLKRUSTE"],
+      "headline_lines": [
+        "LACHS MIT",
+        "DILLKRUSTE"
+      ],
       "benefit": "butterzart · aromatisch · 12 Min. Garzeit",
       "template": "airfryer_v1"
     },
@@ -61,15 +79,31 @@
       "content_id": "recipe_064",
       "source_image": "assets/recipes/recipe_064.jpg",
       "output_image": "assets/recipes/recipe_064-pin.jpg",
-      "headline_lines": ["KNUSPRIGE CALAMARI"],
+      "headline_lines": [
+        "KNUSPRIGE CALAMARI"
+      ],
       "benefit": "goldbraun · mediterran · fettarm",
+      "template": "airfryer_v1"
+    },
+    {
+      "content_id": "recipe_079",
+      "source_image": "assets/recipes/recipe_079.png",
+      "output_image": "assets/recipes/recipe_079-pin.jpg",
+      "headline_lines": [
+        "MOZZARELLA-STICKS",
+        "KNUSPRIG"
+      ],
+      "benefit": "knusprig · würzig · 8 Min. Garzeit",
       "template": "airfryer_v1"
     },
     {
       "content_id": "recipe_082",
       "source_image": "assets/recipes/recipe_082.jpg",
       "output_image": "assets/recipes/recipe_082-pin.jpg",
-      "headline_lines": ["ASIATISCHE", "FRÜHLINGSROLLEN"],
+      "headline_lines": [
+        "ASIATISCHE",
+        "FRÜHLINGSROLLEN"
+      ],
       "benefit": "knusprig · gemüsig · Airfryer leicht",
       "template": "airfryer_v1"
     },
@@ -77,7 +111,10 @@
       "content_id": "recipe_088",
       "source_image": "assets/recipes/recipe_088.jpg",
       "output_image": "assets/recipes/recipe_088-pin.jpg",
-      "headline_lines": ["ORIENTALISCHE", "FALAFEL"],
+      "headline_lines": [
+        "ORIENTALISCHE",
+        "FALAFEL"
+      ],
       "benefit": "außen kross · innen saftig",
       "template": "airfryer_v1"
     },
@@ -85,7 +122,10 @@
       "content_id": "recipe_092",
       "source_image": "assets/recipes/recipe_092.jpg",
       "output_image": "assets/recipes/recipe_092-pin.jpg",
-      "headline_lines": ["ARGENTINISCHE", "EMPANADAS"],
+      "headline_lines": [
+        "ARGENTINISCHE",
+        "EMPANADAS"
+      ],
       "benefit": "herzhaft · würzig · perfekt zum Teilen",
       "template": "airfryer_v1"
     },
@@ -93,8 +133,30 @@
       "content_id": "recipe_117",
       "source_image": "assets/recipes/recipe_117.jpg",
       "output_image": "assets/recipes/recipe_117-pin.jpg",
-      "headline_lines": ["YORKSHIRE PUDDING"],
+      "headline_lines": [
+        "YORKSHIRE PUDDING"
+      ],
       "benefit": "luftig · goldbraun · britischer Klassiker",
+      "template": "airfryer_v1"
+    },
+    {
+      "content_id": "recipe_122",
+      "source_image": "assets/recipes/recipe_122.png",
+      "output_image": "assets/recipes/recipe_122-pin.jpg",
+      "headline_lines": [
+        "KNOBLAUCHBROT KNUSPRIG"
+      ],
+      "benefit": "goldbraun · knusprig · 6 Min. Garzeit",
+      "template": "airfryer_v1"
+    },
+    {
+      "content_id": "recipe_134",
+      "source_image": "assets/recipes/recipe_134.png",
+      "output_image": "assets/recipes/recipe_134-pin.jpg",
+      "headline_lines": [
+        "KÄSEKUCHEN-BITES"
+      ],
+      "benefit": "süß · goldbraun · einfach",
       "template": "airfryer_v1"
     }
   ]
