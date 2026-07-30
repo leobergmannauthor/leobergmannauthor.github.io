@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent
 DOCS = ROOT / "docs"
 CONTENT_FILE = ROOT / "content" / "recipes.json"
 CONFIG_FILE = ROOT / "site_config.json"
+BOOKS_FILE = ROOT / "data" / "books.json"
 ASSETS = ROOT / "assets"
 
 
@@ -40,7 +41,7 @@ def page_shell(config: dict, title: str, description: str, canonical: str, body:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="p:domain_verify" content="{esc(config["pinterest_domain_verify"])}">
+  <meta name="p:domain_verify" content="{esc(config['pinterest_domain_verify'])}">
   <title>{esc(title)} | {site_name}</title>
   <meta name="description" content="{esc(description)}">
   <link rel="canonical" href="{esc(canonical)}">
@@ -50,98 +51,71 @@ def page_shell(config: dict, title: str, description: str, canonical: str, body:
   <meta property="og:url" content="{esc(canonical)}">
 {image_meta}
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="alternate" type="application/rss+xml" title="{esc(config["rss_title"])}" href="{esc(config["base_url"] + "/feed.xml")}">
-  <link rel="stylesheet" href="{esc(config["base_url"] + "/styles.css")}">
+  <link rel="alternate" type="application/rss+xml" title="{esc(config['rss_title'])}" href="{esc(config['base_url'] + '/feed.xml')}">
+  <link rel="stylesheet" href="{esc(config['base_url'] + '/styles.css')}">
 {json_ld}
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="{esc(config["base_url"] + "/")}">{site_name}</a>
-    <nav aria-label="Hauptnavigation">
-      <a href="{esc(config["base_url"] + "/")}">Rezepte</a>
-      <a href="{esc(config["base_url"] + "/datenschutz.html")}">Datenschutz</a>
-      <a href="{esc(config["base_url"] + "/feed.xml")}">RSS</a>
-    </nav>
+  <header class="site-header"><a class="brand" href="{esc(config['base_url'] + '/')}">{site_name}</a>
+    <nav aria-label="Hauptnavigation"><a href="{esc(config['base_url'] + '/')}">Rezepte</a><a href="{esc(config['base_url'] + '/datenschutz.html')}">Datenschutz</a><a href="{esc(config['base_url'] + '/feed.xml')}">RSS</a></nav>
   </header>
   <main>{body}</main>
-  <footer>
-    <p>&copy; {datetime.now().year} {esc(config["author"])}</p>
-  </footer>
+  <footer><p>&copy; {datetime.now().year} {esc(config['author'])}</p></footer>
 </body>
 </html>
 """
 
 
 def item_urls(config: dict, item: dict) -> tuple[str, str]:
-    canonical = f'{config["base_url"]}/rezepte/{item["id"]}.html'
-    image = f'{config["base_url"]}/{item["image"]}'
+    canonical = f"{config['base_url']}/rezepte/{item['id']}.html"
+    image = f"{config['base_url']}/{item['image']}"
     return canonical, image
 
 
-def render_item(config: dict, item: dict) -> str:
+def book_for(item: dict, books: dict[str, dict], config: dict) -> dict:
+    return books.get(item.get("book_id", "002_airfryer"), {
+        "title": config.get("book_title", "Leo Bergmann Kochbuch"),
+        "label": "REZEPTIDEE",
+        "amazon_url": config["amazon_url"],
+    })
+
+
+def render_item(config: dict, books: dict[str, dict], item: dict) -> str:
     canonical, image = item_urls(config, item)
+    book = book_for(item, books, config)
+    target = item.get("amazon_url") or book["amazon_url"]
     facts = []
-    for label, key in (("Vorbereitung", "prep"), ("Airfryer", "cook"), ("Portionen", "servings"), ("Schwierigkeit", "difficulty")):
+    for label, key in (("Vorbereitung", "prep"), ("Zubereitung", "cook"), ("Portionen", "servings"), ("Schwierigkeit", "difficulty")):
         if item.get(key):
             facts.append(f"<li><span>{esc(label)}</span><strong>{esc(item[key])}</strong></li>")
-    facts_html = "    <ul class=\"facts\">" + "".join(facts) + "</ul>" if facts else ""
+    facts_html = '<ul class="facts">' + "".join(facts) + "</ul>" if facts else ""
     body = f"""
 <article class="recipe">
-  <div class="recipe-copy">
-    <h1>{esc(item["title"])}</h1>
-    <p class="lead">{esc(item["description"])}</p>
+  <div class="recipe-copy"><p class="eyebrow">{esc(book.get('label', 'REZEPTIDEE'))}</p><h1>{esc(item['title'])}</h1><p class="lead">{esc(item['description'])}</p>
 {facts_html}
-    <p class="teaser-note">Dies ist ein Rezept-Teaser. Die vollst&auml;ndige Zubereitung und viele weitere Ideen findest du im Buch.</p>
-    <a class="cta" href="{esc(config["amazon_url"])}" rel="nofollow sponsored">Buch bei Amazon ansehen</a>
+    <p class="teaser-note">Dies ist ein Rezept-Teaser. Die vollständige Zubereitung und viele weitere Ideen findest du im passenden Buch.</p>
+    <a class="cta" href="{esc(target)}" rel="nofollow sponsored">{esc(book['title'])} bei Amazon ansehen</a>
   </div>
-  <figure><img src="{esc(image)}" alt="{esc(item["title"])}" width="1000" height="1000"><figcaption>{esc(item["title"])}</figcaption></figure>
+  <figure><img src="{esc(image)}" alt="{esc(item['title'])}" width="1000" height="1500"><figcaption>{esc(item['title'])}</figcaption></figure>
 </article>
 """
-    structured = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": item["title"],
-        "description": item["description"],
-        "image": image,
-        "author": {"@type": "Person", "name": config["author"]},
-        "datePublished": item["publish_at"],
-        "mainEntityOfPage": canonical,
-    }
+    structured = {"@context": "https://schema.org", "@type": "Article", "headline": item["title"], "description": item["description"], "image": image, "author": {"@type": "Person", "name": config["author"]}, "datePublished": item["publish_at"], "mainEntityOfPage": canonical}
     return page_shell(config, item["title"], item["description"], canonical, body, image, structured)
 
 
-def render_index(config: dict, items: list[dict]) -> str:
+def render_index(config: dict, books: dict[str, dict], items: list[dict]) -> str:
     cards = []
     for item in items:
         canonical, image = item_urls(config, item)
-        cards.append(f"""
-<article class="card">
-  <a href="{esc(canonical)}"><img src="{esc(image)}" alt="{esc(item["title"])}" width="700" height="700"></a>
-  <div><p class="eyebrow">Airfryer-Idee</p><h2><a href="{esc(canonical)}">{esc(item["title"])}</a></h2><p>{esc(item["description"])}</p></div>
-</article>
-""")
-    cards_html = "".join(cards) if cards else "<p>Die erste Rezeptidee erscheint in Kuerze.</p>"
-    body = f"""
-<section class="hero">
-  <div><h1>Einfach. Knusprig. Airfryer.</h1>
-  <p>{esc(config["description"])}</p>
-  <a class="cta" href="{esc(config["amazon_url"])}" rel="nofollow sponsored">140 Rezepte im Buch entdecken</a></div>
-</section>
-<section class="section"><h2>Neue Rezeptideen</h2><div class="cards">{cards_html}</div></section>
-"""
+        book = book_for(item, books, config)
+        cards.append(f"""<article class="card"><a href="{esc(canonical)}"><img src="{esc(image)}" alt="{esc(item['title'])}" width="700" height="1050"></a><div><p class="eyebrow">{esc(book.get('label', 'REZEPTIDEE'))}</p><h2><a href="{esc(canonical)}">{esc(item['title'])}</a></h2><p>{esc(item['description'])}</p></div></article>""")
+    cards_html = "".join(cards) if cards else "<p>Die erste Rezeptidee erscheint in Kürze.</p>"
+    body = f"""<section class="hero"><div><p class="eyebrow">REZEPTIDEEN VON LEO BERGMANN</p><h1>Einfach kochen. Besser genießen.</h1><p>{esc(config['description'])}</p></div></section><section class="section"><h2>Neue Rezeptideen</h2><div class="cards">{cards_html}</div></section>"""
     return page_shell(config, config["site_name"], config["description"], config["base_url"] + "/", body)
 
 
 def render_privacy(config: dict) -> str:
-    body = """
-<article class="prose">
-  <p class="eyebrow">Datenschutz</p>
-  <h1>Datenschutzhinweise</h1>
-  <p>Diese statische Website setzt keine Cookies ein, verwendet keine Formulare und bindet keine externen Analyse- oder Werbedienste ein.</p>
-  <p>Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Serverdaten. Beim Klick auf einen Amazon-Link gelten die Datenschutzbestimmungen von Amazon.</p>
-  <p>Die Links f&uuml;hren zu den jeweiligen Buchangeboten bei Amazon. Auf dieser Website werden keine Zahlungs- oder Kundendaten verarbeitet.</p>
-</article>
-"""
+    body = """<article class="prose"><p class="eyebrow">Datenschutz</p><h1>Datenschutzhinweise</h1><p>Diese statische Website setzt keine Cookies ein, verwendet keine Formulare und bindet keine externen Analyse- oder Werbedienste ein.</p><p>Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Serverdaten. Beim Klick auf einen Amazon-Link gelten die Datenschutzbestimmungen von Amazon.</p><p>Die Links führen zu den jeweiligen Buchangeboten bei Amazon. Auf dieser Website werden keine Zahlungs- oder Kundendaten verarbeitet.</p></article>"""
     return page_shell(config, "Datenschutz", "Datenschutzhinweise der Website", config["base_url"] + "/datenschutz.html", body)
 
 
@@ -155,7 +129,7 @@ def render_feed(config: dict, items: list[dict]) -> bytes:
     ET.SubElement(channel, "language").text = "de-DE"
     build_date = max((parse_time(item["publish_at"]) for item in items), default=datetime(1970, 1, 1, tzinfo=timezone.utc))
     ET.SubElement(channel, "lastBuildDate").text = format_datetime(build_date)
-    for item in sorted(items, key=lambda value: parse_time(value["publish_at"]), reverse=True)[:50]:
+    for item in sorted(items, key=lambda value: parse_time(value["publish_at"]), reverse=True):
         canonical, image = item_urls(config, item)
         node = ET.SubElement(channel, "item")
         ET.SubElement(node, "title").text = item["title"]
@@ -172,21 +146,24 @@ def build(now: datetime, base_url_override: str | None = None) -> None:
     config = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
     if base_url_override:
         config["base_url"] = base_url_override.rstrip("/")
+    books_payload = json.loads(BOOKS_FILE.read_text(encoding="utf-8")) if BOOKS_FILE.exists() else {"books": []}
+    books = {book["id"]: book for book in books_payload.get("books", [])}
     items = json.loads(CONTENT_FILE.read_text(encoding="utf-8"))
     live = [item for item in items if parse_time(item["publish_at"]) <= now]
 
-    if DOCS.exists():
-        shutil.rmtree(DOCS)
-    DOCS.mkdir(parents=True)
+    DOCS.mkdir(parents=True, exist_ok=True)
+    recipe_pages = DOCS / "rezepte"
+    if recipe_pages.exists():
+        shutil.rmtree(recipe_pages)
     shutil.copytree(ASSETS, DOCS / "assets", dirs_exist_ok=True)
 
     write(DOCS / ".nojekyll", "")
     write(DOCS / "styles.css", (ROOT / "styles.css").read_text(encoding="utf-8"))
-    write(DOCS / "index.html", render_index(config, sorted(live, key=lambda value: parse_time(value["publish_at"]), reverse=True)))
+    ordered = sorted(live, key=lambda value: parse_time(value["publish_at"]), reverse=True)
+    write(DOCS / "index.html", render_index(config, books, ordered))
     write(DOCS / "datenschutz.html", render_privacy(config))
     for item in live:
-        write(DOCS / "rezepte" / f'{item["id"]}.html', render_item(config, item))
-
+        write(DOCS / "rezepte" / f"{item['id']}.html", render_item(config, books, item))
     (DOCS / "feed.xml").write_bytes(render_feed(config, live))
     sitemap_urls = [config["base_url"] + "/", config["base_url"] + "/datenschutz.html"]
     sitemap_urls.extend(item_urls(config, item)[0] for item in live)
@@ -194,7 +171,7 @@ def build(now: datetime, base_url_override: str | None = None) -> None:
     sitemap += "".join(f"  <url><loc>{esc(url)}</loc></url>\n" for url in sitemap_urls)
     sitemap += "</urlset>\n"
     write(DOCS / "sitemap.xml", sitemap)
-    write(DOCS / "robots.txt", f'User-agent: *\nAllow: /\nSitemap: {config["base_url"]}/sitemap.xml\n')
+    write(DOCS / "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {config['base_url']}/sitemap.xml\n")
 
 
 def main() -> None:

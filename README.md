@@ -1,73 +1,77 @@
 # Leo Bergmann Books
 
-Public static author site with a Pinterest-compatible RSS feed and a durable, non-secret publication ledger. The repository contains publishable marketing content and publication metadata, but no credentials.
+Public author website, durable Pinterest-RSS publication ledger, and zero-budget organic publishing pipeline for Leo Bergmann's German recipe books. The repository contains publishable marketing assets and metadata, never credentials or private source files.
 
-## Local verification
+## What is automated
 
-1. Run `python publication_history.py sync`.
-2. Run `python build.py`.
-3. Run `python -m unittest discover -s tests -v`.
-4. Serve `docs` with `python -m http.server 8080 --directory docs`.
-5. Open `http://127.0.0.1:8080/`.
+The prepared catalog retains all 14 German recipe-book projects with 1,960 recipes. Eleven books are published and eligible for marketing. Finished Pinterest creatives use a 1000 × 1500 px (2:3) template with a book-specific label, recipe hook, truthful benefit line, CTA, and author mark.
 
-## GitHub Pages
+- 1,540 recipes currently have a rights-cleared source image and a finished Pin creative.
+- Books `013_hp_prep`, `014_hp_snacks`, and `015_hp_women` are not published and therefore remain `unpublished` regardless of asset availability. Their 420 recipes also currently have no source images. They are retained in the catalog but never scheduled.
+- Two organic items per local Europe/Berlin day are planned, with at most one item per book on a day where possible.
+- GitHub Actions maintains a rolling 30-day queue twice daily, publishes due pages and RSS entries, runs all tests, and commits durable state.
+- The scheduler is idempotent, enforces a 180-day exact-title cooldown, stops safely at queue exhaustion, and has a hard 0-EUR paid-channel lock.
 
-The intended repository is `leobergmannauthor/leobergmannauthor.github.io`. Configure GitHub Pages to publish from the `docs` directory on the `main` branch.
+After the prepared assets are pushed, the notebook may be switched off. GitHub Actions releases content and Pinterest's official RSS importer polls https://leobergmannauthor.github.io/feed.xml. A feed entry is not counted as a confirmed Pin until a real public Pinterest /pin/ URL is recorded.
 
-The workflow checks newly due content at 03:15 UTC and 14:15 UTC. It updates the publication ledger, adds only content whose `publish_at` timestamp has been reached, runs the tests, and commits changed history and generated pages. Pinterest can then import the feed from:
+## Local commands
 
-`https://leobergmannauthor.github.io/feed.xml`
+Run from the repository root:
 
-Before connecting the feed, claim the website in Pinterest. Every feed item links to the claimed website and the website links to the Amazon book.
+~~~powershell
+python scripts/prepare_german_pin_catalog.py
+python scripts/catalog_scheduler.py
+python publication_history.py sync
+python build.py
+python -m unittest discover -s tests -v
+python -m http.server 8080 --directory docs
+~~~
 
-## Identity migration
+`prepare_german_pin_catalog.py` reads the private BookGenPy library, is BOM-tolerant and resumable, reuses unchanged creatives, filters risky health claims, and writes only publication-safe data. Use it again only after recipes, source images, or the template change. Normal daily operation happens in GitHub and does not require this local generator.
 
-On 21 July 2026 this site was recreated as a clean repository under the dedicated author account leobergmannauthor; no Git history from the previous personal account was imported. Pinterest ownership of leobergmannauthor.github.io was verified, the public profile website was changed to the new domain, and the existing RSS configuration for Schnelle & einfache Rezepte was updated in place to https://leobergmannauthor.github.io/feed.xml.
+On Windows, `Pinterest-Autopilot.cmd` performs the same safe all-book preparation, queue refill, validation, commit, and push workflow, then opens the local dashboard. It is a maintenance launcher, not a daily requirement.
 
-The former leanovich.github.io/leo-bergmann-books/ site is a transition fallback only, so existing Pins that still target old page URLs do not break. It is not the source for new RSS publications. Do not remove the fallback until all old destination URLs have been inventoried or redirected.
+## Durable files
 
-## Durable publication history
+- `data/books.json`: public book titles, labels, and Amazon destinations.
+- `data/pin_catalog.json`: all 1,960 stable content IDs, prepared copy, checksums, asset state, and schedule state.
+- `content/recipes.json`: the rolling publication queue and already published RSS items.
+- `data/scheduler_state.json`: last refill, queue health, remaining prepared items, missing assets, and zero cost.
+- `data/publication_history.json`: separate RSS and independently verified Pinterest status for every queued item.
+- `docs/assets/pins/`: finished one-copy Pin creatives. Unlike other files in `docs`, these are prepared source artifacts preserved by `build.py`.
 
-The source-controlled ledger is `data/publication_history.json`. It contains one entry for every item in `content/recipes.json`, including its schedule, public page and image, RSS state, and separately verified Pinterest state.
+The catalog preserves each `catalog_id` across sessions. Re-running the generator or scheduler never creates a second item for the same book/recipe pair.
 
-The states have deliberately different meanings:
+## Amazon destinations
 
-- `rss.status = scheduled`: the item is not yet in the public feed.
-- `rss.status = published_to_feed`: the item is present in RSS. This does not prove that Pinterest created a Pin.
-- `pinterest.status = awaiting_import_confirmation`: Pinterest may import the item, but no public Pin URL has been verified.
-- `pinterest.status = confirmation_overdue`: 24 hours have elapsed without confirmation; the Pin must be checked.
-- `pinterest.status = confirmed`: a public Pinterest `/pin/` URL and confirmation timestamp are recorded.
+All eleven published books use verified direct Amazon ASIN links. Amazon search fallbacks are forbidden: a published book without a verified ASIN fails the catalog build. Books `013_hp_prep`, `014_hp_snacks`, and `015_hp_women` have no destination and cannot enter the publication queue until their listings are live, their ASINs are verified, and their `published` flags are explicitly enabled.
 
-The scheduled GitHub workflow advances RSS states automatically and preserves existing confirmations. After independently verifying an imported Pin, record it with:
+## Verification
 
-```powershell
+The test suite validates catalog completeness, public-data safety, 2:3 image dimensions, title and description limits, daily cadence, idempotency, zero-budget failure behavior, RSS targets, ledger consistency, and a three-year simulation through clean queue exhaustion.
+
+After independently verifying an imported public Pin, record it with:
+
+~~~powershell
 python publication_history.py confirm-pinterest <content-id> <public-pin-url>
-```
+~~~
 
-Never mark an item as confirmed based only on the usual Pinterest import window.
+Never confirm a Pin based only on an expected import window.
 
-## Active organic schedule
+## Deployment
 
-The first RSS campaign has been publicly verified: 16 recipe Pins now have durable public `/pin/` links in `data/publication_history.json`. A second series contains 12 distinct Airfryer ideas and is scheduled at one item per day from 30 July through 10 August 2026. Its feed images are purpose-built Pinterest creatives with a recipe hook, benefit line, CTA, and author mark; the untouched source photos remain alongside the generated `-pin.jpg` files. The GitHub workflow releases each due page and feed entry without requiring a running notebook.
+GitHub Pages serves `docs/` from `main`. The active repository and public endpoints are:
 
-The reproducible creative renderer is `scripts/render_pin_creatives.cjs`. It uses Sharp and the bundled fonts to keep exact German text deterministic. After changing its copy or layout, regenerate the images, run the ledger synchronization and complete build/test sequence, and visually inspect the output.
-## Double-click autopilot
+- Repository: https://github.com/leobergmannauthor/leobergmannauthor.github.io
+- Website: https://leobergmannauthor.github.io/
+- RSS: https://leobergmannauthor.github.io/feed.xml
 
-On Windows, double-click `Pinterest-Autopilot.cmd`. It keeps the organic plan filled for the next 14 days, creates at most seven new and distinct recipe Pins in one run, renders their branded vertical images, updates the RSS history, builds and tests the public site, and pushes the successful result to GitHub. The dashboard opens after the run.
+The former `leanovich.github.io/leo-bergmann-books/` site is a transition fallback for old Pin destinations only. Do not use it for new publications.
 
-The local tool requires the BookGenPy Airfryer sources and a working GitHub login on the computer. Pinterest does not require browser automation: the connected official RSS importer reads each due entry from the deployed feed. Once a batch has been pushed, the notebook can be switched off; GitHub Actions releases scheduled items and Pinterest performs its own feed polling.
+## Security and policy
 
-Preview the next automatic selection without modifying or publishing anything:
-
-```powershell
-python scripts/pinterest_autopilot.py --dry-run
-```
-
-Pinterest may import a feed item later than its nominal publication time. A feed entry is not counted as a Pinterest success until its public Pin URL has been independently verified and recorded with `confirm-pinterest`.
-
-## Security
-
-- No account passwords, tokens, customer data, or private catalog files belong in this repository.
-- The ledger may contain public URLs and non-secret publication timestamps only.
-- The site uses no cookies and no external analytics.
-- Internal campaign state, budgets, credentials, and operational notes must never be rendered on the public website or RSS feed.
+- No passwords, tokens, cookies, email addresses, browser profiles, or customer data belong here.
+- Paid actions remain disabled and the daily budget is 0 EUR.
+- No invented ratings, testimonials, scarcity, medical outcomes, or performance claims.
+- No unapproved browser automation; Pinterest publication uses the claimed-site RSS feature.
+- Amazon links use `nofollow sponsored` on the rendered pages.

@@ -76,5 +76,15 @@ class SiteBuildTest(unittest.TestCase):
         self.assertIn(expected, index)
 
 
+    def test_workflow_installs_declared_dependencies_before_tests(self):
+        workflow = (ROOT / ".github" / "workflows" / "publish.yml").read_text(encoding="utf-8")
+        requirements = (ROOT / "requirements-autopilot.txt").read_text(encoding="utf-8")
+        install_command = "python -m pip install --requirement requirements-autopilot.txt"
+        test_command = "python -m unittest discover -s tests -v"
+        self.assertIn("Pillow==12.0.0", requirements)
+        self.assertIn(install_command, workflow)
+        self.assertIn(test_command, workflow)
+        self.assertLess(workflow.index(install_command), workflow.index(test_command))
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "timezone": "Europe/Berlin",
+  "daily_budget_eur": 0,
+  "paid_channels_enabled": false,
+  "pins_per_day": 2,
+  "publish_hours": [
+    9,
+    18
+  ],
+  "schedule_horizon_days": 30,
+  "title_cooldown_days": 180,
+  "max_pins_per_day_hard_limit": 5,
+  "mode": "prepared_creatives_rss"
+}

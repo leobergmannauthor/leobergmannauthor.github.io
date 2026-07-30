@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "books": [
+    {
+      "id": "001_protein",
+      "title": "High Protein Power-Küche für Berufstätige",
+      "label": "HIGH PROTEIN",
+      "promise": "Proteinreich • schnell • alltagstauglich",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "002_airfryer",
+      "title": "XXL Airfryer Kochbuch: 140 schnelle Rezepte für die Heißluftfritteuse",
+      "label": "AIRFRYER-REZEPT",
+      "promise": "Knusprig • einfach • alltagstauglich",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0GHFYM758?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "003_vegetarisch",
+      "title": "Vegetarisches XXL Kochbuch: 140 schnelle Rezepte",
+      "label": "VEGETARISCH",
+      "promise": "Fleischlos • lecker • unkompliziert",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "004_meal_prep",
+      "title": "XXL Meal Prep Kochbuch für Anfänger",
+      "label": "MEAL PREP",
+      "promise": "Vorkochen • mitnehmen • Zeit sparen",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "005_low_carb",
+      "title": "XXL Low Carb Kochbuch für Anfänger",
+      "label": "LOW CARB",
+      "promise": "Kohlenhydratarm • lecker • einfach",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "006_family",
+      "title": "XXL Familienkochbuch für jeden Geldbeutel",
+      "label": "FAMILIENKÜCHE",
+      "promise": "Familienfreundlich • günstig • lecker",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "007_men",
+      "title": "XXL Männer-Kochbuch",
+      "label": "EINFACH DEFTIG",
+      "promise": "Deftig • unkompliziert • sättigend",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "008_liver",
+      "title": "XXL Fettleber Kochbuch",
+      "label": "LEBERFREUNDLICH",
+      "promise": "Ausgewogen • genussvoll • alltagstauglich",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "009_anti_entzuendung",
+      "title": "XXL Anti-Entzündliches Kochbuch",
+      "label": "BEWUSST GENIESSEN",
+      "promise": "Aromatisch • ausgewogen • vielseitig",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "011_hp_basics",
+      "title": "Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten",
+      "label": "5 ZUTATEN",
+      "promise": "Proteinreich • wenige Zutaten • schnell",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "012_hp_veggie",
+      "title": "Vegetarisches High Protein Kochbuch für Muskelaufbau",
+      "label": "VEGGIE PROTEIN",
+      "promise": "Fleischlos • proteinreich • sättigend",
+      "published": true,
+      "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
+      "target_kind": "direct",
+      "recipe_count": 140
+    },
+    {
+      "id": "013_hp_prep",
+      "title": "High Protein Meal Prep für Büro und Training",
+      "label": "PROTEIN MEAL PREP",
+      "promise": "Vorkochen • proteinreich • praktisch",
+      "published": false,
+      "amazon_url": "",
+      "target_kind": "unpublished",
+      "recipe_count": 140
+    },
+    {
+      "id": "014_hp_snacks",
+      "title": "High Protein Backen & Snacks ohne Proteinpulver",
+      "label": "PROTEIN SNACK",
+      "promise": "Snacken • backen • proteinreich",
+      "published": false,
+      "amazon_url": "",
+      "target_kind": "unpublished",
+      "recipe_count": 140
+    },
+    {
+      "id": "015_hp_women",
+      "title": "High Protein Kochbuch für Frauen ab 40",
+      "label": "PROTEIN 40+",
+      "promise": "Proteinreich • genussvoll • alltagstauglich",
+      "published": false,
+      "amazon_url": "",
+      "target_kind": "unpublished",
+      "recipe_count": 140
+    }
+  ]
+}

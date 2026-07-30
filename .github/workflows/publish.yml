@@ -1,4 +1,4 @@
-name: Publish website and RSS
+name: Publish website and Pinterest RSS
 
 on:
   push:
@@ -17,27 +17,36 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-autopilot.txt
+      - name: Install Python dependencies
+        run: python -m pip install --requirement requirements-autopilot.txt
+      - name: Refill durable 30-day publication queue
+        run: python scripts/catalog_scheduler.py
       - name: Update durable publication history
         run: python publication_history.py sync
       - name: Build public website and RSS
         run: python build.py
-      - name: Verify public output
+      - name: Verify public output and long-term invariants
         run: python -m unittest discover -s tests -v
-      - name: Commit newly released content
+      - name: Commit queue and newly released content
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs data/publication_history.json
+          git add docs content/recipes.json data/pin_catalog.json data/scheduler_state.json data/publication_history.json
           if git diff --cached --quiet; then
             echo "No new content to publish."
           else
-            git commit -m "Publish scheduled content and history"
+            git commit -m "Refill Pinterest queue and publish due content"
             git push
           fi

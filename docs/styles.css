@@ -13,7 +13,7 @@ h2{line-height:1.15;letter-spacing:-.025em}
 .eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:900;color:var(--green)}
 .cta{display:inline-block;margin-top:12px;padding:13px 19px;border-radius:999px;background:var(--green);color:#fff;text-decoration:none;font-weight:900}
 .section{margin-top:60px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden}.card img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block}.card div{padding:18px}.card h2{margin:.15em 0}.card h2 a{text-decoration:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden}.card img{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;display:block}.card div{padding:18px}.card h2{margin:.15em 0}.card h2 a{text-decoration:none}
 .recipe{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.recipe figure{margin:0}.recipe img{width:100%;height:auto;border-radius:28px}.recipe figcaption{color:var(--muted);font-size:13px}.lead{font-size:20px}.facts{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.facts li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}.facts span,.facts strong{display:block}.facts span{color:var(--muted);font-size:12px}.teaser-note{padding:14px;border-left:4px solid var(--amber);background:#fff8e8}
 .prose{max-width:760px}.prose h1{font-size:52px}
 footer{padding:32px clamp(20px,5vw,70px);background:#e7e6dd;color:var(--muted);display:flex;justify-content:space-between;gap:20px}

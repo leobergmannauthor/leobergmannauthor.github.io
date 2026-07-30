@@ -120,7 +120,7 @@ class PinterestAutopilotTest(unittest.TestCase):
                 "knusprig · einfach · 10 Min. Garzeit",
             )
             with Image.open(destination) as rendered:
-                self.assertEqual(rendered.size, (896, 1152))
+                self.assertEqual(rendered.size, (1000, 1500))
                 self.assertEqual(rendered.format, "JPEG")
         finally:
             source.unlink(missing_ok=True)

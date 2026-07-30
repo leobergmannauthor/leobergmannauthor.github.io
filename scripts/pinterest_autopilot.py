@@ -46,7 +46,7 @@ SOURCE_IMAGE_ROOT = SOURCE_ROOT / "images" / "recipes"
 ASSET_DIR = REPO_ROOT / "assets" / "recipes"
 PUBLIC_BASE = "https://leobergmannauthor.github.io"
 BERLIN = ZoneInfo("Europe/Berlin")
-IMAGE_SIZE = (896, 1152)
+IMAGE_SIZE = (1000, 1500)
 
 CATEGORY_BENEFITS = {
     "vegetables": "vegetarisch · knusprig · unkompliziert",
@@ -345,13 +345,12 @@ def fitted_font(draw: ImageDraw.ImageDraw, text: str, max_width: int, start: int
 
 def vertical_gradient(size: tuple[int, int], top_alpha: int, bottom_alpha: int) -> Image.Image:
     width, height = size
-    gradient = Image.new("RGBA", size)
-    pixels = gradient.load()
+    strip = Image.new("RGBA", (1, height))
+    pixels = strip.load()
     for y in range(height):
         alpha = round(top_alpha + (bottom_alpha - top_alpha) * (y / max(1, height - 1)))
-        for x in range(width):
-            pixels[x, y] = (16, 40, 31, alpha)
-    return gradient
+        pixels[0, y] = (16, 40, 31, alpha)
+    return strip.resize((width, height))
 
 
 def render_creative(
@@ -359,6 +358,10 @@ def render_creative(
     destination: Path,
     headline_lines: list[str],
     benefit: str,
+    *,
+    label: str = "AIRFRYER-REZEPT",
+    cta: str = "140 REZEPTE ENTDECKEN",
+    accent: str = "LEO BERGMANN",
 ) -> None:
     with Image.open(source) as source_image:
         image = ImageOps.fit(
@@ -368,49 +371,40 @@ def render_creative(
             centering=(0.5, 0.48),
         ).convert("RGBA")
 
-    image.alpha_composite(vertical_gradient((896, 430), 246, 0), (0, 0))
-    image.alpha_composite(vertical_gradient((896, 310), 0, 246), (0, 842))
+    image.alpha_composite(vertical_gradient((IMAGE_SIZE[0], 575), 250, 0), (0, 0))
+    image.alpha_composite(vertical_gradient((IMAGE_SIZE[0], 420), 0, 248), (0, IMAGE_SIZE[1] - 420))
     draw = ImageDraw.Draw(image)
     gold = "#f2b84b"
     forest = "#10281f"
     cream = "#fffaf0"
 
-    draw.rounded_rectangle((56, 46, 320, 88), radius=21, fill=gold)
-    category_font = font(20, bold=True)
-    label = "AIRFRYER-REZEPT"
-    label_box = draw.textbbox((0, 0), label, font=category_font)
-    draw.text((188 - (label_box[2] - label_box[0]) / 2, 54), label, font=category_font, fill=forest)
+    draw.rounded_rectangle((64, 58, 470, 116), radius=29, fill=gold)
+    category_font = fitted_font(draw, label.upper(), 360, 26, 18)
+    label_box = draw.textbbox((0, 0), label.upper(), font=category_font)
+    draw.text((267 - (label_box[2] - label_box[0]) / 2, 73), label.upper(), font=category_font, fill=forest)
 
     longest = max(headline_lines, key=len)
-    headline_font = fitted_font(draw, longest, 784, 58, 42)
-    line_height = headline_font.size + 9
-    y = 112
+    headline_font = fitted_font(draw, longest, 872, 76, 48)
+    line_height = headline_font.size + 12
+    y = 154
     for line in headline_lines:
-        draw.text((56, y), line, font=headline_font, fill=cream)
+        draw.text((64, y), line, font=headline_font, fill=cream, stroke_width=1, stroke_fill=forest)
         y += line_height
 
-    benefit_font = fitted_font(draw, benefit, 784, 27, 20)
-    draw.text((56, y + 12), benefit, font=benefit_font, fill=cream)
+    benefit_font = fitted_font(draw, benefit, 872, 33, 23)
+    draw.text((64, y + 18), benefit, font=benefit_font, fill=cream)
 
-    draw.rounded_rectangle((56, 1008, 480, 1076), radius=34, fill=gold)
-    cta = "140 Airfryer-Ideen entdecken"
-    cta_font = fitted_font(draw, cta, 380, 24, 19)
+    draw.rounded_rectangle((64, 1326, 590, 1418), radius=46, fill=gold)
+    cta_font = fitted_font(draw, cta, 470, 29, 20)
     cta_box = draw.textbbox((0, 0), cta, font=cta_font)
-    draw.text(
-        (268 - (cta_box[2] - cta_box[0]) / 2, 1025),
-        cta,
-        font=cta_font,
-        fill=forest,
-    )
+    draw.text((327 - (cta_box[2] - cta_box[0]) / 2, 1355), cta, font=cta_font, fill=forest)
 
-    author = "LEO BERGMANN"
-    author_font = font(19, bold=True)
-    author_box = draw.textbbox((0, 0), author, font=author_font)
-    draw.text((840 - (author_box[2] - author_box[0]), 1080), author, font=author_font, fill=cream)
+    author_font = font(23, bold=True)
+    author_box = draw.textbbox((0, 0), accent, font=author_font)
+    draw.text((936 - (author_box[2] - author_box[0]), 1442), accent, font=author_font, fill=cream)
 
     destination.parent.mkdir(parents=True, exist_ok=True)
-    image.convert("RGB").save(destination, "JPEG", quality=91, progressive=True, subsampling=0)
-
+    image.convert("RGB").save(destination, "JPEG", quality=84, optimize=True, progressive=True, subsampling=2)
 
 def ensure_zero_budget() -> None:
     settings = read_json(SETTINGS_FILE, {})
