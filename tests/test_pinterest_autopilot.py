@@ -18,6 +18,7 @@ from pinterest_autopilot import (  # noqa: E402
     is_duplicate_title,
     render_creative,
     split_headline,
+    write_status,
 )
 
 
@@ -74,6 +75,37 @@ class PinterestAutopilotTest(unittest.TestCase):
         lines = split_headline("Rinderhüftsteak mit Knoblauchbutter im Airfryer")
         self.assertLessEqual(len(lines), 3)
         self.assertTrue(all(lines))
+
+    def test_status_preserves_last_nonempty_batch(self):
+        import pinterest_autopilot
+
+        status_path = Path(__file__).resolve().parent / "_autopilot_status.json"
+        original = pinterest_autopilot.STATUS_FILE
+        pinterest_autopilot.STATUS_FILE = status_path
+        item = {
+            "id": "recipe_079",
+            "title": "Mozzarella-Sticks knusprig",
+            "publish_at": "2026-08-11T07:00:00Z",
+        }
+        try:
+            write_status(
+                status="success",
+                started_at=datetime(2026, 7, 30, tzinfo=timezone.utc),
+                planned=[item],
+                commit="abc123",
+            )
+            write_status(
+                status="success",
+                started_at=datetime(2026, 7, 31, tzinfo=timezone.utc),
+                planned=[],
+            )
+            payload = __import__("json").loads(status_path.read_text(encoding="utf-8"))
+            self.assertEqual(payload["new_items"], [])
+            self.assertEqual(payload["last_published_items"][0]["content_id"], "recipe_079")
+            self.assertEqual(payload["last_commit"], "abc123")
+        finally:
+            pinterest_autopilot.STATUS_FILE = original
+            status_path.unlink(missing_ok=True)
 
     def test_renderer_creates_pinterest_portrait(self):
         test_root = Path(__file__).resolve().parent

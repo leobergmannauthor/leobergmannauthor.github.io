@@ -577,21 +577,30 @@ def write_status(
     verified_urls: list[str] | None = None,
     error: str | None = None,
 ) -> None:
+    previous = read_json(STATUS_FILE, {})
+    current_items = [
+        {
+            "content_id": item["id"],
+            "title": item["title"],
+            "publish_at": item["publish_at"],
+            "image_url": f"{PUBLIC_BASE}/assets/recipes/{item['id']}-pin.jpg",
+        }
+        for item in planned
+    ]
+    last_published_items = (
+        current_items
+        if status == "success" and current_items
+        else previous.get("last_published_items", previous.get("new_items", []))
+    )
     payload = {
         "status": status,
         "started_at": started_at.isoformat(),
         "finished_at": datetime.now(timezone.utc).isoformat(),
-        "new_items": [
-            {
-                "content_id": item["id"],
-                "title": item["title"],
-                "publish_at": item["publish_at"],
-                "image_url": f"{PUBLIC_BASE}/assets/recipes/{item['id']}-pin.jpg",
-            }
-            for item in planned
-        ],
+        "new_items": current_items,
+        "last_published_items": last_published_items,
         "commit": commit,
-        "verified_image_urls": verified_urls or [],
+        "last_commit": commit or previous.get("last_commit", previous.get("commit")),
+        "verified_image_urls": verified_urls or previous.get("verified_image_urls", []),
         "error": error,
         "cost_eur": 0,
     }
