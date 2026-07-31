@@ -1056,5 +1056,33 @@
     "image": "assets/pins/007_men/recipe_005.jpg",
     "publish_at": "2026-08-29T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "008_liver-recipe_005",
+    "catalog_id": "008_liver:recipe_005",
+    "book_id": "008_liver",
+    "title": "Karotten-Ingwer-Sticks gedünstet",
+    "description": "Zarte Karottensticks mit wärmendem Ingwer und einem Hauch Honigalternative. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "12 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_005.jpg",
+    "publish_at": "2026-08-30T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_005",
+    "catalog_id": "009_anti_entzuendung:recipe_005",
+    "book_id": "009_anti_entzuendung",
+    "title": "Haferflocken-Pancakes mit Heidelbeeren",
+    "description": "Fluffige Vollkorn-Pancakes ohne Zucker, getoppt mit frischen Heidelbeeren. Ein sätigendes Frühstück mit natürlicher Süße und antioxidativer Power. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_005.jpg",
+    "publish_at": "2026-08-30T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
