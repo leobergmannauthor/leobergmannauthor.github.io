@@ -1112,5 +1112,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_005.jpg",
     "publish_at": "2026-08-31T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_006",
+    "catalog_id": "001_protein:recipe_006",
+    "book_id": "001_protein",
+    "title": "Skyr Himbeer Smoothie Bowl mit Hafer",
+    "description": "Fruchtige Himbeeren und cremiger Skyr ergeben eine erfrischende Smoothie Bowl. Hafer sorgt für Biss und lang anhaltende Sättigung. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "–",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_006.jpg",
+    "publish_at": "2026-09-01T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_006",
+    "catalog_id": "003_vegetarisch:recipe_006",
+    "book_id": "003_vegetarisch",
+    "title": "Herzhafte Käse-Muffins",
+    "description": "Perfekt zum Mitnehmen! Diese saftigen Muffins mit viel Käse sind ideal für unterwegs oder als Snack. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "25 min",
+    "servings": "6",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_006.jpg",
+    "publish_at": "2026-09-01T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]

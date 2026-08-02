@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "last_run_at": "2026-08-01T10:13:19.172436+00:00",
+  "last_run_at": "2026-08-02T10:11:58.011148+00:00",
   "scheduled_this_run": 2,
-  "scheduled_through": "2026-08-31T16:00:00Z",
-  "ready_available": 1459,
+  "scheduled_through": "2026-09-01T16:00:00Z",
+  "ready_available": 1457,
   "blocked_missing_asset": 420,
   "queue_status": "active",
   "cost_eur": 0
