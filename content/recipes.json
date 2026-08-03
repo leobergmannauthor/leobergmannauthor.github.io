@@ -1140,5 +1140,33 @@
     "image": "assets/pins/003_vegetarisch/recipe_006.jpg",
     "publish_at": "2026-09-01T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_006",
+    "catalog_id": "004_meal_prep:recipe_006",
+    "book_id": "004_meal_prep",
+    "title": "Frühstücks-Burrito mit Rührei und schwarzen Bohnen",
+    "description": "Ein herzhafter Protein-Kick am Morgen! Der gefüllte Tortilla-Wrap mit Rührei, Bohnen und Käse kann kalt oder kurz erwärmt gegessen werden. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "10 min",
+    "servings": "3",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_006.jpg",
+    "publish_at": "2026-09-02T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_006",
+    "catalog_id": "005_low_carb:recipe_006",
+    "book_id": "005_low_carb",
+    "title": "Cremiger körniger Frischkäse mit Nüssen",
+    "description": "Körniger Frischkäse mit knackigen Nüssen und einem Hauch Zimt – schnell, sättigend und voller Protein. Perfekt für einen leichten Morgen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "3 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_006.jpg",
+    "publish_at": "2026-09-02T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]

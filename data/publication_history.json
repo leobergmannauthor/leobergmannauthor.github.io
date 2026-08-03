@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-08-02T17:45:55Z",
+  "last_updated_at": "2026-08-03T13:31:34Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -435,7 +435,7 @@
         "first_repository_observed_at": "2026-08-02T10:11:58Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-08-03T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -468,12 +468,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_025.html",
       "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_025-pin.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-08-03T07:00:00Z",
+        "first_repository_observed_at": "2026-08-03T13:31:34Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-08-04T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1596,6 +1596,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-02T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_006",
+      "title": "Frühstücks-Burrito mit Rührei und schwarzen Bohnen",
+      "scheduled_at": "2026-09-02T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_006.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_006.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-03T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_006",
+      "title": "Cremiger körniger Frischkäse mit Nüssen",
+      "scheduled_at": "2026-09-02T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_006.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_006.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-03T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
