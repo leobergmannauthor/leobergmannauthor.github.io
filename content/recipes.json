@@ -1224,5 +1224,33 @@
     "image": "assets/pins/009_anti_entzuendung/recipe_006.jpg",
     "publish_at": "2026-09-04T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_006",
+    "catalog_id": "011_hp_basics:recipe_006",
+    "book_id": "011_hp_basics",
+    "title": "Herzhafte Quark-Pfannkuchen",
+    "description": "Fluffige Pfannkuchen aus Quark und Ei, die richtig satt machen. Mit über 40 g Eiweiß der ideale Start in einen aktiven Tag. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_006.jpg",
+    "publish_at": "2026-09-05T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "012_hp_veggie-recipe_006",
+    "catalog_id": "012_hp_veggie:recipe_006",
+    "book_id": "012_hp_veggie",
+    "title": "Frühstücks-Frittata mit Kartoffeln",
+    "description": "Eine sättigende Ofen-Frittata mit Kartoffeln, Zwiebel und Käse, die auf rund 45 g Eiweiß kommt. Herzhaft und familientauglich – ideal für ein entspanntes Wochenendfrühstück, das lange vorhält. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/012_hp_veggie/recipe_006.jpg",
+    "publish_at": "2026-09-05T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
