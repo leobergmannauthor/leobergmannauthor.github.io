@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-08-06T11:27:04Z",
+  "last_updated_at": "2026-08-07T07:58:54Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -568,7 +568,7 @@
         "first_repository_observed_at": "2026-08-05T19:06:37Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-08-06T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -587,7 +587,7 @@
         "first_repository_observed_at": "2026-08-06T11:20:07Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-08-07T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -601,12 +601,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_001.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_001.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-08-06T16:00:00Z",
+        "first_repository_observed_at": "2026-08-07T07:58:54Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-08-07T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -620,12 +620,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_082.html",
       "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_082-pin.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-08-07T07:00:00Z",
+        "first_repository_observed_at": "2026-08-07T07:58:54Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-08-08T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1748,6 +1748,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-06T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_007",
+      "title": "Putengeschnetzeltes mit Champignons und Vollkornreis",
+      "scheduled_at": "2026-09-06T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_007.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_007.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-07T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_007",
+      "title": "Overnight-Oats mit Beeren-Mix",
+      "scheduled_at": "2026-09-06T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_007.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_007.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-07T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null

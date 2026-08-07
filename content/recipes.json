@@ -1252,5 +1252,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_006.jpg",
     "publish_at": "2026-09-05T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_007",
+    "catalog_id": "001_protein:recipe_007",
+    "book_id": "001_protein",
+    "title": "Putengeschnetzeltes mit Champignons und Vollkornreis",
+    "description": "Zartes Putenfleisch in cremiger Champignonsauce trifft auf nussigen Vollkornreis. Das Gericht ist eiweißreich, ausgewogen und sättigt angenehm. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/001_protein/recipe_007.jpg",
+    "publish_at": "2026-09-06T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_007",
+    "catalog_id": "003_vegetarisch:recipe_007",
+    "book_id": "003_vegetarisch",
+    "title": "Overnight-Oats mit Beeren-Mix",
+    "description": "Abends vorbereiten, morgens nur aus dem Kühlschrank nehmen. Diese cremigen Oats mit frischen Beeren sind das ideale Frühstück für Morgenmuffel. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_007.jpg",
+    "publish_at": "2026-09-06T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
