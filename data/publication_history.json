@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-08-07T17:12:48Z",
+  "last_updated_at": "2026-08-08T05:32:03Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -1786,6 +1786,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-07T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_007",
+      "title": "Griechischer Joghurt mit Honig-Nuss-Crunch",
+      "scheduled_at": "2026-09-07T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_007.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_007.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-08T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_007",
+      "title": "Schnelle Avocado-Ei-Boote aus dem Ofen",
+      "scheduled_at": "2026-09-07T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_007.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_007.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-08T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
