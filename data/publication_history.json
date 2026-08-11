@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-08-10T16:30:55Z",
+  "last_updated_at": "2026-08-11T06:07:32Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -1900,6 +1900,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-10T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_007",
+      "title": "Skyr-Overnight-Oats mit Apfel",
+      "scheduled_at": "2026-09-10T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_007.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_007.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-11T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_007",
+      "title": "Süßkartoffel-Rührei mit Feta",
+      "scheduled_at": "2026-09-10T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_007.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_007.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-11T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null

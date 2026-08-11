@@ -1364,5 +1364,33 @@
     "image": "assets/pins/009_anti_entzuendung/recipe_007.jpg",
     "publish_at": "2026-09-09T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_007",
+    "catalog_id": "011_hp_basics:recipe_007",
+    "book_id": "011_hp_basics",
+    "title": "Skyr-Overnight-Oats mit Apfel",
+    "description": "Über Nacht eingeweichte Haferflocken mit Skyr und frischem Apfel. Am Morgen ohne Aufwand griffbereit und mit über 30 g Protein. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_007.jpg",
+    "publish_at": "2026-09-10T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "012_hp_veggie-recipe_007",
+    "catalog_id": "012_hp_veggie:recipe_007",
+    "book_id": "012_hp_veggie",
+    "title": "Süßkartoffel-Rührei mit Feta",
+    "description": "Cremiges Rührei mit süßlicher Süßkartoffel, Spinat und salzigem Feta – eine bunte Kombination mit über 30 g Eiweiß. Die komplexen Kohlenhydrate der Süßkartoffel halten dich lange satt. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_007.jpg",
+    "publish_at": "2026-09-10T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
