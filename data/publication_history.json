@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-08-11T16:31:55Z",
+  "last_updated_at": "2026-08-12T08:04:50Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -777,7 +777,7 @@
         "first_repository_observed_at": "2026-08-11T16:31:55Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-08-12T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -810,12 +810,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/recipe_134.html",
       "image_url": "https://leobergmannauthor.github.io/assets/recipes/recipe_134-pin.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-08-12T07:00:00Z",
+        "first_repository_observed_at": "2026-08-12T08:04:50Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-08-13T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1938,6 +1938,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-11T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_008",
+      "title": "Baked Oats mit Skyr und Heidelbeeren",
+      "scheduled_at": "2026-09-11T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_008.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_008.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-12T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_008",
+      "title": "Tomate-Mozzarella-Bagel",
+      "scheduled_at": "2026-09-11T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_008.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_008.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-12T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null

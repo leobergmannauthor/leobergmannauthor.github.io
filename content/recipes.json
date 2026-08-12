@@ -1392,5 +1392,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_007.jpg",
     "publish_at": "2026-09-10T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_008",
+    "catalog_id": "001_protein:recipe_008",
+    "book_id": "001_protein",
+    "title": "Baked Oats mit Skyr und Heidelbeeren",
+    "description": "Diese Baked Oats sind außen goldbraun und innen angenehm saftig. Skyr liefert extra Protein und macht die Portion wunderbar cremig. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_008.jpg",
+    "publish_at": "2026-09-11T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_008",
+    "catalog_id": "003_vegetarisch:recipe_008",
+    "book_id": "003_vegetarisch",
+    "title": "Tomate-Mozzarella-Bagel",
+    "description": "Der italienische Klassiker trifft auf amerikanisches Bäckergold. Ein saftiger Bagel mit frischen Tomaten, cremigem Mozzarella und duftendem Basilikum. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_008.jpg",
+    "publish_at": "2026-09-11T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
