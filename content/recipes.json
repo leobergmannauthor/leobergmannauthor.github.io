@@ -1420,5 +1420,33 @@
     "image": "assets/pins/003_vegetarisch/recipe_008.jpg",
     "publish_at": "2026-09-11T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_008",
+    "catalog_id": "004_meal_prep:recipe_008",
+    "book_id": "004_meal_prep",
+    "title": "Protein-Pancakes (Startklar für die Mikrowelle)",
+    "description": "Fluffige Pancakes mit extra Protein, die du am Wochenende vorbereiten und unter der Woche blitzschnell in der Mikrowelle aufwärmen kannst. Hält sich 4 Tage im Kühlschrank oder 1 Monat im Gefrierfach. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "3",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_008.jpg",
+    "publish_at": "2026-09-12T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_008",
+    "catalog_id": "005_low_carb:recipe_008",
+    "book_id": "005_low_carb",
+    "title": "Grüner Power-Smoothie mit Avocado und Spinat",
+    "description": "Ein cremiger grüner Smoothie voller Vitamine und gesunder Fette. Macht satt, gibt Energie und ist in wenigen Minuten fertig. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_008.jpg",
+    "publish_at": "2026-09-12T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
