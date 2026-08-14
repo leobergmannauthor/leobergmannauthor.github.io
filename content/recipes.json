@@ -1448,5 +1448,33 @@
     "image": "assets/pins/005_low_carb/recipe_008.jpg",
     "publish_at": "2026-09-12T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "006_family-recipe_008",
+    "catalog_id": "006_family:recipe_008",
+    "book_id": "006_family",
+    "title": "Warmer Grießbrei mit Kirschen",
+    "description": "Ein cremiger Klassiker, der Kindheitserinnerungen weckt und Seele wärmt. Der heiße Grießbrei harmoniert perfekt mit den fruchtigen Kirschen und ist in wenigen Minuten zubereitet. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/006_family/recipe_008.jpg",
+    "publish_at": "2026-09-13T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_008",
+    "catalog_id": "007_men:recipe_008",
+    "book_id": "007_men",
+    "title": "Bacon-Wrapped Datteln",
+    "description": "Süße Datteln im salzigen Speckmantel – klingt verrückt, schmeckt genial. Perfekte Vorspeise. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/007_men/recipe_008.jpg",
+    "publish_at": "2026-09-13T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]

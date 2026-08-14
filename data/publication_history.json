@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-08-13T17:44:24Z",
+  "last_updated_at": "2026-08-14T08:02:44Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -853,7 +853,7 @@
         "first_repository_observed_at": "2026-08-13T08:07:03Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-08-14T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -886,12 +886,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_002.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_002.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-08-14T07:00:00Z",
+        "first_repository_observed_at": "2026-08-14T08:02:44Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-08-15T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -2014,6 +2014,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-13T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_008",
+      "title": "Warmer Grießbrei mit Kirschen",
+      "scheduled_at": "2026-09-13T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_008.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_008.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-14T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_008",
+      "title": "Bacon-Wrapped Datteln",
+      "scheduled_at": "2026-09-13T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_008.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_008.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-14T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
