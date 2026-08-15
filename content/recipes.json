@@ -1476,5 +1476,33 @@
     "image": "assets/pins/007_men/recipe_008.jpg",
     "publish_at": "2026-09-13T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "008_liver-recipe_008",
+    "catalog_id": "008_liver:recipe_008",
+    "book_id": "008_liver",
+    "title": "Blumenkohl-Steaks mit Kräutern",
+    "description": "Saftige Blumenkohl-Steaks mit einer aromatischen Kräuterkruste. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/008_liver/recipe_008.jpg",
+    "publish_at": "2026-09-14T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_008",
+    "catalog_id": "009_anti_entzuendung:recipe_008",
+    "book_id": "009_anti_entzuendung",
+    "title": "Leinsamen-Joghurt mit Granatapfel",
+    "description": "Cremiger Naturjoghurt mit Omega-3-reichen Leinsamen und antioxidativem Granatapfel. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_008.jpg",
+    "publish_at": "2026-09-14T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
