@@ -1504,5 +1504,33 @@
     "image": "assets/pins/009_anti_entzuendung/recipe_008.jpg",
     "publish_at": "2026-09-14T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_008",
+    "catalog_id": "011_hp_basics:recipe_008",
+    "book_id": "011_hp_basics",
+    "title": "Spiegelei auf Vollkornbrot mit Käse",
+    "description": "Deftiges Frühstücksbrot mit Spiegelei und Gouda. Schnell gemacht und mit über 30 g Eiweiß angenehm sättigend. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "6 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_008.jpg",
+    "publish_at": "2026-09-15T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "012_hp_veggie-recipe_008",
+    "catalog_id": "012_hp_veggie:recipe_008",
+    "book_id": "012_hp_veggie",
+    "title": "Protein-Grießbrei mit Skyr",
+    "description": "Ein warmer, cremiger Grießbrei, den du mit Skyr auf über 30 g Eiweiß aufwertest, ohne dass er schwer wird. Zimt und ein Löffel Honig machen ihn süß – ein wohlig-sättigendes Frühstück für kühle Morgen. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_008.jpg",
+    "publish_at": "2026-09-15T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
