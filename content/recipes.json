@@ -1532,5 +1532,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_008.jpg",
     "publish_at": "2026-09-15T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_009",
+    "catalog_id": "001_protein:recipe_009",
+    "book_id": "001_protein",
+    "title": "Garnelen Quinoa Pfanne mit Paprika und Limette",
+    "description": "Saftige Garnelen, nussiger Quinoa und knackige Paprika ergeben eine leichte Pfanne voller Eiweiß. Limette bringt Frische und hebt die Aromen hervor. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_009.jpg",
+    "publish_at": "2026-09-16T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_009",
+    "catalog_id": "003_vegetarisch:recipe_009",
+    "book_id": "003_vegetarisch",
+    "title": "Shakshuka – Eier in pikanter Tomatensoße",
+    "description": "Ein Frühstück wie im Orient! Eier pochiert in einer würzigen Tomatensoße – einfach mit frischem Brot auftunken. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_009.jpg",
+    "publish_at": "2026-09-16T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
