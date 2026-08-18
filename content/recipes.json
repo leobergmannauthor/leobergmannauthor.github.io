@@ -1560,5 +1560,33 @@
     "image": "assets/pins/003_vegetarisch/recipe_009.jpg",
     "publish_at": "2026-09-16T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_009",
+    "catalog_id": "004_meal_prep:recipe_009",
+    "book_id": "004_meal_prep",
+    "title": "Avocado-Frischkäse-Bagel (Frisch belegen)",
+    "description": "Ein sättigendes Frühstück mit gesunden Fetten. Die Avocado-Creme und Bagelhälften werden separat vorbereitet, damit alles frisch bleibt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_009.jpg",
+    "publish_at": "2026-09-17T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_009",
+    "catalog_id": "005_low_carb:recipe_009",
+    "book_id": "005_low_carb",
+    "title": "Beeren-Quark-Bowl mit Leinsamen",
+    "description": "Eine fruchtige Quark-Bowl mit Beeren und Leinsamen – proteinreich, ballaststoffreich und wunderbar erfrischend am Morgen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_009.jpg",
+    "publish_at": "2026-09-17T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]

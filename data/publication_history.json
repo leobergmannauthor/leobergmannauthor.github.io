@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-08-17T15:02:52Z",
+  "last_updated_at": "2026-08-18T05:03:21Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -986,7 +986,7 @@
         "first_repository_observed_at": "2026-08-17T05:21:28Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-08-17T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1019,12 +1019,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_003.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_003.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-08-17T16:00:00Z",
+        "first_repository_observed_at": "2026-08-18T05:03:21Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-08-18T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -2166,6 +2166,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-17T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_009",
+      "title": "Avocado-Frischkäse-Bagel (Frisch belegen)",
+      "scheduled_at": "2026-09-17T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_009.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_009.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-18T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_009",
+      "title": "Beeren-Quark-Bowl mit Leinsamen",
+      "scheduled_at": "2026-09-17T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_009.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_009.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-18T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
