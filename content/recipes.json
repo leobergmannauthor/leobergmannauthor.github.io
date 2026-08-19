@@ -1588,5 +1588,33 @@
     "image": "assets/pins/005_low_carb/recipe_009.jpg",
     "publish_at": "2026-09-17T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "006_family-recipe_010",
+    "catalog_id": "006_family:recipe_010",
+    "book_id": "006_family",
+    "title": "Quark-Pancakes (High Protein)",
+    "description": "Starten Sie fit in den Tag mit diesen fluffigen Protein-Pancakes. Dank Magerquark sind sie besonders saftig und liefern eine ordentliche Portion Eiweiß, die lange sättigt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "10 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/006_family/recipe_010.jpg",
+    "publish_at": "2026-09-18T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_009",
+    "catalog_id": "007_men:recipe_009",
+    "book_id": "007_men",
+    "title": "Zwiebelringe",
+    "description": "Knusprig panierte Zwiebelringe – der Klassiker zum Burger oder einfach als Snack mit Mayo. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "10 min",
+    "servings": "4",
+    "difficulty": "Mittel",
+    "image": "assets/pins/007_men/recipe_009.jpg",
+    "publish_at": "2026-09-18T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
