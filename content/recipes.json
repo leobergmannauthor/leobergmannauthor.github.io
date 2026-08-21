@@ -1644,5 +1644,33 @@
     "image": "assets/pins/009_anti_entzuendung/recipe_009.jpg",
     "publish_at": "2026-09-19T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_009",
+    "catalog_id": "011_hp_basics:recipe_009",
+    "book_id": "011_hp_basics",
+    "title": "Griechischer Joghurt mit Nüssen und Honig",
+    "description": "Cremiger Joghurt mit knackigen Nüssen und einem Hauch Honig. Ein schnelles Frühstück mit über 30 g Protein. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_009.jpg",
+    "publish_at": "2026-09-20T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "012_hp_veggie-recipe_009",
+    "catalog_id": "012_hp_veggie:recipe_009",
+    "book_id": "012_hp_veggie",
+    "title": "Bircher-Müsli mit Quark",
+    "description": "Das klassische Schweizer Bircher-Müsli, mit Magerquark auf über 40 g Eiweiß gebracht. Über Nacht eingeweicht werden die Haferflocken schön cremig, geraspelter Apfel und Haselnüsse machen es fruchtig-knackig. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_009.jpg",
+    "publish_at": "2026-09-20T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
