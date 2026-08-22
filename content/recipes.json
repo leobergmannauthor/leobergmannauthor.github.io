@@ -1672,5 +1672,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_009.jpg",
     "publish_at": "2026-09-20T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_010",
+    "catalog_id": "001_protein:recipe_010",
+    "book_id": "001_protein",
+    "title": "Linsen Spinat Curry mit Tofu",
+    "description": "Ein cremiges, mild gewürztes Curry mit roten Linsen, zartem Tofu und frischem Spinat. Pflanzliches Eiweiß und viele Ballaststoffe liefern Energie und halten lange satt. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_010.jpg",
+    "publish_at": "2026-09-21T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_010",
+    "catalog_id": "003_vegetarisch:recipe_010",
+    "book_id": "003_vegetarisch",
+    "title": "French Toast (Arme Ritter) mit Zimt-Zucker",
+    "description": "Das süße Sonntagsfrühstück: In Ei getränktes Brot, goldbraun gebraten und in Zimt-Zucker gewälzt. Ein Kindheitstraum auf dem Teller. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_010.jpg",
+    "publish_at": "2026-09-21T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
