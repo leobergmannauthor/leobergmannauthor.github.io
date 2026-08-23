@@ -1700,5 +1700,33 @@
     "image": "assets/pins/003_vegetarisch/recipe_010.jpg",
     "publish_at": "2026-09-21T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_010",
+    "catalog_id": "004_meal_prep:recipe_010",
+    "book_id": "004_meal_prep",
+    "title": "Quark-Auflauf mit Kirschen (Kalt oder warm)",
+    "description": "Ein proteinreicher Auflauf, der warm aus dem Ofen oder kalt aus dem Kühlschrank schmeckt. Die Kirschen sorgen für fruchtige Süße. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "35 min",
+    "servings": "4",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_010.jpg",
+    "publish_at": "2026-09-22T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_010",
+    "catalog_id": "005_low_carb:recipe_010",
+    "book_id": "005_low_carb",
+    "title": "Low Carb Knuspermüsli (Granola) selbstgemacht",
+    "description": "Knuspriges Granola ohne Haferflocken und Zucker – mit Nüssen, Kokos und Gewürzen im Ofen geröstet. Ein Frühstücks-Highlight! Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "8",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_010.jpg",
+    "publish_at": "2026-09-22T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
