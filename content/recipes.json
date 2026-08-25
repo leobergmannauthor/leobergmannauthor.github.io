@@ -1756,5 +1756,33 @@
     "image": "assets/pins/007_men/recipe_010.jpg",
     "publish_at": "2026-09-23T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "008_liver-recipe_010",
+    "catalog_id": "008_liver:recipe_010",
+    "book_id": "008_liver",
+    "title": "Kohlrabi-Pommes aus dem Ofen",
+    "description": "Knusprige Kohlrabi-Sticks aus dem Backofen als gesunde Alternative zu Pommes. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_010.jpg",
+    "publish_at": "2026-09-24T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_010",
+    "catalog_id": "009_anti_entzuendung:recipe_010",
+    "book_id": "009_anti_entzuendung",
+    "title": "Buchweizen-Porridge mit Zimt und Äpfeln",
+    "description": "Wärmendes Buchweizen-Porridge mit gedünsteten Äpfeln und Zimt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_010.jpg",
+    "publish_at": "2026-09-24T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
