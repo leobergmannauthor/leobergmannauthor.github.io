@@ -1784,5 +1784,33 @@
     "image": "assets/pins/009_anti_entzuendung/recipe_010.jpg",
     "publish_at": "2026-09-24T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_010",
+    "catalog_id": "011_hp_basics:recipe_010",
+    "book_id": "011_hp_basics",
+    "title": "Omelett mit Feta und Spinat",
+    "description": "Ein sattgrünes Omelett mit würzigem Feta. Eiweißreich, kohlenhydratarm und in unter zehn Minuten fertig. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_010.jpg",
+    "publish_at": "2026-09-25T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "012_hp_veggie-recipe_010",
+    "catalog_id": "012_hp_veggie:recipe_010",
+    "book_id": "012_hp_veggie",
+    "title": "Chia-Pudding mit Skyr und Mango",
+    "description": "Ein cremiger Chia-Pudding, der dank Skyr auf über 30 g Eiweiß kommt und dich mit Ballaststoffen lange satt hält. Die fruchtige Mango bringt natürliche Süße, ohne dass du Zucker brauchst. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_010.jpg",
+    "publish_at": "2026-09-25T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
