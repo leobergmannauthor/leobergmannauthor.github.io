@@ -1812,5 +1812,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_010.jpg",
     "publish_at": "2026-09-25T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_011",
+    "catalog_id": "001_protein:recipe_011",
+    "book_id": "001_protein",
+    "title": "Hähnchen Teriyaki Bowl mit Brokkoli und Sesam",
+    "description": "Saftiges Hähnchen in einer leichten Teriyaki Sauce, kombiniert mit knackigem Brokkoli und Vollkornreis. Diese Bowl liefert dir viel Protein und komplexe Kohlenhydrate für nachhaltige Energie. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_011.jpg",
+    "publish_at": "2026-09-26T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_011",
+    "catalog_id": "003_vegetarisch:recipe_011",
+    "book_id": "003_vegetarisch",
+    "title": "Bircher Müsli Original Schweizer Art",
+    "description": "Das Original aus den Schweizer Alpen: Eingeweichte Haferflocken mit geriebenem Apfel und Nüssen. Frisch, sättigend und voller Energie. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_011.jpg",
+    "publish_at": "2026-09-26T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
