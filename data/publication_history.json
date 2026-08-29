@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-08-29T10:05:40Z",
+  "last_updated_at": "2026-08-29T17:43:48Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -1442,7 +1442,7 @@
         "first_repository_observed_at": "2026-08-29T10:05:40Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-08-29T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1475,12 +1475,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_005.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_005.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-08-29T16:00:00Z",
+        "first_repository_observed_at": "2026-08-29T17:43:48Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-08-30T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
