@@ -1896,5 +1896,33 @@
     "image": "assets/pins/007_men/recipe_011.jpg",
     "publish_at": "2026-09-28T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "008_liver-recipe_011",
+    "catalog_id": "008_liver:recipe_011",
+    "book_id": "008_liver",
+    "title": "Gebackene Aubergine mit Tahini",
+    "description": "Cremig-weiche Aubergine aus dem Ofen mit nussigem Tahini-Dressing. Ein orientalisches Geschmackserlebnis, das reich an Ballaststoffen ist und wunderbar sättigt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "30 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_011.jpg",
+    "publish_at": "2026-09-29T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_011",
+    "catalog_id": "009_anti_entzuendung:recipe_011",
+    "book_id": "009_anti_entzuendung",
+    "title": "Grüner Smoothie mit Ingwer und Spinat",
+    "description": "Power-Smoothie mit frischem Spinat, Ingwer und Avocado. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_011.jpg",
+    "publish_at": "2026-09-29T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
