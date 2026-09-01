@@ -1952,5 +1952,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_011.jpg",
     "publish_at": "2026-09-30T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_012",
+    "catalog_id": "001_protein:recipe_012",
+    "book_id": "001_protein",
+    "title": "Rührei Hüttenkäse Pfanne mit Tomaten",
+    "description": "Cremiges Rührei und Hüttenkäse ergeben eine besonders eiweißreiche Pfanne. Saftige Tomaten und Kräuter bringen Frische, die Textur bleibt angenehm weich. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "8 min",
+    "cook": "8 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_012.jpg",
+    "publish_at": "2026-10-01T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_012",
+    "catalog_id": "003_vegetarisch:recipe_012",
+    "book_id": "003_vegetarisch",
+    "title": "Omelett mit Champignons und Käse",
+    "description": "Goldbraun gebratenes Omelett mit saftigen Champignons und geschmolzenem Käse. Ein herzhaftes Frühstück, das auch zum Mittag schmeckt. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_012.jpg",
+    "publish_at": "2026-10-01T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
