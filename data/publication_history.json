@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-09-02T07:55:21Z",
+  "last_updated_at": "2026-09-02T17:54:36Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -1594,7 +1594,7 @@
         "first_repository_observed_at": "2026-09-01T17:49:28Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-09-02T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1627,12 +1627,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_006.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_006.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-09-02T16:00:00Z",
+        "first_repository_observed_at": "2026-09-02T17:54:36Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-09-03T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
