@@ -1980,5 +1980,33 @@
     "image": "assets/pins/003_vegetarisch/recipe_012.jpg",
     "publish_at": "2026-10-01T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_012",
+    "catalog_id": "004_meal_prep:recipe_012",
+    "book_id": "004_meal_prep",
+    "title": "Karotten-Kuchen-Oats (Schmeckt wie Kuchen)",
+    "description": "Diese Overnight Oats schmecken wie Karottenkuchen – nur viel gesünder! Mit geriebenen Karotten, Walnüssen und wärmenden Gewürzen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_012.jpg",
+    "publish_at": "2026-10-02T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_012",
+    "catalog_id": "005_low_carb:recipe_012",
+    "book_id": "005_low_carb",
+    "title": "Spiegelei auf gebratenen Champignons",
+    "description": "Perfekt gebratene Spiegeleier auf einem Bett aus goldenen Champignons. Herzhaft, einfach und unglaublich sättigend. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_012.jpg",
+    "publish_at": "2026-10-02T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
