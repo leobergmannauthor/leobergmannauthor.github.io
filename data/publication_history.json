@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-09-02T17:54:36Z",
+  "last_updated_at": "2026-09-03T08:03:38Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -1613,7 +1613,7 @@
         "first_repository_observed_at": "2026-09-02T07:55:21Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-09-03T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1646,12 +1646,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_006.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_006.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-09-03T07:00:00Z",
+        "first_repository_observed_at": "2026-09-03T08:03:38Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-09-04T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -2774,6 +2774,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-03T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_013",
+      "title": "Süßer Couscous-Becher",
+      "scheduled_at": "2026-10-03T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_013.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_013.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-04T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_012",
+      "title": "Ofenkartoffeln mit Sour Cream",
+      "scheduled_at": "2026-10-03T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_012.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_012.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-04T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
