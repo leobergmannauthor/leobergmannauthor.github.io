@@ -2036,5 +2036,33 @@
     "image": "assets/pins/007_men/recipe_012.jpg",
     "publish_at": "2026-10-03T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "008_liver-recipe_012",
+    "catalog_id": "008_liver:recipe_012",
+    "book_id": "008_liver",
+    "title": "Zucchini-Nudeln mit Pesto",
+    "description": "Leichte Zucchini-Spaghetti mit frischem Basilikum-Pesto. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "5 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_012.jpg",
+    "publish_at": "2026-10-04T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_012",
+    "catalog_id": "009_anti_entzuendung:recipe_012",
+    "book_id": "009_anti_entzuendung",
+    "title": "Walnuss-Bananen-Haferbrei",
+    "description": "Cremiger Haferbrei mit Omega-3-reichen Walnüssen und natürlicher Süße aus reifen Bananen. Ein wärmendes Frühstück für kalte Morgen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_012.jpg",
+    "publish_at": "2026-10-04T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
