@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-09-04T17:36:37Z",
+  "last_updated_at": "2026-09-05T07:40:38Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -1689,7 +1689,7 @@
         "first_repository_observed_at": "2026-09-04T07:59:25Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-09-05T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1722,12 +1722,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_006.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_006.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-09-05T07:00:00Z",
+        "first_repository_observed_at": "2026-09-05T07:40:38Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-09-06T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -2850,6 +2850,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-05T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_012",
+      "title": "Beeren-Quark-Shake mit Haferflocken",
+      "scheduled_at": "2026-10-05T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_012.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_012.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-06T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_012",
+      "title": "Apfel-Zimt-Quark mit Walnüssen",
+      "scheduled_at": "2026-10-05T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_012.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_012.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-06T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
