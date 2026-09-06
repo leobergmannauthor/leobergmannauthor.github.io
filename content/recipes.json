@@ -2092,5 +2092,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_012.jpg",
     "publish_at": "2026-10-05T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_013",
+    "catalog_id": "001_protein:recipe_013",
+    "book_id": "001_protein",
+    "title": "Protein Shakshuka mit Kichererbsen",
+    "description": "Shakshuka in proteinreicher Variante mit Eiern und Kichererbsen ist herzhaft und sättigend. Die aromatische Tomatensauce ist mild gewürzt und passt perfekt zum frischen Koriander. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_013.jpg",
+    "publish_at": "2026-10-06T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_013",
+    "catalog_id": "003_vegetarisch:recipe_013",
+    "book_id": "003_vegetarisch",
+    "title": "Knuspriges Granola selbstgemacht",
+    "description": "Selbstgemachtes Knuspermüsli ist unschlagbar! Goldbraun gebacken mit Honig und Nüssen – perfekt zu Joghurt oder pur als Snack. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "25 min",
+    "servings": "10",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_013.jpg",
+    "publish_at": "2026-10-06T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
