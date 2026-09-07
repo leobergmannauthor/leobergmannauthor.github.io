@@ -2120,5 +2120,33 @@
     "image": "assets/pins/003_vegetarisch/recipe_013.jpg",
     "publish_at": "2026-10-06T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_013",
+    "catalog_id": "004_meal_prep:recipe_013",
+    "book_id": "004_meal_prep",
+    "title": "Frühstücks-Cookies mit Haferflocken und Rosinen",
+    "description": "Gesunde Cookies, die du bedenkenlos zum Frühstück essen kannst! Mit Haferflocken, Banane und Rosinen – ganz ohne raffinierten Zucker. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "10",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_013.jpg",
+    "publish_at": "2026-10-07T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_013",
+    "catalog_id": "005_low_carb:recipe_013",
+    "book_id": "005_low_carb",
+    "title": "Warmer Kokos-Porridge (No-Oats)",
+    "description": "Ein wärmendes Frühstück ohne Haferflocken – mit Kokosmehl, Leinsamen und einem Hauch Vanille. Cremig und wohltuend. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "3 min",
+    "cook": "5 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_013.jpg",
+    "publish_at": "2026-10-07T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
