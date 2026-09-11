@@ -6,7 +6,7 @@
   "item_count": 1960,
   "ready_count": 1540,
   "blocked_count": 420,
-  "available_count": 1379,
+  "available_count": 1377,
   "items": [
     {
       "catalog_id": "001_protein:recipe_001",
@@ -296,8 +296,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/001_protein/recipe_014.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-10-11T07:00:00Z",
       "pin_url": null,
       "source_fingerprint": "ca43c9f6f3a2cce3c8a70fdc7f06bb3b23079480e29237c59d14bcf8a0b1db8a",
       "creative_version": "de-recipe-v2-1000x1500"
@@ -6176,8 +6176,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/003_vegetarisch/recipe_014.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-10-11T16:00:00Z",
       "pin_url": null,
       "source_fingerprint": "0928f749c7af7f82e672a200be52e1f0068d4c5304be60c4afab817184dac10e",
       "creative_version": "de-recipe-v2-1000x1500"

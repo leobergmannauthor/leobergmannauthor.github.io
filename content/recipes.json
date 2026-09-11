@@ -2232,5 +2232,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_013.jpg",
     "publish_at": "2026-10-10T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_014",
+    "catalog_id": "001_protein:recipe_014",
+    "book_id": "001_protein",
+    "title": "Räucherlachs Rührei auf Vollkornbrot",
+    "description": "Cremiges Rührei mit feinem Räucherlachs liefert dir hochwertiges Protein und gesunde Fette. Auf knusprigem Vollkornbrot serviert ist es ein ideales Power Frühstück. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_014.jpg",
+    "publish_at": "2026-10-11T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_014",
+    "catalog_id": "003_vegetarisch:recipe_014",
+    "book_id": "003_vegetarisch",
+    "title": "Bananenbrot ohne Zuckerzusatz",
+    "description": "Saftig, süß und ohne zugesetzten Zucker – die reifen Bananen liefern die natürliche Süße. Perfekt zum Frühstück oder als gesunder Snack. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "50 min",
+    "servings": "10",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_014.jpg",
+    "publish_at": "2026-10-11T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]

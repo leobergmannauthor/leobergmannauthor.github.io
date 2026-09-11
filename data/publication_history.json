@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-09-10T17:42:30Z",
+  "last_updated_at": "2026-09-11T08:03:59Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -1917,7 +1917,7 @@
         "first_repository_observed_at": "2026-09-10T08:08:29Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-09-11T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -1950,12 +1950,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_008.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_008.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-09-11T07:00:00Z",
+        "first_repository_observed_at": "2026-09-11T08:03:59Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-09-12T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3078,6 +3078,44 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-11T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_014",
+      "title": "Räucherlachs Rührei auf Vollkornbrot",
+      "scheduled_at": "2026-10-11T07:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_014.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_014.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-12T07:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_014",
+      "title": "Bananenbrot ohne Zuckerzusatz",
+      "scheduled_at": "2026-10-11T16:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_014.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_014.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-12T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
