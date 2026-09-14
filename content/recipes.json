@@ -2316,5 +2316,33 @@
     "image": "assets/pins/007_men/recipe_014.jpg",
     "publish_at": "2026-10-13T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "008_liver-recipe_014",
+    "catalog_id": "008_liver:recipe_014",
+    "book_id": "008_liver",
+    "title": "Radicchio-Chicorée-Salat",
+    "description": "Knackiger Bittersalat mit Walnüssen und Apfel. Erfrischend anders! Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_014.jpg",
+    "publish_at": "2026-10-14T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_014",
+    "catalog_id": "009_anti_entzuendung:recipe_014",
+    "book_id": "009_anti_entzuendung",
+    "title": "Räucherlachs-Gurken-Röllchen",
+    "description": "Elegante Lachs-Röllchen mit knackiger Gurke und cremigem Frischkäse. Ein proteinreiches Low-Carb-Frühstück mit wertvollen Omega-3-Fettsäuren. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_014.jpg",
+    "publish_at": "2026-10-14T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]

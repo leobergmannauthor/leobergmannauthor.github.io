@@ -6,7 +6,7 @@
   "item_count": 1960,
   "ready_count": 1540,
   "blocked_count": 420,
-  "available_count": 1373,
+  "available_count": 1371,
   "items": [
     {
       "catalog_id": "001_protein:recipe_001",
@@ -20876,8 +20876,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/008_liver/recipe_014.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-10-14T07:00:00Z",
       "pin_url": null,
       "source_fingerprint": "10aae3f2d75518767c4e21c2d7a25521395d4e32ae4e2b06ec0f62a5a21e3c11",
       "creative_version": "de-recipe-v2-1000x1500"
@@ -23816,8 +23816,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/009_anti_entzuendung/recipe_014.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-10-14T16:00:00Z",
       "pin_url": null,
       "source_fingerprint": "5c0a3ce2c326ed19d7689cd788aa201104089e2e49f13d8fea56a1ab8692eea7",
       "creative_version": "de-recipe-v2-1000x1500"
