@@ -2344,5 +2344,33 @@
     "image": "assets/pins/009_anti_entzuendung/recipe_014.jpg",
     "publish_at": "2026-10-14T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_014",
+    "catalog_id": "011_hp_basics:recipe_014",
+    "book_id": "011_hp_basics",
+    "title": "Skyr-Pancakes mit Ei und Hafer",
+    "description": "Saftige Pancakes ohne Proteinpulver, die dank Skyr und Ei über 40 g Eiweiß liefern. Ein Frühstück, das sich wie ein Cheat Day anfühlt. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_014.jpg",
+    "publish_at": "2026-10-15T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "012_hp_veggie-recipe_014",
+    "catalog_id": "012_hp_veggie:recipe_014",
+    "book_id": "012_hp_veggie",
+    "title": "Grüne Protein-Smoothie-Bowl",
+    "description": "Eine cremige Smoothie-Bowl mit Skyr, Banane und Spinat, die dir über 30 g Eiweiß löffelfertig liefert. Grün, frisch und fettarm – der Spinat schmeckt kaum durch, bringt aber Vitamine und Farbe. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_014.jpg",
+    "publish_at": "2026-10-15T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
