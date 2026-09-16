@@ -2372,5 +2372,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_014.jpg",
     "publish_at": "2026-10-15T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_015",
+    "catalog_id": "001_protein:recipe_015",
+    "book_id": "001_protein",
+    "title": "Bulgur Feta Salat mit Hähnchen",
+    "description": "Ein frischer Salat aus Bulgur, Tomaten und Gurke trifft auf saftige Hähnchenstreifen. Feta gibt Würze und sorgt gemeinsam mit dem Hähnchen für eine große Portion Eiweiß. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "20 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_015.jpg",
+    "publish_at": "2026-10-16T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_015",
+    "catalog_id": "003_vegetarisch:recipe_015",
+    "book_id": "003_vegetarisch",
+    "title": "Frühstücks-Wrap mit Rührei und Spinat",
+    "description": "Der perfekte Start für unterwegs: Ein warmer Wrap gefüllt mit cremigem Rührei, frischem Spinat und würzigem Käse. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_015.jpg",
+    "publish_at": "2026-10-16T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
