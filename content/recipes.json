@@ -2400,5 +2400,33 @@
     "image": "assets/pins/003_vegetarisch/recipe_015.jpg",
     "publish_at": "2026-10-16T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_015",
+    "catalog_id": "004_meal_prep:recipe_015",
+    "book_id": "004_meal_prep",
+    "title": "Hüttenkäse-Bowl mit Radieschen",
+    "description": "Eine herzhafte, proteinreiche Frühstücks-Bowl mit Hüttenkäse und knackigen Radieschen. Low Carb und sättigend. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_015.jpg",
+    "publish_at": "2026-10-17T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_016",
+    "catalog_id": "005_low_carb:recipe_016",
+    "book_id": "005_low_carb",
+    "title": "Keto-Brötchen mit Flohsamenschalen",
+    "description": "Luftige Brötchen ohne Mehl – mit Flohsamenschalen und Mandelmehl gebacken. Perfekt für alle, die nicht auf Brot verzichten wollen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "45 min",
+    "servings": "6",
+    "difficulty": "Mittel",
+    "image": "assets/pins/005_low_carb/recipe_016.jpg",
+    "publish_at": "2026-10-17T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
