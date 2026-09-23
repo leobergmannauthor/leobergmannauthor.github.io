@@ -2568,5 +2568,33 @@
     "image": "assets/pins/005_low_carb/recipe_017.jpg",
     "publish_at": "2026-10-22T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "006_family-recipe_017",
+    "catalog_id": "006_family:recipe_017",
+    "book_id": "006_family",
+    "title": "Frühstücks-Burrito",
+    "description": "Alles, was ein gutes Frühstück braucht, praktisch verpackt in einem Wrap! Fluffiges Rührei, knackige Paprika und Käse machen diesen Burrito zum idealen Frühstück 'to go'. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "5 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/006_family/recipe_017.jpg",
+    "publish_at": "2026-10-23T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_016",
+    "catalog_id": "007_men:recipe_016",
+    "book_id": "007_men",
+    "title": "Mini-Frikadellen",
+    "description": "Kleine, würzige Hackfleischbällchen – perfekt als Snack, Partyfood oder aufs Brot. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "15 min",
+    "servings": "6",
+    "difficulty": "Einfach",
+    "image": "assets/pins/007_men/recipe_016.jpg",
+    "publish_at": "2026-10-23T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
