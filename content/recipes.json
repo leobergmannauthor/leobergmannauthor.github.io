@@ -2596,5 +2596,33 @@
     "image": "assets/pins/007_men/recipe_016.jpg",
     "publish_at": "2026-10-23T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "008_liver-recipe_016",
+    "catalog_id": "008_liver:recipe_016",
+    "book_id": "008_liver",
+    "title": "Wirsing-Röllchen gefüllt",
+    "description": "Zarte Wirsingblätter gefüllt mit einer aromatischen Gemüse-Quinoa-Mischung. Ein wärmendes Gericht voller Ballaststoffe, das die Verdauung unterstützt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "20 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/008_liver/recipe_016.jpg",
+    "publish_at": "2026-10-24T07:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_016",
+    "catalog_id": "009_anti_entzuendung:recipe_016",
+    "book_id": "009_anti_entzuendung",
+    "title": "Chia-Kokos-Pudding mit Mango",
+    "description": "Exotischer Chia-Pudding mit cremiger Kokosmilch und süßer Mango. Ein tropisches Frühstück voller Omega-3 und Vitamin C. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_016.jpg",
+    "publish_at": "2026-10-24T16:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
