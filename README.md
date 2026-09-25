@@ -10,6 +10,7 @@ The prepared catalog retains all 14 German recipe-book projects with 1,960 recip
 - Books `013_hp_prep`, `014_hp_snacks`, and `015_hp_women` are not published and therefore remain `unpublished` regardless of asset availability. Their 420 recipes also currently have no source images. They are retained in the catalog but never scheduled.
 - Two organic items per local Europe/Berlin day are planned, with at most one item per book on a day where possible.
 - GitHub Actions maintains a rolling 30-day queue twice daily, publishes due pages and RSS entries, runs all tests, and commits durable state.
+- Scheduled GitHub Actions cron workflows pause after 60 days of repository inactivity without human commits; periodic commits keep the automation active.
 - The scheduler is idempotent, enforces a 180-day exact-title cooldown, stops safely at queue exhaustion, and has a hard 0-EUR paid-channel lock.
 
 After the prepared assets are pushed, the notebook may be switched off. GitHub Actions releases content and Pinterest's official RSS importer polls https://leobergmannauthor.github.io/feed.xml. A feed entry is not counted as a confirmed Pin until a real public Pinterest /pin/ URL is recorded.
