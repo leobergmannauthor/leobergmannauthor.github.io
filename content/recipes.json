@@ -2624,5 +2624,33 @@
     "image": "assets/pins/009_anti_entzuendung/recipe_016.jpg",
     "publish_at": "2026-10-24T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_016",
+    "catalog_id": "011_hp_basics:recipe_016",
+    "book_id": "011_hp_basics",
+    "title": "Quark-Waffeln mit Beeren",
+    "description": "Knusprige Waffeln aus Quark und Ei, die satt und stark machen. Mit frischen Beeren getoppt ein süßes Frühstück mit viel Protein. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "12 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_016.jpg",
+    "publish_at": "2026-10-25T08:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "012_hp_veggie-recipe_016",
+    "catalog_id": "012_hp_veggie:recipe_016",
+    "book_id": "012_hp_veggie",
+    "title": "Protein-French-Toast",
+    "description": "Goldener French Toast, bei dem Magerquark in der Eiermasse für über 35 g Eiweiß sorgt. Süß und saftig, aber mit Vollkornbrot und ohne Zucker – so wird aus dem Sonntagsklassiker ein alltagstaugliches Proteinfrühstück. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_016.jpg",
+    "publish_at": "2026-10-25T17:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
