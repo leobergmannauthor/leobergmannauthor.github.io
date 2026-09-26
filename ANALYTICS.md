@@ -27,7 +27,7 @@ Eine Steigerung der Klickrate ist eine Hypothese, keine Garantie. Ohne historisc
 
 ## Einwilligung
 
-Der Google-Tag wird erst nach ausdrücklicher Zustimmung geladen. Ablehnung verursacht keine Analytics-Anfragen. Die Auswahl wird höchstens 180 Tage lokal gespeichert; Analytics-Cookies werden auf 180 Tage begrenzt. Statistik-Einstellungen im Seitenfuß erlauben den Widerruf. Werbeeinwilligungen bleiben abgelehnt; Google Signals und Werbepersonalisierung sind deaktiviert. Lokale Vorschauen senden keine Daten. Nutzer ohne Einwilligung und Browser mit Blockern fehlen in den Messwerten.
+Der Google-Tag wird erst nach ausdrücklicher Zustimmung geladen. Ablehnung verursacht keine Analytics-Anfragen. Die Auswahl wird höchstens 180 Tage lokal gespeichert; Analytics-Cookies werden auf 180 Tage begrenzt. Cookie-Einstellungen im Seitenfuß erlauben den Widerruf. Werbeeinwilligungen bleiben abgelehnt; Google Signals und Werbepersonalisierung sind deaktiviert. Lokale Vorschauen senden keine Daten. Nutzer ohne Einwilligung und Browser mit Blockern fehlen in den Messwerten.
 
 ## Wartung
 
