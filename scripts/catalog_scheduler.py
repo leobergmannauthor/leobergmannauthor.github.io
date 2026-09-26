@@ -147,6 +147,7 @@ def schedule_payloads(
             new_item = {
                 "id": content_id,
                 "catalog_id": candidate["catalog_id"],
+                "creative_variant": candidate.get("creative_variant", "unknown"),
                 "book_id": candidate["book_id"],
                 "title": candidate["pin_title"],
                 "description": candidate["pin_description"],
@@ -173,7 +174,8 @@ def schedule_payloads(
     updated_catalog = copy.deepcopy(catalog)
     updated_catalog["items"] = sorted(by_catalog_id.values(), key=lambda item: item["catalog_id"])
     updated_catalog["ready_count"] = sum(1 for item in updated_catalog["items"] if item.get("asset_status") == "ready")
-    updated_catalog["available_count"] = sum(1 for item in updated_catalog["items"] if item.get("asset_status") == "ready" and item.get("publication_status") == "available")
+    # Prepared images from unpublished books cannot keep the publish queue active.
+    updated_catalog["available_count"] = len(candidates)
     available = updated_catalog["available_count"]
     state = {
         "schema_version": 1,

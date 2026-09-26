@@ -24,7 +24,7 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import Image
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -279,31 +279,9 @@ def future_dates(
 
 
 def split_headline(title: str) -> list[str]:
-    cleaned = re.sub(
-        r"\b(im Airfryer|selbstgemacht|klassisch|vegetarisch)\b",
-        "",
-        title,
-        flags=re.IGNORECASE,
-    )
-    words = cleaned.upper().replace("  ", " ").strip().split()
-    if not words:
-        words = title.upper().split()
-    lines: list[str] = []
-    current = ""
-    for word in words:
-        candidate = f"{current} {word}".strip()
-        if current and len(candidate) > 22 and len(lines) < 2:
-            lines.append(current)
-            current = word
-        else:
-            current = candidate
-    if current:
-        lines.append(current)
-    if len(lines) > 3:
-        lines = lines[:3]
-    if len(lines[-1]) > 27:
-        lines[-1] = lines[-1][:26].rstrip() + "…"
-    return lines
+    """Preserve the complete recipe name; the renderer wraps by measured width."""
+    cleaned = re.sub(r"\s+", " ", title).strip()
+    return [cleaned or "Rezeptidee"]
 
 
 def benefit_for(recipe: dict[str, Any]) -> str:
@@ -315,96 +293,17 @@ def benefit_for(recipe: dict[str, Any]) -> str:
     return base
 
 
-def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
-    candidates = (
-        [Path(os.environ.get("WINDIR", r"C:\Windows")) / "Fonts" / "segoeuib.ttf"]
-        if bold
-        else [Path(os.environ.get("WINDIR", r"C:\Windows")) / "Fonts" / "seguisb.ttf"]
-    )
-    candidates.extend(
-        [
-            Path(os.environ.get("WINDIR", r"C:\Windows")) / "Fonts" / "arialbd.ttf",
-            Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"),
-        ]
-    )
-    for candidate in candidates:
-        if candidate.exists():
-            return ImageFont.truetype(str(candidate), size=size)
-    return ImageFont.load_default()
-
-
-def fitted_font(draw: ImageDraw.ImageDraw, text: str, max_width: int, start: int, minimum: int) -> ImageFont.FreeTypeFont:
-    size = start
-    while size > minimum:
-        candidate = font(size, bold=True)
-        if draw.textbbox((0, 0), text, font=candidate)[2] <= max_width:
-            return candidate
-        size -= 2
-    return font(minimum, bold=True)
-
-
-def vertical_gradient(size: tuple[int, int], top_alpha: int, bottom_alpha: int) -> Image.Image:
-    width, height = size
-    strip = Image.new("RGBA", (1, height))
-    pixels = strip.load()
-    for y in range(height):
-        alpha = round(top_alpha + (bottom_alpha - top_alpha) * (y / max(1, height - 1)))
-        pixels[0, y] = (16, 40, 31, alpha)
-    return strip.resize((width, height))
-
-
 def render_creative(
-    source: Path,
-    destination: Path,
-    headline_lines: list[str],
-    benefit: str,
-    *,
-    label: str = "AIRFRYER-REZEPT",
-    cta: str = "140 REZEPTE ENTDECKEN",
-    accent: str = "LEO BERGMANN",
+    source: Path, destination: Path, headline_lines: list[str], benefit: str, *,
+    label: str = "AIRFRYER-REZEPT", cta: str = "Kochbuch entdecken",
+    accent: str = "LEO BERGMANN", variant: str | None = None,
+    hook: str = "", cook: str = "",
 ) -> None:
-    with Image.open(source) as source_image:
-        image = ImageOps.fit(
-            source_image.convert("RGB"),
-            IMAGE_SIZE,
-            method=Image.Resampling.LANCZOS,
-            centering=(0.5, 0.48),
-        ).convert("RGBA")
+    """Shared renderer for the current catalog and legacy local entry point."""
+    from pin_design import render_pin
+    render_pin(source, destination, " ".join(headline_lines), label,
+               variant=variant, hook=hook, cook=cook, author=accent)
 
-    image.alpha_composite(vertical_gradient((IMAGE_SIZE[0], 575), 250, 0), (0, 0))
-    image.alpha_composite(vertical_gradient((IMAGE_SIZE[0], 420), 0, 248), (0, IMAGE_SIZE[1] - 420))
-    draw = ImageDraw.Draw(image)
-    gold = "#f2b84b"
-    forest = "#10281f"
-    cream = "#fffaf0"
-
-    draw.rounded_rectangle((64, 58, 470, 116), radius=29, fill=gold)
-    category_font = fitted_font(draw, label.upper(), 360, 26, 18)
-    label_box = draw.textbbox((0, 0), label.upper(), font=category_font)
-    draw.text((267 - (label_box[2] - label_box[0]) / 2, 73), label.upper(), font=category_font, fill=forest)
-
-    longest = max(headline_lines, key=len)
-    headline_font = fitted_font(draw, longest, 872, 76, 48)
-    line_height = headline_font.size + 12
-    y = 154
-    for line in headline_lines:
-        draw.text((64, y), line, font=headline_font, fill=cream, stroke_width=1, stroke_fill=forest)
-        y += line_height
-
-    benefit_font = fitted_font(draw, benefit, 872, 33, 23)
-    draw.text((64, y + 18), benefit, font=benefit_font, fill=cream)
-
-    draw.rounded_rectangle((64, 1326, 590, 1418), radius=46, fill=gold)
-    cta_font = fitted_font(draw, cta, 470, 29, 20)
-    cta_box = draw.textbbox((0, 0), cta, font=cta_font)
-    draw.text((327 - (cta_box[2] - cta_box[0]) / 2, 1355), cta, font=cta_font, fill=forest)
-
-    author_font = font(23, bold=True)
-    author_box = draw.textbbox((0, 0), accent, font=author_font)
-    draw.text((936 - (author_box[2] - author_box[0]), 1442), accent, font=author_font, fill=cream)
-
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    image.convert("RGB").save(destination, "JPEG", quality=84, optimize=True, progressive=True, subsampling=2)
 
 def ensure_zero_budget() -> None:
     settings = read_json(SETTINGS_FILE, {})
@@ -498,7 +397,7 @@ def prepare_items(
             "output_image": f"assets/recipes/{content_id}-pin.jpg",
             "headline_lines": item["_headline_lines"],
             "benefit": item["_benefit"],
-            "template": "airfryer_v1",
+            "template": "de-recipe-v4-food-first",
         }
         public_item = {key: value for key, value in item.items() if not key.startswith("_")}
         items.append(public_item)

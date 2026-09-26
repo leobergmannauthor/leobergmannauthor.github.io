@@ -43,3 +43,14 @@ h2{line-height:1.15;letter-spacing:-.025em}
 footer{padding:32px clamp(20px,5vw,70px);background:#e7e6dd;color:var(--muted);display:flex;justify-content:space-between;gap:20px}
 @media(max-width:900px){.recipe-hero,.book-offer{grid-template-columns:1fr}.recipe-visual{position:static;order:-1;max-width:620px;margin:auto}.recipe-visual img{max-height:none}.cover-stage{min-height:360px}.cards{grid-template-columns:1fr 1fr}.benefit-grid{grid-template-columns:1fr}.book-offer .cta-primary{max-width:none}}
 @media(max-width:640px){body{padding-bottom:76px}.site-header,footer{align-items:flex-start;flex-direction:column}.cards{grid-template-columns:1fr}.facts{grid-template-columns:1fr}nav{flex-wrap:wrap}main{padding-top:24px}.sales-page{gap:44px}.recipe-copy{padding-top:0}.conversion-card{grid-template-columns:84px 1fr;padding:14px;gap:13px}.mini-cover{width:84px;align-self:start}.conversion-copy h2{font-size:20px}.conversion-copy>p:not(.microcopy),.compact-benefits{grid-column:1/-1}.conversion-card .cta-primary{grid-column:1/-1}.book-offer{padding:30px 20px;border-radius:24px}.cover-stage{min-height:310px}.book-cover{width:min(76%,250px)}.mobile-buy-bar{display:flex;position:fixed;z-index:20;left:10px;right:10px;bottom:10px;align-items:center;justify-content:space-between;gap:10px;padding:10px 10px 10px 14px;border:1px solid #ffffff2b;border-radius:16px;background:#132019f2;color:#fff;box-shadow:0 12px 35px rgba(0,0,0,.3);backdrop-filter:blur(12px)}.mobile-buy-bar div{min-width:0}.mobile-buy-bar span,.mobile-buy-bar strong{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.mobile-buy-bar span{font-size:10px;color:#c8d8cd}.mobile-buy-bar strong{font-size:12px}.mobile-buy-bar a{flex:0 0 auto;padding:10px 13px;border-radius:11px;background:var(--amber);color:#172019;text-decoration:none;font-size:12px;font-weight:900}}
+
+/* Equal-weight consent choices; hidden always wins over layout rules. */
+[hidden]{display:none!important}
+.analytics-settings{font:inherit;cursor:pointer;border:1px solid currentColor;border-radius:8px;padding:8px 14px;background:transparent;color:inherit}
+.analytics-banner{position:fixed;z-index:1000;bottom:20px;left:20px;right:20px;max-width:660px;margin:0 auto;padding:24px;background:#fffdf8;color:#142019;border:1px solid #bbc8bd;border-radius:16px;box-shadow:0 12px 60px #14201945;max-height:85vh;overflow:auto;font-size:15px;line-height:1.5}
+.analytics-banner h2{font-size:23px;margin:0 0 10px}
+.analytics-banner p{margin:8px 0}
+.analytics-actions{display:flex;gap:12px;margin-top:16px}
+.analytics-actions button{flex:1;padding:12px 18px;border:2px solid #142019;border-radius:8px;background:#142019;color:white;cursor:pointer;font:700 16px/1.3 Segoe UI,system-ui,sans-serif}
+.analytics-actions button:focus-visible,.analytics-settings:focus-visible{outline:3px solid #bc391c;outline-offset:4px}
+@media(max-width:500px){.analytics-banner{bottom:10px;left:10px;right:10px;padding:18px}}

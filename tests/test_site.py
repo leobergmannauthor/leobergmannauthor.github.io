@@ -5,7 +5,7 @@ import unittest
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
@@ -69,6 +69,25 @@ class SiteBuildTest(unittest.TestCase):
                 text = path.read_text(encoding="utf-8").lower()
                 for marker in forbidden:
                     self.assertNotIn(marker, text, f"{marker} in {path}")
+
+    def test_analytics_is_consent_gated_and_configured(self):
+        index = (DOCS / "index.html").read_text(encoding="utf-8")
+        self.assertIn(f'data-measurement-id="{CONFIG["ga4_measurement_id"]}"', index)
+        self.assertIn('data-analytics-banner hidden', index)
+        self.assertIn('data-analytics-reject', index)
+        self.assertNotIn('src="https://www.googletagmanager.com', index)
+        self.assertTrue((DOCS / "assets" / "analytics.js").is_file())
+        privacy = (DOCS / "datenschutz.html").read_text(encoding="utf-8")
+        self.assertIn('Google Analytics 4', privacy)
+        self.assertNotIn('bindet keine externen Analyse-', privacy)
+
+    def test_feed_campaign_tags_preserve_canonical_identity(self):
+        feed = ET.parse(DOCS / "feed.xml").getroot()
+        for item in feed.findall("./channel/item"):
+            link, guid = urlparse(item.findtext("link")), urlparse(item.findtext("guid"))
+            self.assertEqual((link.scheme, link.netloc, link.path), (guid.scheme, guid.netloc, guid.path))
+            self.assertEqual(guid.query, "")
+            self.assertEqual(parse_qs(link.query)["utm_source"], ["pinterest"])
 
     def test_pinterest_verification_tag_is_published(self):
         index = (DOCS / "index.html").read_text(encoding="utf-8")

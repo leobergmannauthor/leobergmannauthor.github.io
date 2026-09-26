@@ -3,11 +3,13 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import re
 import shutil
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
+from urllib.parse import urlencode, urlparse
 
 ROOT = Path(__file__).resolve().parent
 DOCS = ROOT / "docs"
@@ -32,6 +34,15 @@ def write(path: Path, content: str) -> None:
 
 def page_shell(config: dict, title: str, description: str, canonical: str, body: str, image: str | None = None, structured_data: dict | None = None) -> str:
     site_name = esc(config["site_name"])
+    measurement_id = config.get("ga4_measurement_id", "")
+    if measurement_id and not re.fullmatch(r"G-[A-Z0-9]+", measurement_id):
+        raise ValueError("Invalid GA4 measurement ID")
+    analytics_script = (
+        f'<script defer src="{esc(config["base_url"])}/assets/analytics.js" '
+        f'data-measurement-id="{esc(measurement_id)}" '
+        f'data-site-host="{esc(urlparse(config["base_url"]).hostname)}"></script>'
+        if measurement_id else ""
+    )
     image_meta = f'  <meta property="og:image" content="{esc(image)}">' if image else ""
     json_ld = ""
     if structured_data:
@@ -54,13 +65,20 @@ def page_shell(config: dict, title: str, description: str, canonical: str, body:
   <link rel="alternate" type="application/rss+xml" title="{esc(config['rss_title'])}" href="{esc(config['base_url'] + '/feed.xml')}">
   <link rel="stylesheet" href="{esc(config['base_url'] + '/styles.css')}">
 {json_ld}
+{analytics_script}
 </head>
 <body>
   <header class="site-header"><a class="brand" href="{esc(config['base_url'] + '/')}">{site_name}</a>
     <nav aria-label="Hauptnavigation"><a href="{esc(config['base_url'] + '/')}">Rezepte</a><a href="{esc(config['base_url'] + '/datenschutz.html')}">Datenschutz</a><a href="{esc(config['base_url'] + '/feed.xml')}">RSS</a></nav>
   </header>
   <main>{body}</main>
-  <footer><p>&copy; {datetime.now().year} {esc(config['author'])}</p></footer>
+  <footer><p>&copy; {datetime.now().year} {esc(config['author'])}</p><button type="button" class="analytics-settings" data-analytics-settings hidden>Statistik-Einstellungen</button></footer>
+  <section class="analytics-banner" data-analytics-banner hidden role="dialog" aria-labelledby="analytics-heading">
+    <h2 id="analytics-heading">Dürfen wir Besuche auswerten?</h2>
+    <p>Mit deiner Zustimmung verwenden wir Google Analytics für Besucherstatistiken und Klicks zu Amazon. Dabei werden Cookies gesetzt und Nutzungsdaten an Google übermittelt; eine Verarbeitung in den USA ist möglich. Ohne Zustimmung wird Google Analytics nicht geladen. Deine Auswahl kannst du jederzeit unter „Statistik-Einstellungen“ ändern.</p>
+    <p><a href="{esc(config['base_url'])}/datenschutz.html">Mehr zum Datenschutz</a></p>
+    <div class="analytics-actions"><button type="button" data-analytics-reject>Ablehnen</button><button type="button" data-analytics-accept>Zustimmen</button></div>
+  </section>
 </body>
 </html>
 """
@@ -108,7 +126,7 @@ def render_item(config: dict, books: dict[str, dict], item: dict) -> str:
         f'<strong>Buch bei Amazon ansehen</strong><span>Aktueller Preis und verfügbare Formate auf Amazon.de</span></a>'
     )
     body = f"""
-<article class="sales-page">
+<article class="sales-page" data-book-id="{esc(book['id'])}" data-recipe-id="{esc(item['id'])}">
   <section class="recipe-hero">
     <div class="recipe-copy">
       <p class="eyebrow">{esc(book.get('label', 'REZEPTIDEE'))}</p>
@@ -154,7 +172,7 @@ def render_item(config: dict, books: dict[str, dict], item: dict) -> str:
 
   <aside class="mobile-buy-bar" aria-label="Buch bei Amazon ansehen">
     <div><span>{recipe_count} Rezepte</span><strong>{esc(book.get('label', 'KOCHBUCH'))}</strong></div>
-    <a href="{esc(target)}" target="_blank" rel="nofollow sponsored noopener">Bei Amazon ansehen</a>
+    <a data-amazon-cta href="{esc(target)}" target="_blank" rel="nofollow sponsored noopener">Bei Amazon ansehen</a>
   </aside>
 </article>
 """
@@ -184,7 +202,12 @@ def render_index(config: dict, books: dict[str, dict], items: list[dict]) -> str
 
 
 def render_privacy(config: dict) -> str:
-    body = """<article class="prose"><p class="eyebrow">Datenschutz</p><h1>Datenschutzhinweise</h1><p>Diese statische Website setzt keine eigenen Cookies ein, verwendet keine Formulare und bindet keine externen Analyse- oder Werbedienste ein. Einzelne Buchcover können technisch von einem Bildserver von Amazon geladen werden; dabei kann Amazon Verbindungsdaten wie die IP-Adresse verarbeiten.</p><p>Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Serverdaten. Beim Klick auf einen Amazon-Link gelten die Datenschutzbestimmungen von Amazon.</p><p>Die Links führen zu den jeweiligen Buchangeboten bei Amazon. Auf dieser Website werden keine Zahlungs- oder Kundendaten verarbeitet.</p></article>"""
+    body = """<article class="prose"><p class="eyebrow">Datenschutz</p><h1>Datenschutzhinweise</h1>
+<h2>Website und externe Inhalte</h2><p>Diese statische Website wird über GitHub Pages bereitgestellt. Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Verbindungsdaten. Einzelne Buchcover können von einem Bildserver von Amazon geladen werden; dabei kann Amazon unter anderem die IP-Adresse verarbeiten.</p>
+<h2>Freiwillige Besucherstatistik</h2><p>Nur nach deiner Zustimmung laden wir Google Analytics 4, einen Dienst von Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Erfasst werden insbesondere aufgerufene Seiten, technische Browser- und Geräteinformationen, die Herkunft eines Besuchs und Klicks auf Buchlinks zu Amazon. Wir senden keine Namen, E-Mail-Adressen oder Zahlungsdaten an Analytics. Klicks zu Amazon sind keine Bestellungen; Käufe auf Amazon können wir damit nicht erfassen.</p>
+<p>Google verwendet Kennungen und Cookies (unter anderem _ga) zur Wiedererkennung von Browsern. Wir begrenzen die Cookie-Laufzeit auf 180 Tage. Daten können auch auf Servern außerhalb der EU, insbesondere in den USA, verarbeitet werden. Werbepersonalisierung und Google Signals werden durch unsere Einbindung nicht aktiviert. Weitere Informationen: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Wie Google Daten von Websites verwendet</a> und <a href="https://policies.google.com/privacy" rel="noopener">Google-Datenschutzerklärung</a>.</p>
+<h2>Auswahl und Widerruf</h2><p>Die Auswahl im Statistikdialog ist freiwillig. Ohne Zustimmung wird der Google-Tag nicht heruntergeladen und es werden durch diese Einbindung keine Analysedaten an Google gesendet. Deine Auswahl wird für höchstens 180 Tage lokal in deinem Browser gespeichert. Über „Statistik-Einstellungen“ im Seitenfuß kannst du sie jederzeit ändern. Bei Ablehnung nach vorheriger Zustimmung deaktivieren wir die Messung, entfernen die Analytics-Cookies dieser Website und laden die Seite neu. Das löscht keine bereits an Google übermittelten Daten.</p>
+<h2>Buchlinks</h2><p>Die Links führen zu den Buchangeboten bei Amazon. Beim Öffnen gelten die Datenschutzbestimmungen von Amazon. Auf dieser Website werden keine Zahlungs- oder Kundendaten verarbeitet.</p></article>"""
     return page_shell(config, "Datenschutz", "Datenschutzhinweise der Website", config["base_url"] + "/datenschutz.html", body)
 
 
@@ -202,7 +225,12 @@ def render_feed(config: dict, items: list[dict]) -> bytes:
         canonical, image = item_urls(config, item)
         node = ET.SubElement(channel, "item")
         ET.SubElement(node, "title").text = item["title"]
-        ET.SubElement(node, "link").text = canonical
+        # Keep GUID/canonical stable; campaign tags identify only known new designs.
+        campaign = {"utm_source": "pinterest", "utm_medium": "organic", "utm_campaign": item.get("book_id", "books")}
+        variant = item.get("creative_variant")
+        if variant in {"editorial", "photo", "bold"}:
+            campaign["utm_content"] = f"{item.get('catalog_id', item['id'])}:{variant}"
+        ET.SubElement(node, "link").text = canonical + "?" + urlencode(campaign)
         ET.SubElement(node, "guid", {"isPermaLink": "true"}).text = canonical
         ET.SubElement(node, "description").text = item["description"]
         ET.SubElement(node, "pubDate").text = format_datetime(parse_time(item["publish_at"]))

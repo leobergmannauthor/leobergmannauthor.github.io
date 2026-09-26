@@ -11,6 +11,7 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,6 +23,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 from pinterest_autopilot import IMAGE_SIZE, render_creative, split_headline
+from pin_design import variant_for, recipe_hook
 
 ROOT = SCRIPT_DIR.parent
 SOURCE_LIBRARY = Path(os.environ.get("BOOKGENPY_LIBRARY", r"C:\Daten\src\python\BookGenPy\library"))
@@ -29,7 +31,7 @@ CATALOG_FILE = ROOT / "data" / "pin_catalog.json"
 BOOKS_FILE = ROOT / "data" / "books.json"
 CONTENT_FILE = ROOT / "content" / "recipes.json"
 OUTPUT_ROOT = ROOT / "docs" / "assets" / "pins"
-CREATIVE_VERSION = "de-recipe-v2-1000x1500"
+CREATIVE_VERSION = "de-recipe-v4-food-first-1000x1500"
 
 BOOKS: dict[str, dict[str, Any]] = {
     "001_protein": {"cover": "assets/books/001_protein.png", "title": "High Protein Power-Küche für Berufstätige", "label": "HIGH PROTEIN", "promise": "Proteinreich • schnell • alltagstauglich", "asin": "B0G1KMD28S", "published": True},
@@ -177,7 +179,10 @@ def prepare(*, limit: int | None = None, force: bool = False, validate_only: boo
             asset_status = "blocked_missing_asset"
 
             may_render = render_budget is None or render_budget > 0
-            needs_render = force or not image_is_valid(output_path) or (bool(old) and old.get("source_fingerprint") != fingerprint)
+            needs_render = (force or not image_is_valid(output_path)
+                            or old.get("source_fingerprint") != fingerprint
+                            or old.get("creative_version") != CREATIVE_VERSION)
+            rendered_current = False
             if image_path.exists():
                 if validate_only:
                     asset_status = "ready" if image_is_valid(output_path) else "pending_render"
@@ -190,9 +195,13 @@ def prepare(*, limit: int | None = None, force: bool = False, validate_only: boo
                         label=book["label"],
                         cta="140 REZEPTE ENTDECKEN",
                         accent="LEO BERGMANN",
+                        variant=variant_for(catalog_id),
+                        hook=recipe_hook(title, description),
+                        cook=value(nutrition, "cookTime"),
                     )
                     asset_status = "ready"
                     counts["rendered"] += 1
+                    rendered_current = True
                     if render_budget is not None:
                         render_budget -= 1
                 elif image_is_valid(output_path):
@@ -217,6 +226,7 @@ def prepare(*, limit: int | None = None, force: bool = False, validate_only: boo
                 "book_id": book_id,
                 "source_recipe_id": recipe_id,
                 "category": recipe_path.parent.name,
+                "creative_variant": variant_for(catalog_id) if rendered_current or not needs_render else old.get("creative_variant"),
                 "title": title,
                 "description": description,
                 "pin_title": title[:100],
@@ -230,8 +240,8 @@ def prepare(*, limit: int | None = None, force: bool = False, validate_only: boo
                 "publication_status": publication_status,
                 "scheduled_at": scheduled_at,
                 "pin_url": pin_url,
-                "source_fingerprint": fingerprint,
-                "creative_version": CREATIVE_VERSION,
+                "source_fingerprint": fingerprint if rendered_current or not needs_render else old.get("source_fingerprint"),
+                "creative_version": CREATIVE_VERSION if rendered_current or not needs_render else old.get("creative_version"),
             }
             items.append(entry)
             counts["total"] += 1
@@ -247,6 +257,22 @@ def prepare(*, limit: int | None = None, force: bool = False, validate_only: boo
             item.setdefault("book_id", "002_airfryer")
             item.setdefault("catalog_id", f"002_airfryer:{item['id']}")
         catalog_item = item_by_catalog_id.get(item.get("catalog_id"))
+        if (catalog_item and catalog_item.get("creative_variant")
+                and item.get("publish_at")
+                and datetime.fromisoformat(item["publish_at"].replace("Z", "+00:00")) > datetime.now(timezone.utc)):
+            item["creative_variant"] = catalog_item["creative_variant"]
+        # Keep legacy feed image URLs working with the current design too.
+        legacy_image = str(item.get("image", ""))
+        if (not validate_only and catalog_item
+                and catalog_item["asset_status"] == "ready"
+                and legacy_image.startswith("assets/recipes/")
+                and Path(legacy_image).name == legacy_image.removeprefix("assets/recipes/")
+                and Path(legacy_image).suffix.lower() == ".jpg"):
+            prepared = ROOT / "docs" / catalog_item["image"]
+            legacy = ROOT / legacy_image
+            if not legacy.exists() or legacy.read_bytes() != prepared.read_bytes():
+                legacy.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(prepared, legacy)
         if catalog_item and str(item.get("image", "")).startswith("assets/pins/"):
             item.update({
                 "title": catalog_item["pin_title"],

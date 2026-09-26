@@ -114,6 +114,20 @@ class PreparedCatalogTest(unittest.TestCase):
         self.assertEqual(len(content), before)
         self.assertEqual(result["state"]["queue_status"], "exhausted")
 
+    def test_unpublished_ready_images_do_not_keep_queue_active(self):
+        catalog = copy.deepcopy(self.catalog)
+        unpublished = {book["id"] for book in self.books["books"] if not book["published"]}
+        catalog["items"] = [item for item in catalog["items"] if item["book_id"] in unpublished]
+        for item in catalog["items"]:
+            item["asset_status"] = "ready"
+            item["publication_status"] = "available"
+        scheduled, _, result = schedule_payloads(
+            catalog, self.books, [], self.policy, datetime(2026, 9, 26, tzinfo=timezone.utc)
+        )
+        self.assertEqual(scheduled, [])
+        self.assertEqual(result["catalog"]["available_count"], 0)
+        self.assertEqual(result["state"]["queue_status"], "exhausted")
+
     def test_zero_budget_lock_fails_closed(self):
         unsafe = dict(self.policy, daily_budget_eur=1)
         with self.assertRaises(RuntimeError):

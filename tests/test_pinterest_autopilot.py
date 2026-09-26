@@ -6,7 +6,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw
 
 
 SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
@@ -20,6 +20,9 @@ from pinterest_autopilot import (  # noqa: E402
     split_headline,
     write_status,
 )
+
+
+from pin_design import headline_parts, wrap
 
 
 class PinterestAutopilotTest(unittest.TestCase):
@@ -75,6 +78,23 @@ class PinterestAutopilotTest(unittest.TestCase):
         lines = split_headline("Rinderhüftsteak mit Knoblauchbutter im Airfryer")
         self.assertLessEqual(len(lines), 3)
         self.assertTrue(all(lines))
+
+    def test_long_headlines_remain_complete_and_inside_the_panel(self):
+        draw = ImageDraw.Draw(Image.new("RGB", (1000, 1500)))
+        for title in (
+            "Protein-Schichtdessert mit Beeren und körnigem Frischkäse",
+            "Rinderhüftsteak mit Knoblauchbutter im Airfryer",
+            "Quark-Auflauf mit Kirschen (kalt oder warm)",
+            "Käse-Dip",
+        ):
+            main, detail = headline_parts(title)
+            self.assertEqual((main + " " + detail).strip(), title)
+            for text, height, start, minimum in ((main, 95 if detail else 215, 112, 48), (detail, 112, 55, 38)):
+                if not text:
+                    continue
+                face, lines = wrap(draw, text, 888, height, start=start, minimum=minimum)
+                self.assertEqual(" ".join(lines).replace("- ", "-"), text)
+                self.assertTrue(all(draw.textlength(line, font=face) <= 888 for line in lines))
 
     def test_status_preserves_last_nonempty_batch(self):
         import pinterest_autopilot
