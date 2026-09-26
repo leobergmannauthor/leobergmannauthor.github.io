@@ -11,7 +11,16 @@
 
 ## Was gemessen wird
 
-Nach Zustimmung: Seitenbesuche, Herkunft, Interaktionen und Klicks von den Rezeptseiten zu Amazon. Amazon-Klicks sind keine Käufe. Verkäufe und Umsatz auf Amazon werden durch diese Integration nicht erfasst.
+Nach Zustimmung: Seitenbesuche, Herkunft, Interaktionen und Klicks von den Rezeptseiten zu Amazon. Amazon-Klicks sind keine Käufe. Verkäufe und Umsatz auf Amazon werden durch GA4 nicht erfasst.
+
+## Amazon Attribution
+
+- Kampagne: `Leo Bergmann | Autorenwebsite | organisch` (ID `577874957069448831`) im deutschen Amazon Ads Konto.
+- Elf Anzeigengruppen und elf von Amazon erzeugte Tags, je ein Buch. Die Website verwendet sie für alle Buch-CTAs auf Rezeptseiten. Die Konfiguration steht in `site_config.json`; `build.py` prüft Domain, ASIN und Tag-Parameter beim Erstellen der Seiten.
+- Amazon Attribution erfasst ab dem Klick auf einen markierten Link Aktionen auf Amazon und ordnet sie dem Buchlink zu, soweit sie messbar sind. Das sind andere Daten als die GA4-Ereignisse auf der eigenen Website.
+- Die Anzeigengruppen heißen `Pinterest via Website`, enthalten aber alle Klicks auf den jeweiligen Website-Buchlink. Sie beweisen deshalb keine Verkäufe aus einem einzelnen Pin. Für Pin-Impressionen und Klickrate weiterhin Pinterest Analytics verwenden; GA4 zeigt den Weg auf der Website.
+- Die Kampagne ist für organische Links eingerichtet. Es wurden keine bezahlten Amazon-Anzeigen gestartet.
+- Amazon meldet aktuell Einschränkungen bei der direkten Messung mancher Conversions in Deutschland und Frankreich. Die Berichte können daher unvollständig sein.
 
 Neue Feed-Links enthalten `utm_source=pinterest`, `utm_medium=organic`, `utm_campaign=<book_id>` und bei bekannten neuen Designs `utm_content=<catalog_id>:<variant>`. GUIDs und kanonische Seiten-URLs bleiben stabil. Bereits veröffentlichte Pins werden nicht nachträglich einer neuen Gestaltung zugeschrieben. Pinterest kann bestehende Bilddateien zwischenspeichern; die lokalen Bildänderungen ersetzen veröffentlichte Pins nicht automatisch.
 

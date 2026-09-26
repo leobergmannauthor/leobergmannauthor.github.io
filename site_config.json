@@ -9,5 +9,18 @@
   "rss_description": "Neue Rezeptideen aus den deutschen Kochbüchern von Leo Bergmann.",
   "pinterest_board": "Schnelle & einfache Rezepte",
   "pinterest_domain_verify": "59ac69d322d189e9809ec8a642b9aa24",
-  "ga4_measurement_id": "G-9YTBES6ERF"
+  "ga4_measurement_id": "G-9YTBES6ERF",
+  "amazon_attribution_urls": {
+    "001_protein": "https://www.amazon.de/dp/B0G1KMD28S?maas=maas_adg_6F549AD34D342AE027168BCDDB1DC1CF_afap_abs&ref_=aa_maas&tag=maas",
+    "002_airfryer": "https://www.amazon.de/dp/B0GHFYM758?maas=maas_adg_9F3322CCA9729186577328A68031138B_afap_abs&ref_=aa_maas&tag=maas",
+    "003_vegetarisch": "https://www.amazon.de/dp/B0GHJLCKSV?maas=maas_adg_C77E5C83608D1F7406AD33EB9C5515A1_afap_abs&ref_=aa_maas&tag=maas",
+    "004_meal_prep": "https://www.amazon.de/dp/B0GHMMF8LP?maas=maas_adg_AFD87DE3CB84980DB1ABA284ABAFFF62_afap_abs&ref_=aa_maas&tag=maas",
+    "005_low_carb": "https://www.amazon.de/dp/B0GMBPQ4HJ?maas=maas_adg_CCEC30ACF5A9200E5EF2455C1992CC74_afap_abs&ref_=aa_maas&tag=maas",
+    "006_family": "https://www.amazon.de/dp/B0GMBVNP6Z?maas=maas_adg_DDFE3EF05861093A91E7BF9ED7DAE73D_afap_abs&ref_=aa_maas&tag=maas",
+    "007_men": "https://www.amazon.de/dp/B0GMH1JMYW?maas=maas_adg_E57469AC027E6556958B9BB73B9F48F4_afap_abs&ref_=aa_maas&tag=maas",
+    "008_liver": "https://www.amazon.de/dp/B0GMQ23L4J?maas=maas_adg_942FBF684B6009B9CB905C60FEF08E85_afap_abs&ref_=aa_maas&tag=maas",
+    "009_anti_entzuendung": "https://www.amazon.de/dp/B0GPKWWSS9?maas=maas_adg_79D39946106063EC33FD0CEAFC729968_afap_abs&ref_=aa_maas&tag=maas",
+    "011_hp_basics": "https://www.amazon.de/dp/B0H8K8XZFZ?maas=maas_adg_83AA071C7D0F771D9FB90B7A195E2234_afap_abs&ref_=aa_maas&tag=maas",
+    "012_hp_veggie": "https://www.amazon.de/dp/B0H9NYMR72?maas=maas_adg_022C86796A02F7AB765024F0A2B98417_afap_abs&ref_=aa_maas&tag=maas"
+  }
 }

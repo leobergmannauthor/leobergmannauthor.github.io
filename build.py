@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import urlencode, urlparse
+from urllib.parse import parse_qs, urlencode, urlparse
 
 ROOT = Path(__file__).resolve().parent
 DOCS = ROOT / "docs"
@@ -102,10 +102,28 @@ def book_for(item: dict, books: dict[str, dict], config: dict) -> dict:
     })
 
 
+def amazon_target(config: dict, book: dict, item: dict) -> str:
+    """Prefer the book's Amazon Attribution link for website calls to action."""
+    attribution_urls = config.get("amazon_attribution_urls", {})
+    tagged = attribution_urls.get(book["id"], "")
+    if tagged:
+        parsed = urlparse(tagged)
+        direct = urlparse(book["amazon_url"])
+        params = parse_qs(parsed.query)
+        if (parsed.scheme != "https" or parsed.hostname != "www.amazon.de"
+                or parsed.path != direct.path
+                or not params.get("maas", [""])[0].startswith("maas_adg_")
+                or params.get("ref_") != ["aa_maas"]
+                or params.get("tag") != ["maas"]):
+            raise ValueError(f"Invalid Amazon Attribution URL for {book['id']}")
+        return tagged
+    return item.get("amazon_url") or book["amazon_url"]
+
+
 def render_item(config: dict, books: dict[str, dict], item: dict) -> str:
     canonical, image = item_urls(config, item)
     book = book_for(item, books, config)
-    target = item.get("amazon_url") or book["amazon_url"]
+    target = amazon_target(config, book, item)
     cover_source = book.get("cover") or "assets/book-cover.jpg"
     cover = cover_source if str(cover_source).startswith("https://") else f"{config['base_url']}/{cover_source}"
     recipe_count = int(book.get("recipe_count", 140))
@@ -185,7 +203,7 @@ def render_item(config: dict, books: dict[str, dict], item: dict) -> str:
         "author": {"@type": "Person", "name": config["author"]},
         "datePublished": item["publish_at"],
         "mainEntityOfPage": canonical,
-        "about": {"@type": "Book", "name": book["title"], "url": target},
+        "about": {"@type": "Book", "name": book["title"], "url": book["amazon_url"]},
     }
     return page_shell(config, item["title"], item["description"], canonical, body, image, structured)
 
@@ -207,7 +225,7 @@ def render_privacy(config: dict) -> str:
 <h2>Freiwillige Besucherstatistik</h2><p>Nur nach deiner Zustimmung laden wir Google Analytics 4, einen Dienst von Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Erfasst werden insbesondere aufgerufene Seiten, technische Browser- und Geräteinformationen, die Herkunft eines Besuchs und Klicks auf Buchlinks zu Amazon. Wir senden keine Namen, E-Mail-Adressen oder Zahlungsdaten an Analytics. Klicks zu Amazon sind keine Bestellungen; Käufe auf Amazon können wir damit nicht erfassen.</p>
 <p>Google verwendet Kennungen und Cookies (unter anderem _ga) zur Wiedererkennung von Browsern. Wir begrenzen die Cookie-Laufzeit auf 180 Tage. Daten können auch auf Servern außerhalb der EU, insbesondere in den USA, verarbeitet werden. Werbepersonalisierung und Google Signals werden durch unsere Einbindung nicht aktiviert. Weitere Informationen: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Wie Google Daten von Websites verwendet</a> und <a href="https://policies.google.com/privacy" rel="noopener">Google-Datenschutzerklärung</a>.</p>
 <h2>Auswahl und Widerruf</h2><p>Die Auswahl im Statistikdialog ist freiwillig. Ohne Zustimmung wird der Google-Tag nicht heruntergeladen und es werden durch diese Einbindung keine Analysedaten an Google gesendet. Deine Auswahl wird für höchstens 180 Tage lokal in deinem Browser gespeichert. Über „Cookie-Einstellungen“ im Seitenfuß kannst du sie jederzeit ändern. Bei Ablehnung nach vorheriger Zustimmung deaktivieren wir die Messung, entfernen die Analytics-Cookies dieser Website und laden die Seite neu. Das löscht keine bereits an Google übermittelten Daten.</p>
-<h2>Buchlinks</h2><p>Die Links führen zu den Buchangeboten bei Amazon. Beim Öffnen gelten die Datenschutzbestimmungen von Amazon. Auf dieser Website werden keine Zahlungs- oder Kundendaten verarbeitet.</p></article>"""
+<h2>Buchlinks</h2><p>Die Links führen zu den Buchangeboten bei Amazon und enthalten eine Kennung von Amazon Attribution. Nach einem Klick kann Amazon damit den Besuch und mögliche weitere Aktionen auf Amazon dem jeweiligen Buchlink zuordnen und uns in Berichten auswerten lassen. Die Entscheidung über Statistik-Cookies auf dieser Website ist davon unabhängig. Beim Öffnen gelten die Datenschutzbestimmungen von Amazon. Auf dieser Website werden keine Zahlungs- oder Kundendaten verarbeitet.</p></article>"""
     return page_shell(config, "Datenschutz", "Datenschutzhinweise der Website", config["base_url"] + "/datenschutz.html", body)
 
 
