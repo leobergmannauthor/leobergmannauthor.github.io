@@ -2652,5 +2652,33 @@
     "image": "assets/pins/012_hp_veggie/recipe_016.jpg",
     "publish_at": "2026-10-25T17:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_017",
+    "catalog_id": "001_protein:recipe_017",
+    "book_id": "001_protein",
+    "title": "Thunfisch Kichererbsen Salat mit Gurke",
+    "description": "Ein schneller Salat mit Thunfisch und Kichererbsen liefert viel Protein bei wenig Aufwand. Gurke und Zitrone machen ihn herrlich frisch und leicht. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "–",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_017.jpg",
+    "publish_at": "2026-10-26T08:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_018",
+    "catalog_id": "003_vegetarisch:recipe_018",
+    "book_id": "003_vegetarisch",
+    "title": "Blaubeer-Pfannkuchen",
+    "description": "Fluffige Pfannkuchen mit saftigen Blaubeeren, die beim Braten leicht platzen und den Teig lila färben. Ein süßer Augenschmaus! Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_018.jpg",
+    "publish_at": "2026-10-26T17:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]
