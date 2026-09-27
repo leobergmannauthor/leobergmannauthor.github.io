@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-09-27T06:17:41Z",
+  "last_updated_at": "2026-09-27T06:22:56Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -17,11 +17,11 @@
         "first_repository_observed_at": "2026-07-21T20:33:25Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-07-22T00:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079017983447/",
+        "confirmed_at": "2026-09-27T06:22:56Z",
+        "last_checked_at": "2026-09-27T06:22:56Z"
       }
     },
     {
@@ -378,11 +378,11 @@
         "first_repository_observed_at": "2026-07-31T18:58:24Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-01T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079018785549/",
+        "confirmed_at": "2026-09-27T06:22:56Z",
+        "last_checked_at": "2026-09-27T06:22:56Z"
       }
     },
     {
@@ -416,11 +416,11 @@
         "first_repository_observed_at": "2026-08-01T17:48:42Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-02T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019006831/",
+        "confirmed_at": "2026-09-27T06:22:56Z",
+        "last_checked_at": "2026-09-27T06:22:56Z"
       }
     },
     {
@@ -454,11 +454,11 @@
         "first_repository_observed_at": "2026-08-02T17:45:55Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-03T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019006792/",
+        "confirmed_at": "2026-09-27T06:22:56Z",
+        "last_checked_at": "2026-09-27T06:22:56Z"
       }
     },
     {
@@ -492,11 +492,11 @@
         "first_repository_observed_at": "2026-08-03T19:11:38Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-04T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019014537/",
+        "confirmed_at": "2026-09-27T06:22:56Z",
+        "last_checked_at": "2026-09-27T06:22:56Z"
       }
     },
     {
@@ -530,11 +530,11 @@
         "first_repository_observed_at": "2026-08-04T19:13:35Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-05T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019117025/",
+        "confirmed_at": "2026-09-27T06:22:56Z",
+        "last_checked_at": "2026-09-27T06:22:56Z"
       }
     },
     {
@@ -568,11 +568,11 @@
         "first_repository_observed_at": "2026-08-05T19:06:37Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-06T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019194634/",
+        "confirmed_at": "2026-09-27T06:22:55Z",
+        "last_checked_at": "2026-09-27T06:22:55Z"
       }
     },
     {
@@ -606,11 +606,11 @@
         "first_repository_observed_at": "2026-08-07T07:58:54Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-07T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019360434/",
+        "confirmed_at": "2026-09-27T06:22:55Z",
+        "last_checked_at": "2026-09-27T06:22:55Z"
       }
     },
     {
@@ -644,11 +644,11 @@
         "first_repository_observed_at": "2026-08-07T17:12:48Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-08T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019360414/",
+        "confirmed_at": "2026-09-27T06:22:55Z",
+        "last_checked_at": "2026-09-27T06:22:55Z"
       }
     },
     {
@@ -682,11 +682,11 @@
         "first_repository_observed_at": "2026-08-08T16:31:55Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-09T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019440268/",
+        "confirmed_at": "2026-09-27T06:22:55Z",
+        "last_checked_at": "2026-09-27T06:22:55Z"
       }
     },
     {
@@ -720,11 +720,11 @@
         "first_repository_observed_at": "2026-08-09T16:31:00Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-10T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019519675/",
+        "confirmed_at": "2026-09-27T06:22:55Z",
+        "last_checked_at": "2026-09-27T06:22:55Z"
       }
     },
     {
@@ -758,11 +758,11 @@
         "first_repository_observed_at": "2026-08-10T16:30:55Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-11T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019600662/",
+        "confirmed_at": "2026-09-27T06:22:55Z",
+        "last_checked_at": "2026-09-27T06:22:55Z"
       }
     },
     {
@@ -777,11 +777,11 @@
         "first_repository_observed_at": "2026-08-11T16:31:55Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-12T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019680670/",
+        "confirmed_at": "2026-09-27T06:22:54Z",
+        "last_checked_at": "2026-09-27T06:22:54Z"
       }
     },
     {
@@ -796,11 +796,11 @@
         "first_repository_observed_at": "2026-08-11T16:31:55Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-12T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019680666/",
+        "confirmed_at": "2026-09-27T06:22:54Z",
+        "last_checked_at": "2026-09-27T06:22:54Z"
       }
     },
     {
@@ -815,11 +815,11 @@
         "first_repository_observed_at": "2026-08-12T08:04:50Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-13T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019757777/",
+        "confirmed_at": "2026-09-27T06:22:54Z",
+        "last_checked_at": "2026-09-27T06:22:54Z"
       }
     },
     {
@@ -834,11 +834,11 @@
         "first_repository_observed_at": "2026-08-12T17:43:57Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-13T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019757775/",
+        "confirmed_at": "2026-09-27T06:22:54Z",
+        "last_checked_at": "2026-09-27T06:22:54Z"
       }
     },
     {
@@ -853,11 +853,11 @@
         "first_repository_observed_at": "2026-08-13T08:07:03Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-14T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019836564/",
+        "confirmed_at": "2026-09-27T06:22:54Z",
+        "last_checked_at": "2026-09-27T06:22:54Z"
       }
     },
     {
@@ -872,11 +872,11 @@
         "first_repository_observed_at": "2026-08-13T17:44:24Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-14T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019836561/",
+        "confirmed_at": "2026-09-27T06:22:54Z",
+        "last_checked_at": "2026-09-27T06:22:54Z"
       }
     },
     {
@@ -891,11 +891,11 @@
         "first_repository_observed_at": "2026-08-14T08:02:44Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-15T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019917240/",
+        "confirmed_at": "2026-09-27T06:22:53Z",
+        "last_checked_at": "2026-09-27T06:22:53Z"
       }
     },
     {
@@ -910,11 +910,11 @@
         "first_repository_observed_at": "2026-08-14T17:35:55Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-15T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079019917238/",
+        "confirmed_at": "2026-09-27T06:22:54Z",
+        "last_checked_at": "2026-09-27T06:22:54Z"
       }
     },
     {
@@ -929,11 +929,11 @@
         "first_repository_observed_at": "2026-08-15T14:57:47Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-16T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020000662/",
+        "confirmed_at": "2026-09-27T06:22:53Z",
+        "last_checked_at": "2026-09-27T06:22:53Z"
       }
     },
     {
@@ -948,11 +948,11 @@
         "first_repository_observed_at": "2026-08-16T05:00:06Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-16T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020083513/",
+        "confirmed_at": "2026-09-27T06:22:53Z",
+        "last_checked_at": "2026-09-27T06:22:53Z"
       }
     },
     {
@@ -967,11 +967,11 @@
         "first_repository_observed_at": "2026-08-16T14:58:26Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-17T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020083511/",
+        "confirmed_at": "2026-09-27T06:22:53Z",
+        "last_checked_at": "2026-09-27T06:22:53Z"
       }
     },
     {
@@ -986,11 +986,11 @@
         "first_repository_observed_at": "2026-08-17T05:21:28Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-17T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020161387/",
+        "confirmed_at": "2026-09-27T06:22:53Z",
+        "last_checked_at": "2026-09-27T06:22:53Z"
       }
     },
     {
@@ -1005,11 +1005,11 @@
         "first_repository_observed_at": "2026-08-17T15:02:52Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-18T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020238096/",
+        "confirmed_at": "2026-09-27T06:22:52Z",
+        "last_checked_at": "2026-09-27T06:22:52Z"
       }
     },
     {
@@ -1024,11 +1024,11 @@
         "first_repository_observed_at": "2026-08-18T05:03:21Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-18T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020238090/",
+        "confirmed_at": "2026-09-27T06:22:53Z",
+        "last_checked_at": "2026-09-27T06:22:53Z"
       }
     },
     {
@@ -1043,11 +1043,11 @@
         "first_repository_observed_at": "2026-08-18T15:51:42Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-19T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020238086/",
+        "confirmed_at": "2026-09-27T06:22:53Z",
+        "last_checked_at": "2026-09-27T06:22:53Z"
       }
     },
     {
@@ -1062,11 +1062,11 @@
         "first_repository_observed_at": "2026-08-19T05:03:58Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-19T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020318086/",
+        "confirmed_at": "2026-09-27T06:22:52Z",
+        "last_checked_at": "2026-09-27T06:22:52Z"
       }
     },
     {
@@ -1081,11 +1081,11 @@
         "first_repository_observed_at": "2026-08-19T15:51:53Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-20T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020318085/",
+        "confirmed_at": "2026-09-27T06:22:52Z",
+        "last_checked_at": "2026-09-27T06:22:52Z"
       }
     },
     {
@@ -1100,11 +1100,11 @@
         "first_repository_observed_at": "2026-08-20T05:06:07Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-20T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020396125/",
+        "confirmed_at": "2026-09-27T06:22:52Z",
+        "last_checked_at": "2026-09-27T06:22:52Z"
       }
     },
     {
@@ -1119,11 +1119,11 @@
         "first_repository_observed_at": "2026-08-20T15:54:41Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-21T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020396124/",
+        "confirmed_at": "2026-09-27T06:22:52Z",
+        "last_checked_at": "2026-09-27T06:22:52Z"
       }
     },
     {
@@ -1138,11 +1138,11 @@
         "first_repository_observed_at": "2026-08-21T05:07:04Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-21T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020561327/",
+        "confirmed_at": "2026-09-27T06:22:51Z",
+        "last_checked_at": "2026-09-27T06:22:51Z"
       }
     },
     {
@@ -1157,11 +1157,11 @@
         "first_repository_observed_at": "2026-08-21T14:54:06Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-22T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020561326/",
+        "confirmed_at": "2026-09-27T06:22:51Z",
+        "last_checked_at": "2026-09-27T06:22:51Z"
       }
     },
     {
@@ -1176,11 +1176,11 @@
         "first_repository_observed_at": "2026-08-22T03:56:59Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-22T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020561325/",
+        "confirmed_at": "2026-09-27T06:22:52Z",
+        "last_checked_at": "2026-09-27T06:22:52Z"
       }
     },
     {
@@ -1195,11 +1195,11 @@
         "first_repository_observed_at": "2026-08-22T14:38:42Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-23T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020561320/",
+        "confirmed_at": "2026-09-27T06:22:52Z",
+        "last_checked_at": "2026-09-27T06:22:52Z"
       }
     },
     {
@@ -1214,11 +1214,11 @@
         "first_repository_observed_at": "2026-08-23T04:01:19Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-23T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020641538/",
+        "confirmed_at": "2026-09-27T06:22:51Z",
+        "last_checked_at": "2026-09-27T06:22:51Z"
       }
     },
     {
@@ -1233,11 +1233,11 @@
         "first_repository_observed_at": "2026-08-23T14:40:03Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-24T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020641527/",
+        "confirmed_at": "2026-09-27T06:22:51Z",
+        "last_checked_at": "2026-09-27T06:22:51Z"
       }
     },
     {
@@ -1252,11 +1252,11 @@
         "first_repository_observed_at": "2026-08-24T04:05:54Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-24T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020718514/",
+        "confirmed_at": "2026-09-27T06:22:51Z",
+        "last_checked_at": "2026-09-27T06:22:51Z"
       }
     },
     {
@@ -1271,11 +1271,11 @@
         "first_repository_observed_at": "2026-08-24T15:00:38Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-25T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020718512/",
+        "confirmed_at": "2026-09-27T06:22:51Z",
+        "last_checked_at": "2026-09-27T06:22:51Z"
       }
     },
     {
@@ -1290,11 +1290,11 @@
         "first_repository_observed_at": "2026-08-25T03:59:53Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-25T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020797267/",
+        "confirmed_at": "2026-09-27T06:22:50Z",
+        "last_checked_at": "2026-09-27T06:22:50Z"
       }
     },
     {
@@ -1309,11 +1309,11 @@
         "first_repository_observed_at": "2026-08-25T15:06:53Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-26T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079020797264/",
+        "confirmed_at": "2026-09-27T06:22:51Z",
+        "last_checked_at": "2026-09-27T06:22:51Z"
       }
     },
     {
@@ -1328,11 +1328,11 @@
         "first_repository_observed_at": "2026-08-26T04:03:37Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-26T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021037691/",
+        "confirmed_at": "2026-09-27T06:22:50Z",
+        "last_checked_at": "2026-09-27T06:22:50Z"
       }
     },
     {
@@ -1347,11 +1347,11 @@
         "first_repository_observed_at": "2026-08-26T15:54:05Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-27T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021037689/",
+        "confirmed_at": "2026-09-27T06:22:50Z",
+        "last_checked_at": "2026-09-27T06:22:50Z"
       }
     },
     {
@@ -1366,11 +1366,11 @@
         "first_repository_observed_at": "2026-08-27T14:13:13Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-27T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021037686/",
+        "confirmed_at": "2026-09-27T06:22:50Z",
+        "last_checked_at": "2026-09-27T06:22:50Z"
       }
     },
     {
@@ -1385,11 +1385,11 @@
         "first_repository_observed_at": "2026-08-27T14:13:13Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-28T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021037681/",
+        "confirmed_at": "2026-09-27T06:22:50Z",
+        "last_checked_at": "2026-09-27T06:22:50Z"
       }
     },
     {
@@ -1404,11 +1404,11 @@
         "first_repository_observed_at": "2026-08-27T23:48:34Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-28T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021037680/",
+        "confirmed_at": "2026-09-27T06:22:50Z",
+        "last_checked_at": "2026-09-27T06:22:50Z"
       }
     },
     {
@@ -1423,11 +1423,11 @@
         "first_repository_observed_at": "2026-08-28T15:23:25Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-29T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021037671/",
+        "confirmed_at": "2026-09-27T06:22:50Z",
+        "last_checked_at": "2026-09-27T06:22:50Z"
       }
     },
     {
@@ -1442,11 +1442,11 @@
         "first_repository_observed_at": "2026-08-29T10:05:40Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-29T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021124669/",
+        "confirmed_at": "2026-09-27T06:22:49Z",
+        "last_checked_at": "2026-09-27T06:22:49Z"
       }
     },
     {
@@ -1461,11 +1461,11 @@
         "first_repository_observed_at": "2026-08-29T10:05:40Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-30T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021124657/",
+        "confirmed_at": "2026-09-27T06:22:49Z",
+        "last_checked_at": "2026-09-27T06:22:49Z"
       }
     },
     {
@@ -1480,11 +1480,11 @@
         "first_repository_observed_at": "2026-08-29T17:43:48Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-30T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021124656/",
+        "confirmed_at": "2026-09-27T06:22:49Z",
+        "last_checked_at": "2026-09-27T06:22:49Z"
       }
     },
     {
@@ -1499,11 +1499,11 @@
         "first_repository_observed_at": "2026-08-30T09:14:34Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-31T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021208378/",
+        "confirmed_at": "2026-09-27T06:22:49Z",
+        "last_checked_at": "2026-09-27T06:22:49Z"
       }
     },
     {
@@ -1518,11 +1518,11 @@
         "first_repository_observed_at": "2026-08-30T18:04:23Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-08-31T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021208374/",
+        "confirmed_at": "2026-09-27T06:22:49Z",
+        "last_checked_at": "2026-09-27T06:22:49Z"
       }
     },
     {
@@ -1537,11 +1537,11 @@
         "first_repository_observed_at": "2026-08-31T09:45:48Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-01T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021286079/",
+        "confirmed_at": "2026-09-27T06:22:49Z",
+        "last_checked_at": "2026-09-27T06:22:49Z"
       }
     },
     {
@@ -1556,11 +1556,11 @@
         "first_repository_observed_at": "2026-08-31T20:05:35Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-01T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021286075/",
+        "confirmed_at": "2026-09-27T06:22:49Z",
+        "last_checked_at": "2026-09-27T06:22:49Z"
       }
     },
     {
@@ -1575,11 +1575,11 @@
         "first_repository_observed_at": "2026-09-01T08:39:52Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-02T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021367004/",
+        "confirmed_at": "2026-09-27T06:22:48Z",
+        "last_checked_at": "2026-09-27T06:22:48Z"
       }
     },
     {
@@ -1594,11 +1594,11 @@
         "first_repository_observed_at": "2026-09-01T17:49:28Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-02T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021367000/",
+        "confirmed_at": "2026-09-27T06:22:48Z",
+        "last_checked_at": "2026-09-27T06:22:48Z"
       }
     },
     {
@@ -1613,11 +1613,11 @@
         "first_repository_observed_at": "2026-09-02T07:55:21Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-03T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021445183/",
+        "confirmed_at": "2026-09-27T06:22:48Z",
+        "last_checked_at": "2026-09-27T06:22:48Z"
       }
     },
     {
@@ -1632,11 +1632,11 @@
         "first_repository_observed_at": "2026-09-02T17:54:36Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-03T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021445165/",
+        "confirmed_at": "2026-09-27T06:22:48Z",
+        "last_checked_at": "2026-09-27T06:22:48Z"
       }
     },
     {
@@ -1651,11 +1651,11 @@
         "first_repository_observed_at": "2026-09-03T08:03:38Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-04T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021522709/",
+        "confirmed_at": "2026-09-27T06:22:48Z",
+        "last_checked_at": "2026-09-27T06:22:48Z"
       }
     },
     {
@@ -1670,11 +1670,11 @@
         "first_repository_observed_at": "2026-09-03T17:52:17Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-04T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021522702/",
+        "confirmed_at": "2026-09-27T06:22:48Z",
+        "last_checked_at": "2026-09-27T06:22:48Z"
       }
     },
     {
@@ -1689,11 +1689,11 @@
         "first_repository_observed_at": "2026-09-04T07:59:25Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-05T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021605983/",
+        "confirmed_at": "2026-09-27T06:22:47Z",
+        "last_checked_at": "2026-09-27T06:22:47Z"
       }
     },
     {
@@ -1708,11 +1708,11 @@
         "first_repository_observed_at": "2026-09-04T17:36:37Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-05T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021605982/",
+        "confirmed_at": "2026-09-27T06:22:48Z",
+        "last_checked_at": "2026-09-27T06:22:48Z"
       }
     },
     {
@@ -1727,11 +1727,11 @@
         "first_repository_observed_at": "2026-09-05T07:40:38Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-06T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021691938/",
+        "confirmed_at": "2026-09-27T06:22:47Z",
+        "last_checked_at": "2026-09-27T06:22:47Z"
       }
     },
     {
@@ -1746,11 +1746,11 @@
         "first_repository_observed_at": "2026-09-05T16:49:45Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-06T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021691906/",
+        "confirmed_at": "2026-09-27T06:22:47Z",
+        "last_checked_at": "2026-09-27T06:22:47Z"
       }
     },
     {
@@ -1765,11 +1765,11 @@
         "first_repository_observed_at": "2026-09-06T07:54:55Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-07T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021780228/",
+        "confirmed_at": "2026-09-27T06:22:47Z",
+        "last_checked_at": "2026-09-27T06:22:47Z"
       }
     },
     {
@@ -1784,11 +1784,11 @@
         "first_repository_observed_at": "2026-09-06T17:03:26Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-07T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021780226/",
+        "confirmed_at": "2026-09-27T06:22:47Z",
+        "last_checked_at": "2026-09-27T06:22:47Z"
       }
     },
     {
@@ -1803,11 +1803,11 @@
         "first_repository_observed_at": "2026-09-07T08:19:11Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-08T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021866163/",
+        "confirmed_at": "2026-09-27T06:22:47Z",
+        "last_checked_at": "2026-09-27T06:22:47Z"
       }
     },
     {
@@ -1822,11 +1822,11 @@
         "first_repository_observed_at": "2026-09-07T18:44:06Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-08T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021866150/",
+        "confirmed_at": "2026-09-27T06:22:47Z",
+        "last_checked_at": "2026-09-27T06:22:47Z"
       }
     },
     {
@@ -1841,11 +1841,11 @@
         "first_repository_observed_at": "2026-09-08T08:05:44Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-09T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021945058/",
+        "confirmed_at": "2026-09-27T06:22:46Z",
+        "last_checked_at": "2026-09-27T06:22:46Z"
       }
     },
     {
@@ -1860,11 +1860,11 @@
         "first_repository_observed_at": "2026-09-08T17:55:56Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-09T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079021945045/",
+        "confirmed_at": "2026-09-27T06:22:46Z",
+        "last_checked_at": "2026-09-27T06:22:46Z"
       }
     },
     {
@@ -1879,11 +1879,11 @@
         "first_repository_observed_at": "2026-09-09T08:09:41Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-10T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022027416/",
+        "confirmed_at": "2026-09-27T06:22:46Z",
+        "last_checked_at": "2026-09-27T06:22:46Z"
       }
     },
     {
@@ -1898,11 +1898,11 @@
         "first_repository_observed_at": "2026-09-09T17:50:13Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-10T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022027414/",
+        "confirmed_at": "2026-09-27T06:22:46Z",
+        "last_checked_at": "2026-09-27T06:22:46Z"
       }
     },
     {
@@ -1917,11 +1917,11 @@
         "first_repository_observed_at": "2026-09-10T08:08:29Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-11T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022109293/",
+        "confirmed_at": "2026-09-27T06:22:46Z",
+        "last_checked_at": "2026-09-27T06:22:46Z"
       }
     },
     {
@@ -1936,11 +1936,11 @@
         "first_repository_observed_at": "2026-09-10T17:42:30Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-11T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022109287/",
+        "confirmed_at": "2026-09-27T06:22:46Z",
+        "last_checked_at": "2026-09-27T06:22:46Z"
       }
     },
     {
@@ -1955,11 +1955,11 @@
         "first_repository_observed_at": "2026-09-11T08:03:59Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-12T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022192657/",
+        "confirmed_at": "2026-09-27T06:22:45Z",
+        "last_checked_at": "2026-09-27T06:22:45Z"
       }
     },
     {
@@ -1974,11 +1974,11 @@
         "first_repository_observed_at": "2026-09-11T17:45:00Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-12T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022192648/",
+        "confirmed_at": "2026-09-27T06:22:45Z",
+        "last_checked_at": "2026-09-27T06:22:45Z"
       }
     },
     {
@@ -1993,11 +1993,11 @@
         "first_repository_observed_at": "2026-09-12T07:55:48Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-13T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022287779/",
+        "confirmed_at": "2026-09-27T06:22:45Z",
+        "last_checked_at": "2026-09-27T06:22:45Z"
       }
     },
     {
@@ -2012,11 +2012,11 @@
         "first_repository_observed_at": "2026-09-12T17:11:04Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-13T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022287778/",
+        "confirmed_at": "2026-09-27T06:22:45Z",
+        "last_checked_at": "2026-09-27T06:22:45Z"
       }
     },
     {
@@ -2031,11 +2031,11 @@
         "first_repository_observed_at": "2026-09-13T08:19:07Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-14T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022379865/",
+        "confirmed_at": "2026-09-27T06:22:45Z",
+        "last_checked_at": "2026-09-27T06:22:45Z"
       }
     },
     {
@@ -2050,11 +2050,11 @@
         "first_repository_observed_at": "2026-09-13T17:24:44Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-14T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022379840/",
+        "confirmed_at": "2026-09-27T06:22:45Z",
+        "last_checked_at": "2026-09-27T06:22:45Z"
       }
     },
     {
@@ -2069,11 +2069,11 @@
         "first_repository_observed_at": "2026-09-14T08:56:07Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-15T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022458320/",
+        "confirmed_at": "2026-09-27T06:22:44Z",
+        "last_checked_at": "2026-09-27T06:22:44Z"
       }
     },
     {
@@ -2088,11 +2088,11 @@
         "first_repository_observed_at": "2026-09-14T19:22:14Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-15T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022458318/",
+        "confirmed_at": "2026-09-27T06:22:45Z",
+        "last_checked_at": "2026-09-27T06:22:45Z"
       }
     },
     {
@@ -2107,11 +2107,11 @@
         "first_repository_observed_at": "2026-09-15T08:41:32Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-16T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022537725/",
+        "confirmed_at": "2026-09-27T06:22:44Z",
+        "last_checked_at": "2026-09-27T06:22:44Z"
       }
     },
     {
@@ -2126,11 +2126,11 @@
         "first_repository_observed_at": "2026-09-15T18:12:25Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-16T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022537724/",
+        "confirmed_at": "2026-09-27T06:22:44Z",
+        "last_checked_at": "2026-09-27T06:22:44Z"
       }
     },
     {
@@ -2145,11 +2145,11 @@
         "first_repository_observed_at": "2026-09-16T08:36:02Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-17T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022617362/",
+        "confirmed_at": "2026-09-27T06:22:44Z",
+        "last_checked_at": "2026-09-27T06:22:44Z"
       }
     },
     {
@@ -2164,11 +2164,11 @@
         "first_repository_observed_at": "2026-09-16T18:12:05Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-17T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022617357/",
+        "confirmed_at": "2026-09-27T06:22:44Z",
+        "last_checked_at": "2026-09-27T06:22:44Z"
       }
     },
     {
@@ -2183,11 +2183,11 @@
         "first_repository_observed_at": "2026-09-17T08:40:03Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-18T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022691798/",
+        "confirmed_at": "2026-09-27T06:22:44Z",
+        "last_checked_at": "2026-09-27T06:22:44Z"
       }
     },
     {
@@ -2202,11 +2202,11 @@
         "first_repository_observed_at": "2026-09-17T18:14:33Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-18T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022691797/",
+        "confirmed_at": "2026-09-27T06:22:44Z",
+        "last_checked_at": "2026-09-27T06:22:44Z"
       }
     },
     {
@@ -2221,11 +2221,11 @@
         "first_repository_observed_at": "2026-09-18T08:15:40Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-19T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022774352/",
+        "confirmed_at": "2026-09-27T06:22:43Z",
+        "last_checked_at": "2026-09-27T06:22:43Z"
       }
     },
     {
@@ -2240,11 +2240,11 @@
         "first_repository_observed_at": "2026-09-18T17:41:39Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-19T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022774351/",
+        "confirmed_at": "2026-09-27T06:22:43Z",
+        "last_checked_at": "2026-09-27T06:22:43Z"
       }
     },
     {
@@ -2259,11 +2259,11 @@
         "first_repository_observed_at": "2026-09-19T08:03:30Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-20T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022861923/",
+        "confirmed_at": "2026-09-27T06:22:43Z",
+        "last_checked_at": "2026-09-27T06:22:43Z"
       }
     },
     {
@@ -2278,11 +2278,11 @@
         "first_repository_observed_at": "2026-09-19T17:17:43Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-20T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022861921/",
+        "confirmed_at": "2026-09-27T06:22:43Z",
+        "last_checked_at": "2026-09-27T06:22:43Z"
       }
     },
     {
@@ -2297,11 +2297,11 @@
         "first_repository_observed_at": "2026-09-20T08:36:05Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-21T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022952342/",
+        "confirmed_at": "2026-09-27T06:22:43Z",
+        "last_checked_at": "2026-09-27T06:22:43Z"
       }
     },
     {
@@ -2316,11 +2316,11 @@
         "first_repository_observed_at": "2026-09-20T17:28:50Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-21T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079022952339/",
+        "confirmed_at": "2026-09-27T06:22:43Z",
+        "last_checked_at": "2026-09-27T06:22:43Z"
       }
     },
     {
@@ -2335,11 +2335,11 @@
         "first_repository_observed_at": "2026-09-21T08:57:39Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-22T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023032520/",
+        "confirmed_at": "2026-09-27T06:22:42Z",
+        "last_checked_at": "2026-09-27T06:22:42Z"
       }
     },
     {
@@ -2354,11 +2354,11 @@
         "first_repository_observed_at": "2026-09-21T19:28:05Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-22T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023032519/",
+        "confirmed_at": "2026-09-27T06:22:43Z",
+        "last_checked_at": "2026-09-27T06:22:43Z"
       }
     },
     {
@@ -2373,11 +2373,11 @@
         "first_repository_observed_at": "2026-09-22T08:33:17Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-23T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023112520/",
+        "confirmed_at": "2026-09-27T06:22:42Z",
+        "last_checked_at": "2026-09-27T06:22:42Z"
       }
     },
     {
@@ -2392,11 +2392,11 @@
         "first_repository_observed_at": "2026-09-22T18:05:53Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-23T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023274684/",
+        "confirmed_at": "2026-09-27T06:22:42Z",
+        "last_checked_at": "2026-09-27T06:22:42Z"
       }
     },
     {
@@ -2411,11 +2411,11 @@
         "first_repository_observed_at": "2026-09-23T08:35:27Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-24T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023274681/",
+        "confirmed_at": "2026-09-27T06:22:42Z",
+        "last_checked_at": "2026-09-27T06:22:42Z"
       }
     },
     {
@@ -2430,11 +2430,11 @@
         "first_repository_observed_at": "2026-09-23T18:24:18Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-24T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023274678/",
+        "confirmed_at": "2026-09-27T06:22:42Z",
+        "last_checked_at": "2026-09-27T06:22:42Z"
       }
     },
     {
@@ -2449,11 +2449,11 @@
         "first_repository_observed_at": "2026-09-24T08:28:51Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-25T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023274676/",
+        "confirmed_at": "2026-09-27T06:22:42Z",
+        "last_checked_at": "2026-09-27T06:22:42Z"
       }
     },
     {
@@ -2468,11 +2468,11 @@
         "first_repository_observed_at": "2026-09-24T18:25:45Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-25T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023274674/",
+        "confirmed_at": "2026-09-27T06:22:42Z",
+        "last_checked_at": "2026-09-27T06:22:42Z"
       }
     },
     {
@@ -2487,11 +2487,11 @@
         "first_repository_observed_at": "2026-09-25T08:49:56Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-26T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023358411/",
+        "confirmed_at": "2026-09-27T06:22:41Z",
+        "last_checked_at": "2026-09-27T06:22:41Z"
       }
     },
     {
@@ -2506,11 +2506,11 @@
         "first_repository_observed_at": "2026-09-25T18:37:24Z"
       },
       "pinterest": {
-        "status": "confirmation_overdue",
+        "status": "confirmed",
         "expected_import_by": "2026-09-26T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023358408/",
+        "confirmed_at": "2026-09-27T06:22:41Z",
+        "last_checked_at": "2026-09-27T06:22:41Z"
       }
     },
     {
@@ -2525,11 +2525,11 @@
         "first_repository_observed_at": "2026-09-26T08:36:24Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmed",
         "expected_import_by": "2026-09-27T07:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023448415/",
+        "confirmed_at": "2026-09-27T06:22:41Z",
+        "last_checked_at": "2026-09-27T06:22:41Z"
       }
     },
     {
@@ -2544,11 +2544,11 @@
         "first_repository_observed_at": "2026-09-26T17:37:00Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmed",
         "expected_import_by": "2026-09-27T16:00:00Z",
-        "pin_url": null,
-        "confirmed_at": null,
-        "last_checked_at": null
+        "pin_url": "https://de.pinterest.com/pin/1090997079023448413/",
+        "confirmed_at": "2026-09-27T06:22:41Z",
+        "last_checked_at": "2026-09-27T06:22:41Z"
       }
     },
     {

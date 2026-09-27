@@ -84,9 +84,9 @@ class PreparedCatalogTest(unittest.TestCase):
                 item["pin_url"] = None
         now = datetime(2026, 8, 1, 8, tzinfo=timezone.utc)
         scheduled, content, result = schedule_payloads(catalog, self.books, [], self.policy, now)
-        self.assertEqual(len(scheduled), 60)
+        self.assertEqual(len(scheduled), 30 * self.policy["pins_per_day"])
         daily = Counter(parse_time(item["publish_at"]).date() for item in content)
-        self.assertTrue(all(value <= 2 for value in daily.values()))
+        self.assertTrue(all(value <= self.policy["pins_per_day"] for value in daily.values()))
         scheduled_again, content_again, _ = schedule_payloads(result["catalog"], self.books, content, self.policy, now)
         self.assertEqual(scheduled_again, [])
         self.assertEqual(content_again, content)
@@ -106,7 +106,7 @@ class PreparedCatalogTest(unittest.TestCase):
         ids = [item["id"] for item in content]
         self.assertEqual(len(ids), len(set(ids)))
         daily = Counter(parse_time(item["publish_at"]).date() for item in content)
-        self.assertTrue(all(value <= 2 for value in daily.values()))
+        self.assertTrue(all(value <= self.policy["pins_per_day"] for value in daily.values()))
         self.assertEqual(result["state"]["queue_status"], "exhausted")
         before = len(content)
         scheduled, content, result = schedule_payloads(result["catalog"], self.books, content, self.policy, now + timedelta(days=1125))
