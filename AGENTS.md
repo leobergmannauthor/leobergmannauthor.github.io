@@ -73,7 +73,7 @@ Every new item uses the stable key `<book-id>:<recipe-id>`. Never recycle or ren
 
 ## Scheduling behavior
 
-The cloud scheduler reads only committed prepared assets. It currently targets two organic items per Europe/Berlin day, keeps a rolling 30-day horizon, avoids two items from the same book on one day where possible, and suppresses exact-title reuse within 180 days. Five Pins/day is the hard safety ceiling; changing cadence requires an explicit marketing decision and updated tests.
+The cloud scheduler reads only committed prepared assets. It currently targets five organic items per Europe/Berlin day at 09:00, 12:00, 15:00, 18:00, and 21:00, keeps a rolling 30-day horizon, avoids two items from the same book on one day where possible, and suppresses exact-title reuse within 180 days. Five Pins/day is the hard safety ceiling; changing cadence requires an explicit marketing decision and updated tests.
 
 Scheduler requirements:
 

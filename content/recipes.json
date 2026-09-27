@@ -1888,6 +1888,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "004_meal_prep-recipe_017",
+    "catalog_id": "004_meal_prep:recipe_017",
+    "creative_variant": "photo",
+    "book_id": "004_meal_prep",
+    "title": "Pute-Käse-Vollkornsandwich",
+    "description": "Ein klassisches, herzhaftes Sandwich mit Putenbrust und Käse. Einfach, lecker und sättigend. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_017.jpg",
+    "publish_at": "2026-09-28T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_018",
+    "catalog_id": "005_low_carb:recipe_018",
+    "creative_variant": "editorial",
+    "book_id": "005_low_carb",
+    "title": "Rührei mit Krabben und Dill",
+    "description": "Cremiges Rührei mit zarten Nordseekrabben und frischem Dill – ein luxuriöses Frühstück mit maritimem Flair. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_018.jpg",
+    "publish_at": "2026-09-28T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "007_men-recipe_011",
     "catalog_id": "007_men:recipe_011",
     "book_id": "007_men",
@@ -1901,6 +1931,21 @@
     "publish_at": "2026-09-28T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "008_liver-recipe_017",
+    "catalog_id": "008_liver:recipe_017",
+    "creative_variant": "editorial",
+    "book_id": "008_liver",
+    "title": "Mangold mit Pinienkernen",
+    "description": "Knackiger Mangold mit gerösteten Pinienkernen und einem Hauch Knoblauch. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "8 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_017.jpg",
+    "publish_at": "2026-09-28T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "008_liver-recipe_011",
@@ -1918,6 +1963,36 @@
     "creative_variant": "editorial"
   },
   {
+    "id": "006_family-recipe_018",
+    "catalog_id": "006_family:recipe_018",
+    "creative_variant": "photo",
+    "book_id": "006_family",
+    "title": "Himbeer-Kokos-Porridge",
+    "description": "Träumen Sie sich mit diesem exotischen Porridge direkt in die Karibik. Die cremige Kokosmilch und die fruchtigen Himbeeren machen den Haferbrei zu einem besonderen Geschmackserlebnis. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "5 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/006_family/recipe_018.jpg",
+    "publish_at": "2026-09-29T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_017",
+    "catalog_id": "007_men:recipe_017",
+    "creative_variant": "bold",
+    "book_id": "007_men",
+    "title": "Speck-Käse-Kugeln",
+    "description": "Knusprige Käsebällchen mit Speck – außen kross, innen cremig. Partyfood vom Feinsten. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "20 min",
+    "cook": "20 min",
+    "servings": "6",
+    "difficulty": "Mittel",
+    "image": "assets/pins/007_men/recipe_017.jpg",
+    "publish_at": "2026-09-29T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "009_anti_entzuendung-recipe_011",
     "catalog_id": "009_anti_entzuendung:recipe_011",
     "book_id": "009_anti_entzuendung",
@@ -1931,6 +2006,21 @@
     "publish_at": "2026-09-29T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "011_hp_basics-recipe_017",
+    "catalog_id": "011_hp_basics:recipe_017",
+    "creative_variant": "bold",
+    "book_id": "011_hp_basics",
+    "title": "Rührei mit Tofu und Gemüse",
+    "description": "Ein herzhaftes Rührei, das mit Tofu zusätzlich Protein bekommt. Buntes Gemüse macht es zu einem vollwertigen Frühstück. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_017.jpg",
+    "publish_at": "2026-09-29T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "011_hp_basics-recipe_011",
@@ -1948,6 +2038,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "009_anti_entzuendung-recipe_017",
+    "catalog_id": "009_anti_entzuendung:recipe_017",
+    "creative_variant": "bold",
+    "book_id": "009_anti_entzuendung",
+    "title": "Vollkorn-Bagel mit Lachs und Avocado",
+    "description": "Herzhafter Vollkorn-Bagel belegt mit Omega-3-reichem Lachs und cremiger Avocado. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "3 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_017.jpg",
+    "publish_at": "2026-09-30T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_018",
+    "catalog_id": "001_protein:recipe_018",
+    "creative_variant": "editorial",
+    "book_id": "001_protein",
+    "title": "Hähnchen Caesar Bowl mit Joghurt-Dressing",
+    "description": "Klassische Caesar Aromen in einer leichten Bowl-Version mit proteinreichem Joghurt-Dressing. Saftiges Hähnchen und knuspriger Salat ergeben eine sättigende Mahlzeit. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_018.jpg",
+    "publish_at": "2026-09-30T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "012_hp_veggie-recipe_011",
     "catalog_id": "012_hp_veggie:recipe_011",
     "book_id": "012_hp_veggie",
@@ -1961,6 +2081,21 @@
     "publish_at": "2026-09-30T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "003_vegetarisch-recipe_019",
+    "catalog_id": "003_vegetarisch:recipe_019",
+    "creative_variant": "editorial",
+    "book_id": "003_vegetarisch",
+    "title": "Grüner Smoothie Vitaminbombe",
+    "description": "Dieser grüne Power-Drink steckt voller Vitamine und schmeckt trotz Spinat angenehm süß. Der perfekte Energie-Kick für den Morgen! Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_019.jpg",
+    "publish_at": "2026-09-30T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "001_protein-recipe_012",
@@ -1978,6 +2113,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "012_hp_veggie-recipe_017",
+    "catalog_id": "012_hp_veggie:recipe_017",
+    "creative_variant": "editorial",
+    "book_id": "012_hp_veggie",
+    "title": "Haferkleie-Porridge mit Ei",
+    "description": "Ein cremiges Porridge aus ballaststoffreicher Haferkleie, das du mit Skyr und einem Ei auf über 35 g Eiweiß bringst. Die löslichen Ballaststoffe der Kleie halten dich besonders lange satt. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_017.jpg",
+    "publish_at": "2026-10-01T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_018",
+    "catalog_id": "004_meal_prep:recipe_018",
+    "creative_variant": "bold",
+    "book_id": "004_meal_prep",
+    "title": "Kokos-Milchreis mit Mango",
+    "description": "Cremiger Milchreis mit Kokosmilch und süßer Mango – ein tropisches Frühstück, das kalt oder warm schmeckt. Hält sich 3-4 Tage im Kühlschrank. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "25 min",
+    "servings": "3",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_018.jpg",
+    "publish_at": "2026-10-01T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "003_vegetarisch-recipe_012",
     "catalog_id": "003_vegetarisch:recipe_012",
     "book_id": "003_vegetarisch",
@@ -1991,6 +2156,21 @@
     "publish_at": "2026-10-01T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "005_low_carb-recipe_019",
+    "catalog_id": "005_low_carb:recipe_019",
+    "creative_variant": "bold",
+    "book_id": "005_low_carb",
+    "title": "Smoothie 'Rote Kraft' mit Himbeeren und Mandelmilch",
+    "description": "Ein fruchtiger Beeren-Smoothie mit Mandelmilch und einem Hauch Vanille. Erfrischend, vitaminreich und perfekt für unterwegs. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_019.jpg",
+    "publish_at": "2026-10-01T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "004_meal_prep-recipe_012",
@@ -2008,6 +2188,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "006_family-recipe_019",
+    "catalog_id": "006_family:recipe_019",
+    "creative_variant": "photo",
+    "book_id": "006_family",
+    "title": "Buntes Obst-Omelett",
+    "description": "Ei muss nicht immer herzhaft sein! Dieses süße Omelett mit Apfel und Birne ist eine wunderbare, mehlfreie Alternative zum Pfannkuchen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "5 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/006_family/recipe_019.jpg",
+    "publish_at": "2026-10-02T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_018",
+    "catalog_id": "007_men:recipe_018",
+    "creative_variant": "bold",
+    "book_id": "007_men",
+    "title": "Knusprige Kartoffelwedges",
+    "description": "Selbstgemachte Potato Wedges aus dem Ofen – würzig, knusprig und viel besser als aus der Tiefkühltruhe. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "35 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/007_men/recipe_018.jpg",
+    "publish_at": "2026-10-02T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "005_low_carb-recipe_012",
     "catalog_id": "005_low_carb:recipe_012",
     "book_id": "005_low_carb",
@@ -2021,6 +2231,21 @@
     "publish_at": "2026-10-02T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "008_liver-recipe_018",
+    "catalog_id": "008_liver:recipe_018",
+    "creative_variant": "photo",
+    "book_id": "008_liver",
+    "title": "Gedämpfter Pak Choi",
+    "description": "Zarter Pak Choi gedämpft mit Sesam und Ingwer. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "5 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_018.jpg",
+    "publish_at": "2026-10-02T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "006_family-recipe_013",
@@ -2038,6 +2263,36 @@
     "creative_variant": "editorial"
   },
   {
+    "id": "009_anti_entzuendung-recipe_018",
+    "catalog_id": "009_anti_entzuendung:recipe_018",
+    "creative_variant": "photo",
+    "book_id": "009_anti_entzuendung",
+    "title": "Ingwer-Karotten-Saft mit Kurkuma",
+    "description": "Frisch gepresster Power-Saft mit Ingwer, Karotten und Kurkuma. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_018.jpg",
+    "publish_at": "2026-10-03T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_018",
+    "catalog_id": "011_hp_basics:recipe_018",
+    "creative_variant": "photo",
+    "book_id": "011_hp_basics",
+    "title": "Proteinreicher Milchreis mit Skyr",
+    "description": "Cremiger Milchreis, der durch Skyr richtig proteinreich wird. Mit Zimt und Honig ein wohliges Frühstück. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "20 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_018.jpg",
+    "publish_at": "2026-10-03T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "007_men-recipe_012",
     "catalog_id": "007_men:recipe_012",
     "book_id": "007_men",
@@ -2051,6 +2306,21 @@
     "publish_at": "2026-10-03T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "bold"
+  },
+  {
+    "id": "012_hp_veggie-recipe_018",
+    "catalog_id": "012_hp_veggie:recipe_018",
+    "creative_variant": "editorial",
+    "book_id": "012_hp_veggie",
+    "title": "Hüttenkäse-Bowl mit Tomaten und Ei",
+    "description": "Eine leichte, herzhafte Frühstücksbowl mit körnigem Frischkäse, wachsweichen Eiern und Tomaten – zusammen fast 40 g Eiweiß bei wenig Kalorien. Ganz ohne Kochaufwand und dennoch richtig sättigend. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_018.jpg",
+    "publish_at": "2026-10-03T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "008_liver-recipe_012",
@@ -2068,6 +2338,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "001_protein-recipe_019",
+    "catalog_id": "001_protein:recipe_019",
+    "creative_variant": "photo",
+    "book_id": "001_protein",
+    "title": "Pute Gemüse Pfanne mit Cashews",
+    "description": "Zarte Putenstreifen und buntes Gemüse werden in der Pfanne kurz und heiß gegart. Cashews bringen Biss und liefern gesunde Fette, während die Pute für viel Eiweiß sorgt. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_019.jpg",
+    "publish_at": "2026-10-04T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_020",
+    "catalog_id": "003_vegetarisch:recipe_020",
+    "creative_variant": "editorial",
+    "book_id": "003_vegetarisch",
+    "title": "Spiegelei im Toast-Rahmen (Egg in a Hole)",
+    "description": "Knuspriger Toast mit einem perfekt gebratenen Spiegelei in der Mitte. Ein Frühstücksklassiker, der immer wieder begeistert. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "2 min",
+    "cook": "5 min",
+    "servings": "1",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_020.jpg",
+    "publish_at": "2026-10-04T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "009_anti_entzuendung-recipe_012",
     "catalog_id": "009_anti_entzuendung:recipe_012",
     "book_id": "009_anti_entzuendung",
@@ -2081,6 +2381,21 @@
     "publish_at": "2026-10-04T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "004_meal_prep-recipe_019",
+    "catalog_id": "004_meal_prep:recipe_019",
+    "creative_variant": "editorial",
+    "book_id": "004_meal_prep",
+    "title": "Waffeln auf Vorrat (Einfrieren & Toasten)",
+    "description": "Selbstgemachte Waffeln, die du auf Vorrat einfrieren und morgens einfach im Toaster knusprig machen kannst. Schneller als jedes Fertigprodukt! Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "8",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_019.jpg",
+    "publish_at": "2026-10-04T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "011_hp_basics-recipe_012",
@@ -2098,6 +2413,36 @@
     "creative_variant": "editorial"
   },
   {
+    "id": "005_low_carb-recipe_020",
+    "catalog_id": "005_low_carb:recipe_020",
+    "creative_variant": "bold",
+    "book_id": "005_low_carb",
+    "title": "Gefüllte Frühstückseier mit Senfcreme",
+    "description": "Klassisch gefüllte Eier mit einer cremigen Senf-Mayo-Füllung. Ein proteinreicher Snack oder elegantes Frühstück für besondere Anlässe. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_020.jpg",
+    "publish_at": "2026-10-05T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "006_family-recipe_020",
+    "catalog_id": "006_family:recipe_020",
+    "creative_variant": "editorial",
+    "book_id": "006_family",
+    "title": "Energiekugeln (No Bake)",
+    "description": "Diese kleinen Kraftpakete sind der perfekte Snack für zwischendurch oder ein schnelles Power-Frühstück. Haferflocken, Kakao und Honig verbinden sich zu gesunden Pralinen, die ganz ohne Backen auskommen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "0 min",
+    "servings": "4",
+    "difficulty": "Simpel",
+    "image": "assets/pins/006_family/recipe_020.jpg",
+    "publish_at": "2026-10-05T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "012_hp_veggie-recipe_012",
     "catalog_id": "012_hp_veggie:recipe_012",
     "book_id": "012_hp_veggie",
@@ -2111,6 +2456,21 @@
     "publish_at": "2026-10-05T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "bold"
+  },
+  {
+    "id": "007_men-recipe_019",
+    "catalog_id": "007_men:recipe_019",
+    "creative_variant": "editorial",
+    "book_id": "007_men",
+    "title": "Schnelle Salsa",
+    "description": "Frische Tomatensalsa in 10 Minuten – perfekt zu Nachos, Tacos oder als Dip für alles. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "6",
+    "difficulty": "Einfach",
+    "image": "assets/pins/007_men/recipe_019.jpg",
+    "publish_at": "2026-10-05T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "001_protein-recipe_013",
@@ -2128,6 +2488,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "008_liver-recipe_019",
+    "catalog_id": "008_liver:recipe_019",
+    "creative_variant": "photo",
+    "book_id": "008_liver",
+    "title": "Kürbis-Wedges mit Rosmarin",
+    "description": "Goldbraune Kürbis-Spalten aus dem Ofen mit aromatischem Rosmarin. Reich an Beta-Carotin und Ballaststoffen - ein wärmender Genuss für Herbst und Winter. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "30 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_019.jpg",
+    "publish_at": "2026-10-06T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_019",
+    "catalog_id": "009_anti_entzuendung:recipe_019",
+    "creative_variant": "editorial",
+    "book_id": "009_anti_entzuendung",
+    "title": "Hirse-Frühstücksbrei mit Beeren",
+    "description": "Glutenfreier Hirsebrei mit frischen Beeren und einer Prise Zimt. Ein wärmendes, leicht verdauliches Frühstück mit antioxidativer Kraft. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_019.jpg",
+    "publish_at": "2026-10-06T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "003_vegetarisch-recipe_013",
     "catalog_id": "003_vegetarisch:recipe_013",
     "book_id": "003_vegetarisch",
@@ -2141,6 +2531,21 @@
     "publish_at": "2026-10-06T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "bold"
+  },
+  {
+    "id": "011_hp_basics-recipe_019",
+    "catalog_id": "011_hp_basics:recipe_019",
+    "creative_variant": "editorial",
+    "book_id": "011_hp_basics",
+    "title": "Bananen-Ei-Pfannkuchen",
+    "description": "Schnelle Pfannkuchen aus Banane, Ei und Quark ganz ohne Zucker. Natürlich süß und mit über 30 g Eiweiß. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_019.jpg",
+    "publish_at": "2026-10-06T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "004_meal_prep-recipe_013",
@@ -2158,6 +2563,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "012_hp_veggie-recipe_019",
+    "catalog_id": "012_hp_veggie:recipe_019",
+    "creative_variant": "photo",
+    "book_id": "012_hp_veggie",
+    "title": "Mandel-Quark mit Himbeeren",
+    "description": "Cremiger Magerquark mit gehackten Mandeln und fruchtigen Himbeeren – über 35 g Eiweiß in fünf Minuten. Vanille und ein Löffel Honig sorgen für dezente Süße ganz ohne viel Zucker. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "0 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_019.jpg",
+    "publish_at": "2026-10-07T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_020",
+    "catalog_id": "001_protein:recipe_020",
+    "creative_variant": "bold",
+    "book_id": "001_protein",
+    "title": "Skyr Quark Creme mit Kakao und Beeren",
+    "description": "Diese Creme vereint Skyr und Magerquark für eine extra Portion Eiweiß. Kakao sorgt für eine schokoladige Note, während Beeren Frische und Farbe bringen. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "–",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_020.jpg",
+    "publish_at": "2026-10-07T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "005_low_carb-recipe_013",
     "catalog_id": "005_low_carb:recipe_013",
     "book_id": "005_low_carb",
@@ -2171,6 +2606,21 @@
     "publish_at": "2026-10-07T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "bold"
+  },
+  {
+    "id": "003_vegetarisch-recipe_021",
+    "catalog_id": "003_vegetarisch:recipe_021",
+    "creative_variant": "photo",
+    "book_id": "003_vegetarisch",
+    "title": "Kichererbsen-Curry mit Kokosmilch",
+    "description": "Cremiges indisches Curry mit zarten Kichererbsen in würziger Kokosmilch-Sauce. In 20 Minuten fertig und unglaublich aromatisch! Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_021.jpg",
+    "publish_at": "2026-10-07T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "006_family-recipe_014",
@@ -2188,6 +2638,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "004_meal_prep-recipe_020",
+    "catalog_id": "004_meal_prep:recipe_020",
+    "creative_variant": "bold",
+    "book_id": "004_meal_prep",
+    "title": "Rührei-Wrap mit Schinken",
+    "description": "Ein herzhafter Wrap mit cremigem Rührei und würzigem Schinken. Kalt oder kurz in der Mikrowelle erwärmt genießbar. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_020.jpg",
+    "publish_at": "2026-10-08T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_021",
+    "catalog_id": "005_low_carb:recipe_021",
+    "creative_variant": "editorial",
+    "book_id": "005_low_carb",
+    "title": "Hähnchenbrust im knusprigen Bacon-Mantel",
+    "description": "Saftige Hähnchenbrust umwickelt mit knusprigem Bacon – außen kross, innen zart. Ein Low Carb Highlight, das immer gelingt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_021.jpg",
+    "publish_at": "2026-10-08T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "007_men-recipe_013",
     "catalog_id": "007_men:recipe_013",
     "book_id": "007_men",
@@ -2201,6 +2681,21 @@
     "publish_at": "2026-10-08T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "008_liver-recipe_020",
+    "catalog_id": "008_liver:recipe_020",
+    "creative_variant": "photo",
+    "book_id": "008_liver",
+    "title": "Pastinaken-Karotten-Püree",
+    "description": "Samtiges Püree aus süßen Pastinaken und Karotten ohne zusätzliche Sahne. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_020.jpg",
+    "publish_at": "2026-10-08T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "008_liver-recipe_013",
@@ -2218,6 +2713,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "006_family-recipe_021",
+    "catalog_id": "006_family:recipe_021",
+    "creative_variant": "bold",
+    "book_id": "006_family",
+    "title": "Blitz-Nudeln mit Erbsen-Sahne-Soße",
+    "description": "Ein cremiger Klassiker, der Kindern immer schmeckt – und Schinkenwürfel sorgen für die Würze. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/006_family/recipe_021.jpg",
+    "publish_at": "2026-10-09T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_020",
+    "catalog_id": "007_men:recipe_020",
+    "creative_variant": "editorial",
+    "book_id": "007_men",
+    "title": "Tomate-Mozzarella-Sticks",
+    "description": "Caprese am Spieß – einfach, frisch und perfekt als Vorspeise oder Snack. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/007_men/recipe_020.jpg",
+    "publish_at": "2026-10-09T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "009_anti_entzuendung-recipe_013",
     "catalog_id": "009_anti_entzuendung:recipe_013",
     "book_id": "009_anti_entzuendung",
@@ -2231,6 +2756,21 @@
     "publish_at": "2026-10-09T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "bold"
+  },
+  {
+    "id": "011_hp_basics-recipe_020",
+    "catalog_id": "011_hp_basics:recipe_020",
+    "creative_variant": "photo",
+    "book_id": "011_hp_basics",
+    "title": "Harzer Käse auf Roggenbrot mit Ei",
+    "description": "Der Eiweiß-Champion unter den Frühstücken: Harzer Käse ist fast pures Protein. Mit Ei und Roggenbrot ein deftiger Start mit über 40 g Eiweiß. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "8 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_020.jpg",
+    "publish_at": "2026-10-09T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "011_hp_basics-recipe_013",
@@ -2248,6 +2788,36 @@
     "creative_variant": "editorial"
   },
   {
+    "id": "009_anti_entzuendung-recipe_020",
+    "catalog_id": "009_anti_entzuendung:recipe_020",
+    "creative_variant": "photo",
+    "book_id": "009_anti_entzuendung",
+    "title": "Omega-3-Power-Bowl mit Hanfsamen",
+    "description": "Nährstoffreiche Bowl mit Hanfsamen, Walnüssen und Beeren. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_020.jpg",
+    "publish_at": "2026-10-10T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_021",
+    "catalog_id": "001_protein:recipe_021",
+    "creative_variant": "bold",
+    "book_id": "001_protein",
+    "title": "Quark-Gnocchi mit Spinat und Tomaten",
+    "description": "Hausgemachte Quark-Gnocchi sind wunderbar zart und liefern eine Extraportion Eiweiß. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "20 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/001_protein/recipe_021.jpg",
+    "publish_at": "2026-10-10T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "012_hp_veggie-recipe_013",
     "catalog_id": "012_hp_veggie:recipe_013",
     "book_id": "012_hp_veggie",
@@ -2261,6 +2831,21 @@
     "publish_at": "2026-10-10T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "003_vegetarisch-recipe_022",
+    "catalog_id": "003_vegetarisch:recipe_022",
+    "creative_variant": "photo",
+    "book_id": "003_vegetarisch",
+    "title": "Gebratener Reis mit Gemüse und Ei",
+    "description": "Der Klassiker vom Asiaten – jetzt für zuhause! Gebratener Reis mit knackigem Gemüse und Spiegelei-Stückchen. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_022.jpg",
+    "publish_at": "2026-10-10T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "001_protein-recipe_014",
@@ -2278,6 +2863,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "012_hp_veggie-recipe_020",
+    "catalog_id": "012_hp_veggie:recipe_020",
+    "creative_variant": "bold",
+    "book_id": "012_hp_veggie",
+    "title": "Käse-Spinat-Omelett-Wrap",
+    "description": "Ein herzhaftes Omelett mit Käse und Spinat, in eine Vollkorn-Tortilla gerollt – über 40 g Eiweiß zum Mitnehmen. Perfekt für unterwegs, weil du den Wrap in der Hand essen kannst, ohne zu kleckern. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "8 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_020.jpg",
+    "publish_at": "2026-10-11T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_021",
+    "catalog_id": "004_meal_prep:recipe_021",
+    "creative_variant": "photo",
+    "book_id": "004_meal_prep",
+    "title": "Schichtsalat im Glas: Griechisch mit Feta",
+    "description": "Der perfekte Salat für unterwegs. Durch das Schichten bleibt das Gemüse knackig und das Dressing unten. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_021.jpg",
+    "publish_at": "2026-10-11T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "003_vegetarisch-recipe_014",
     "catalog_id": "003_vegetarisch:recipe_014",
     "book_id": "003_vegetarisch",
@@ -2291,6 +2906,21 @@
     "publish_at": "2026-10-11T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "bold"
+  },
+  {
+    "id": "005_low_carb-recipe_022",
+    "catalog_id": "005_low_carb:recipe_022",
+    "creative_variant": "photo",
+    "book_id": "005_low_carb",
+    "title": "Zucchini-Nudeln (Zoodles) mit Bolognese-Soße",
+    "description": "Klassische Bolognese auf einem Bett aus frischen Zucchini-Nudeln – der Low Carb Ersatz für Spaghetti, der schmeckt wie das Original. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/005_low_carb/recipe_022.jpg",
+    "publish_at": "2026-10-11T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "004_meal_prep-recipe_014",
@@ -2308,6 +2938,36 @@
     "creative_variant": "editorial"
   },
   {
+    "id": "006_family-recipe_022",
+    "catalog_id": "006_family:recipe_022",
+    "creative_variant": "bold",
+    "book_id": "006_family",
+    "title": "Kartoffel-Zucchini-Puffer",
+    "description": "Eine tolle Möglichkeit, Gemüse zu verstecken. Knusprig und lecker aus der Pfanne. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "15 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/006_family/recipe_022.jpg",
+    "publish_at": "2026-10-12T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_021",
+    "catalog_id": "007_men:recipe_021",
+    "creative_variant": "editorial",
+    "book_id": "007_men",
+    "title": "Grillwürstchen im Blätterteig",
+    "description": "Würstchen im Schlafrock – kinderleicht, schnell gemacht und immer beliebt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "8",
+    "difficulty": "Einfach",
+    "image": "assets/pins/007_men/recipe_021.jpg",
+    "publish_at": "2026-10-12T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "005_low_carb-recipe_014",
     "catalog_id": "005_low_carb:recipe_014",
     "book_id": "005_low_carb",
@@ -2321,6 +2981,21 @@
     "publish_at": "2026-10-12T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "bold"
+  },
+  {
+    "id": "008_liver-recipe_021",
+    "catalog_id": "008_liver:recipe_021",
+    "creative_variant": "editorial",
+    "book_id": "008_liver",
+    "title": "Grüner Spargel mit Zitrone",
+    "description": "Knackig gebratener grüner Spargel mit frischem Zitronenaroma. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "8 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_021.jpg",
+    "publish_at": "2026-10-12T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "006_family-recipe_015",
@@ -2338,6 +3013,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "009_anti_entzuendung-recipe_021",
+    "catalog_id": "009_anti_entzuendung:recipe_021",
+    "creative_variant": "editorial",
+    "book_id": "009_anti_entzuendung",
+    "title": "Kurkuma-Lachs mit Brokkoli",
+    "description": "Zarter Lachs mit goldener Kurkuma-Kruste auf einem Bett aus gedämpftem Brokkoli. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_021.jpg",
+    "publish_at": "2026-10-13T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_021",
+    "catalog_id": "011_hp_basics:recipe_021",
+    "creative_variant": "bold",
+    "book_id": "011_hp_basics",
+    "title": "Hähnchenbrust mit Kräuterquark",
+    "description": "Saftige Hähnchenbrust mit einem frischen Kräuterquark-Dip. Mager, proteinreich und in 20 Minuten fertig. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_021.jpg",
+    "publish_at": "2026-10-13T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "007_men-recipe_014",
     "catalog_id": "007_men:recipe_014",
     "book_id": "007_men",
@@ -2351,6 +3056,21 @@
     "publish_at": "2026-10-13T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "012_hp_veggie-recipe_021",
+    "catalog_id": "012_hp_veggie:recipe_021",
+    "creative_variant": "photo",
+    "book_id": "012_hp_veggie",
+    "title": "Frittata mit Zucchini und Feta",
+    "description": "Eine saftige Ofen-Frittata mit Zucchini und würzigem Feta, die mit vier Eiern auf über 40 g Eiweiß kommt. Herzhaft, kohlenhydratarm und gut vorzubereiten – warm wie kalt ein Genuss. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/012_hp_veggie/recipe_021.jpg",
+    "publish_at": "2026-10-13T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "008_liver-recipe_014",
@@ -2368,6 +3088,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "001_protein-recipe_022",
+    "catalog_id": "001_protein:recipe_022",
+    "creative_variant": "editorial",
+    "book_id": "001_protein",
+    "title": "Erbsenprotein Pasta mit Hähnchen und Tomaten",
+    "description": "Proteinreiche Linsen- oder Erbsen-Pasta trifft auf saftiges Hähnchen und eine frische Tomatensauce. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_022.jpg",
+    "publish_at": "2026-10-14T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_023",
+    "catalog_id": "003_vegetarisch:recipe_023",
+    "creative_variant": "photo",
+    "book_id": "003_vegetarisch",
+    "title": "Gnocchi-Pfanne mit Tomaten und Mozzarella",
+    "description": "Goldbraun gebratene Gnocchi mit saftigen Tomaten und geschmolzenem Mozzarella. Italien in der Pfanne – in nur 15 Minuten! Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_023.jpg",
+    "publish_at": "2026-10-14T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "009_anti_entzuendung-recipe_014",
     "catalog_id": "009_anti_entzuendung:recipe_014",
     "book_id": "009_anti_entzuendung",
@@ -2381,6 +3131,21 @@
     "publish_at": "2026-10-14T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "004_meal_prep-recipe_022",
+    "catalog_id": "004_meal_prep:recipe_022",
+    "creative_variant": "editorial",
+    "book_id": "004_meal_prep",
+    "title": "Couscous-Salat mit Minze und Granatapfel",
+    "description": "Ein orientalischer Genuss, der mit jedem Tag besser schmeckt. Die Minze sorgt für Frische, der Granatapfel für süße Akzente. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "5 min",
+    "servings": "3",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_022.jpg",
+    "publish_at": "2026-10-14T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "011_hp_basics-recipe_014",
@@ -2398,6 +3163,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "005_low_carb-recipe_023",
+    "catalog_id": "005_low_carb:recipe_023",
+    "creative_variant": "editorial",
+    "book_id": "005_low_carb",
+    "title": "Saftige Frikadellen mit Feta-Füllung",
+    "description": "Herzhafte Frikadellen mit cremiger Feta-Überraschung im Inneren. Saftig, würzig und perfekt für die schnelle Feierabendküche. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "15 min",
+    "servings": "4",
+    "difficulty": "Mittel",
+    "image": "assets/pins/005_low_carb/recipe_023.jpg",
+    "publish_at": "2026-10-15T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "006_family-recipe_023",
+    "catalog_id": "006_family:recipe_023",
+    "creative_variant": "photo",
+    "book_id": "006_family",
+    "title": "Schnelle Gnocchi-Pfanne mit Tomaten",
+    "description": "Fertige Gnocchi aus dem Kühlregal sind der beste Freund für schnelle Mittagessen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "4",
+    "difficulty": "Simpel",
+    "image": "assets/pins/006_family/recipe_023.jpg",
+    "publish_at": "2026-10-15T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "012_hp_veggie-recipe_014",
     "catalog_id": "012_hp_veggie:recipe_014",
     "book_id": "012_hp_veggie",
@@ -2411,6 +3206,21 @@
     "publish_at": "2026-10-15T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "007_men-recipe_022",
+    "catalog_id": "007_men:recipe_022",
+    "creative_variant": "photo",
+    "book_id": "007_men",
+    "title": "Aioli",
+    "description": "Selbstgemachte Knoblauchmayonnaise – cremig, knoblauchig und zu fast allem eine Verbesserung. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "8",
+    "difficulty": "Mittel",
+    "image": "assets/pins/007_men/recipe_022.jpg",
+    "publish_at": "2026-10-15T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "001_protein-recipe_015",
@@ -2428,6 +3238,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "008_liver-recipe_022",
+    "catalog_id": "008_liver:recipe_022",
+    "creative_variant": "editorial",
+    "book_id": "008_liver",
+    "title": "Tomaten-Gurken-Salat mediterran",
+    "description": "Frischer Sommersalat mit saftigen Tomaten, knackiger Gurke und aromatischen Kräutern. Ein leichter Klassiker voller Antioxidantien, der wunderbar erfrischt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_022.jpg",
+    "publish_at": "2026-10-16T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_022",
+    "catalog_id": "009_anti_entzuendung:recipe_022",
+    "creative_variant": "photo",
+    "book_id": "009_anti_entzuendung",
+    "title": "Makrele mit Ingwer-Glasur",
+    "description": "Saftige Makrele mit aromatischer Ingwer-Glasur. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "12 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/009_anti_entzuendung/recipe_022.jpg",
+    "publish_at": "2026-10-16T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "003_vegetarisch-recipe_015",
     "catalog_id": "003_vegetarisch:recipe_015",
     "book_id": "003_vegetarisch",
@@ -2441,6 +3281,21 @@
     "publish_at": "2026-10-16T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "011_hp_basics-recipe_022",
+    "catalog_id": "011_hp_basics:recipe_022",
+    "creative_variant": "photo",
+    "book_id": "011_hp_basics",
+    "title": "Putengeschnetzeltes mit Paprika",
+    "description": "Zartes Putengeschnetzeltes in cremiger Frischkäse-Sauce mit buntem Paprika. Ein schnelles Pfannengericht mit viel Eiweiß. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_022.jpg",
+    "publish_at": "2026-10-16T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "004_meal_prep-recipe_015",
@@ -2458,6 +3313,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "012_hp_veggie-recipe_022",
+    "catalog_id": "012_hp_veggie:recipe_022",
+    "creative_variant": "bold",
+    "book_id": "012_hp_veggie",
+    "title": "Käse-Souffléomelett",
+    "description": "Ein besonders luftiges Omelett, bei dem steif geschlagenes Eiweiß für eine wolkige Konsistenz sorgt. Mit vier Eiern und geschmolzenem Käse bringt es über 40 g Eiweiß auf den Teller – fast ohne Kohlenhydrate. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "8 min",
+    "servings": "1",
+    "difficulty": "Mittel",
+    "image": "assets/pins/012_hp_veggie/recipe_022.jpg",
+    "publish_at": "2026-10-17T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_023",
+    "catalog_id": "001_protein:recipe_023",
+    "creative_variant": "editorial",
+    "book_id": "001_protein",
+    "title": "Seitan Gemüse Wok mit Vollkornreis",
+    "description": "Herzhafter Seitan liefert eine starke Portion pflanzliches Eiweiß. Zusammen mit buntem Gemüse und Vollkornreis entsteht ein sättigendes, leichtes Gericht. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_023.jpg",
+    "publish_at": "2026-10-17T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "005_low_carb-recipe_016",
     "catalog_id": "005_low_carb:recipe_016",
     "book_id": "005_low_carb",
@@ -2471,6 +3356,21 @@
     "publish_at": "2026-10-17T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "003_vegetarisch-recipe_024",
+    "catalog_id": "003_vegetarisch:recipe_024",
+    "creative_variant": "editorial",
+    "book_id": "003_vegetarisch",
+    "title": "Schupfnudel-Pfanne mit Sauerkraut",
+    "description": "Schwäbischer Klassiker: Knusprig gebratene Schupfnudeln mit herzhaftem Sauerkraut. Deftig, lecker und in 15 Minuten fertig! Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "12 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_024.jpg",
+    "publish_at": "2026-10-17T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "006_family-recipe_016",
@@ -2488,6 +3388,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "004_meal_prep-recipe_023",
+    "catalog_id": "004_meal_prep:recipe_023",
+    "creative_variant": "editorial",
+    "book_id": "004_meal_prep",
+    "title": "Nudelsalat 'Caprese' mit Pesto-Dressing",
+    "description": "Italienisches Flair in der Lunchbox. Die Tortellini nehmen das Aroma des Pestos wunderbar auf. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "10 min",
+    "servings": "3",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_023.jpg",
+    "publish_at": "2026-10-18T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_024",
+    "catalog_id": "005_low_carb:recipe_024",
+    "creative_variant": "photo",
+    "book_id": "005_low_carb",
+    "title": "Puten-Geschnetzeltes in Champignon-Rahm-Soße",
+    "description": "Zartes Putengeschnetzeltes in einer cremigen Champignon-Sahne-Soße. Ein Klassiker der deutschen Küche, perfekt für Low Carb. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/005_low_carb/recipe_024.jpg",
+    "publish_at": "2026-10-18T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "007_men-recipe_015",
     "catalog_id": "007_men:recipe_015",
     "book_id": "007_men",
@@ -2501,6 +3431,21 @@
     "publish_at": "2026-10-18T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "008_liver-recipe_023",
+    "catalog_id": "008_liver:recipe_023",
+    "creative_variant": "photo",
+    "book_id": "008_liver",
+    "title": "Rucola mit Granatapfelkernen",
+    "description": "Würziger Rucola trifft auf süße Granatapfelkerne und knackige Pinienkerne. Ein eleganter Salat voller Antioxidantien, der auf jedem Teller ein Hingucker ist. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "0 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_023.jpg",
+    "publish_at": "2026-10-18T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "008_liver-recipe_015",
@@ -2518,6 +3463,36 @@
     "creative_variant": "editorial"
   },
   {
+    "id": "006_family-recipe_024",
+    "catalog_id": "006_family:recipe_024",
+    "creative_variant": "editorial",
+    "book_id": "006_family",
+    "title": "Linsen-Bolognese (Veggie)",
+    "description": "Ein vegetarischer Triumph, der Fleischliebhaber staunen lässt! Rote Linsen ersetzen das Hackfleisch und sorgen für eine wunderbar sämige Konsistenz, die dem italienischen Original in nichts nachsteht. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "4",
+    "difficulty": "Einfach",
+    "image": "assets/pins/006_family/recipe_024.jpg",
+    "publish_at": "2026-10-19T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_023",
+    "catalog_id": "007_men:recipe_023",
+    "creative_variant": "photo",
+    "book_id": "007_men",
+    "title": "Speck und Rührei",
+    "description": "Der Frühstücksklassiker schlechthin – knuspriger Bacon mit cremigem Rührei. Mehr braucht's nicht. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Einfach",
+    "image": "assets/pins/007_men/recipe_023.jpg",
+    "publish_at": "2026-10-19T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "009_anti_entzuendung-recipe_015",
     "catalog_id": "009_anti_entzuendung:recipe_015",
     "book_id": "009_anti_entzuendung",
@@ -2531,6 +3506,21 @@
     "publish_at": "2026-10-19T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "011_hp_basics-recipe_023",
+    "catalog_id": "011_hp_basics:recipe_023",
+    "creative_variant": "bold",
+    "book_id": "011_hp_basics",
+    "title": "Hähnchen-Gemüse-Pfanne",
+    "description": "Eine bunte Pfanne aus Hähnchen und knackigem Gemüse. Alltagstauglich, sättigend und mit über 40 g Protein. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_023.jpg",
+    "publish_at": "2026-10-19T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "011_hp_basics-recipe_015",
@@ -2548,6 +3538,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "009_anti_entzuendung-recipe_023",
+    "catalog_id": "009_anti_entzuendung:recipe_023",
+    "creative_variant": "editorial",
+    "book_id": "009_anti_entzuendung",
+    "title": "Sardinen auf geröstetem Vollkornbrot",
+    "description": "Knuspriges Vollkornbrot mit Omega-3-reichen Sardinen und frischen Kräutern. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "5 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_023.jpg",
+    "publish_at": "2026-10-20T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_024",
+    "catalog_id": "001_protein:recipe_024",
+    "creative_variant": "editorial",
+    "book_id": "001_protein",
+    "title": "Garnelen Zoodle Alfredo light",
+    "description": "Zucchininudeln und zarte Garnelen in einer leichten Alfredo-Sauce sind die perfekte Kombination. Viel Protein und wenig Kohlenhydrate machen das Gericht ideal für den Abend. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_024.jpg",
+    "publish_at": "2026-10-20T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "012_hp_veggie-recipe_015",
     "catalog_id": "012_hp_veggie:recipe_015",
     "book_id": "012_hp_veggie",
@@ -2561,6 +3581,21 @@
     "publish_at": "2026-10-20T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "bold"
+  },
+  {
+    "id": "003_vegetarisch-recipe_025",
+    "catalog_id": "003_vegetarisch:recipe_025",
+    "creative_variant": "photo",
+    "book_id": "003_vegetarisch",
+    "title": "Cremige Champignon-Rahm-Soße mit Spätzle",
+    "description": "Samtweiche Pilzsoße auf herrlich ungleichmäßigen Spätzle – ein Wohlfühl-Klassiker der deutschen Küche! Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_025.jpg",
+    "publish_at": "2026-10-20T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "001_protein-recipe_016",
@@ -2578,6 +3613,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "012_hp_veggie-recipe_023",
+    "catalog_id": "012_hp_veggie:recipe_023",
+    "creative_variant": "bold",
+    "book_id": "012_hp_veggie",
+    "title": "Ofen-Eier mit Spinat und Käse",
+    "description": "Im Ofen gebackene Eier auf einem Bett aus Knoblauch-Spinat, überbacken mit Käse – ein warmes, herzhaftes Gericht mit über 45 g Eiweiß. Fast ohne Kohlenhydrate und in einer Form schnell zusammengestellt. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_023.jpg",
+    "publish_at": "2026-10-21T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_024",
+    "catalog_id": "004_meal_prep:recipe_024",
+    "creative_variant": "editorial",
+    "book_id": "004_meal_prep",
+    "title": "Asiatischer Glasnudelsalat mit Erdnuss-Dressing",
+    "description": "Ein leichter und erfrischender Salat mit knackigem Gemüse und einer cremig-würzigen Erdnusssoße. Hält sich 2-3 Tage im Kühlschrank. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "20 min",
+    "cook": "5 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/004_meal_prep/recipe_024.jpg",
+    "publish_at": "2026-10-21T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "003_vegetarisch-recipe_017",
     "catalog_id": "003_vegetarisch:recipe_017",
     "book_id": "003_vegetarisch",
@@ -2591,6 +3656,21 @@
     "publish_at": "2026-10-21T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "005_low_carb-recipe_025",
+    "catalog_id": "005_low_carb:recipe_025",
+    "creative_variant": "photo",
+    "book_id": "005_low_carb",
+    "title": "Klassischer Hackbraten 'Falscher Hase' (Low Carb)",
+    "description": "Ein deutscher Sonntagsklassiker ohne Brötchen – Falscher Hase in Low Carb Version. Saftig, würzig und voller Kindheitserinnerungen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "20 min",
+    "cook": "50 min",
+    "servings": "6",
+    "difficulty": "Mittel",
+    "image": "assets/pins/005_low_carb/recipe_025.jpg",
+    "publish_at": "2026-10-21T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "004_meal_prep-recipe_016",
@@ -2608,6 +3688,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "006_family-recipe_025",
+    "catalog_id": "006_family:recipe_025",
+    "creative_variant": "editorial",
+    "book_id": "006_family",
+    "title": "Fischstäbchen-Wrap",
+    "description": "Der Kinderklassiker mal ganz neu verpackt! Goldgelbe Fischstäbchen treffen in einem weichen Tortilla-Wrap auf knackigen Salat und frische Remoulade. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "10 min",
+    "servings": "4",
+    "difficulty": "Simpel",
+    "image": "assets/pins/006_family/recipe_025.jpg",
+    "publish_at": "2026-10-22T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "007_men-recipe_024",
+    "catalog_id": "007_men:recipe_024",
+    "creative_variant": "photo",
+    "book_id": "007_men",
+    "title": "Bauernfrühstück",
+    "description": "Bratkartoffeln mit Speck, Zwiebeln und Ei – so startet der Tag richtig. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Einfach",
+    "image": "assets/pins/007_men/recipe_024.jpg",
+    "publish_at": "2026-10-22T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "005_low_carb-recipe_017",
     "catalog_id": "005_low_carb:recipe_017",
     "book_id": "005_low_carb",
@@ -2621,6 +3731,21 @@
     "publish_at": "2026-10-22T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "editorial"
+  },
+  {
+    "id": "008_liver-recipe_024",
+    "catalog_id": "008_liver:recipe_024",
+    "creative_variant": "bold",
+    "book_id": "008_liver",
+    "title": "Bunter Gemüse-Antipasti-Teller",
+    "description": "Mediterrane Gemüsevielfalt aus dem Ofen mit aromatischen Kräutern. Ein bunter Mix aus Zucchini, Paprika und Aubergine - perfekt als Vorspeise oder leichte Hauptspeise. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_024.jpg",
+    "publish_at": "2026-10-22T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "006_family-recipe_017",
@@ -2638,6 +3763,36 @@
     "creative_variant": "editorial"
   },
   {
+    "id": "009_anti_entzuendung-recipe_024",
+    "catalog_id": "009_anti_entzuendung:recipe_024",
+    "creative_variant": "photo",
+    "book_id": "009_anti_entzuendung",
+    "title": "Lachs-Spinat-Pfanne mit Knoblauch",
+    "description": "Zarter Lachs auf frischem Spinat mit aromatischem Knoblauch. Ein schnelles One-Pot-Gericht mit reichlich Omega-3 und Blattgemüse. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "12 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/009_anti_entzuendung/recipe_024.jpg",
+    "publish_at": "2026-10-23T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "011_hp_basics-recipe_024",
+    "catalog_id": "011_hp_basics:recipe_024",
+    "creative_variant": "bold",
+    "book_id": "011_hp_basics",
+    "title": "Putenschnitzel mit Zitrone",
+    "description": "Zartes Putenschnitzel mit frischer Zitronennote. Mager und proteinreich, ideal mit Salat oder Gemüse. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_024.jpg",
+    "publish_at": "2026-10-23T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "007_men-recipe_016",
     "catalog_id": "007_men:recipe_016",
     "book_id": "007_men",
@@ -2651,6 +3806,21 @@
     "publish_at": "2026-10-23T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "012_hp_veggie-recipe_024",
+    "catalog_id": "012_hp_veggie:recipe_024",
+    "creative_variant": "editorial",
+    "book_id": "012_hp_veggie",
+    "title": "Halloumi mit Ei und Tomaten",
+    "description": "Goldbraun gebratener Halloumi mit Spiegeleiern und warmen Tomaten – salzig, herzhaft und mit fast 50 g Eiweiß. Der Grillkäse liefert ordentlich Protein und bleibt beim Braten schön bissfest. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "10 min",
+    "servings": "1",
+    "difficulty": "Einfach",
+    "image": "assets/pins/012_hp_veggie/recipe_024.jpg",
+    "publish_at": "2026-10-23T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "008_liver-recipe_016",
@@ -2668,6 +3838,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "001_protein-recipe_025",
+    "catalog_id": "001_protein:recipe_025",
+    "creative_variant": "bold",
+    "book_id": "001_protein",
+    "title": "Lachs-Burger auf Salatbett",
+    "description": "Saftige Lachs-Burger liefern hochwertiges Protein und bleiben dank Kräutern und Zitrone herrlich frisch. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "20 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_025.jpg",
+    "publish_at": "2026-10-24T10:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_026",
+    "catalog_id": "003_vegetarisch:recipe_026",
+    "creative_variant": "bold",
+    "book_id": "003_vegetarisch",
+    "title": "Halloumi-Gemüse-Pfanne mediterran",
+    "description": "Goldbraun gebratener Halloumi auf buntem Mittelmeer-Gemüse. Der quietschige Käse macht dieses Gericht zum Highlight! Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "12 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_026.jpg",
+    "publish_at": "2026-10-24T13:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "009_anti_entzuendung-recipe_016",
     "catalog_id": "009_anti_entzuendung:recipe_016",
     "book_id": "009_anti_entzuendung",
@@ -2681,6 +3881,21 @@
     "publish_at": "2026-10-24T16:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "004_meal_prep-recipe_025",
+    "catalog_id": "004_meal_prep:recipe_025",
+    "creative_variant": "photo",
+    "book_id": "004_meal_prep",
+    "title": "Linsen-Salat mit Roter Bete & Ziegenkäse",
+    "description": "Herzhaft und sättigend durch Beluga-Linsen, kombiniert mit der Süße der Roten Bete. Hält sich 4 Tage im Kühlschrank. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "3",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_025.jpg",
+    "publish_at": "2026-10-24T19:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "011_hp_basics-recipe_016",
@@ -2698,6 +3913,36 @@
     "creative_variant": "bold"
   },
   {
+    "id": "005_low_carb-recipe_026",
+    "catalog_id": "005_low_carb:recipe_026",
+    "creative_variant": "bold",
+    "book_id": "005_low_carb",
+    "title": "Hähnchen-Curry mit Blumenkohlreis",
+    "description": "Cremiges Hähnchen-Curry mit aromatischen Gewürzen auf einem Bett aus lockerem Blumenkohlreis. Ein Low Carb Klassiker mit asiatischem Flair. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "25 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/005_low_carb/recipe_026.jpg",
+    "publish_at": "2026-10-25T11:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "006_family-recipe_026",
+    "catalog_id": "006_family:recipe_026",
+    "creative_variant": "bold",
+    "book_id": "006_family",
+    "title": "Reis-Pfanne 'Kunterbunt'",
+    "description": "Zaubern Sie aus Resten ein Festmahl! Reis vom Vortag wird mit buntem Gemüse, Mais und Ei zu einer herzhaften Pfanne gebraten, die Asien-Flair auf den Tisch bringt. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Familienkochbuch für jeden Geldbeutel‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "10 min",
+    "servings": "4",
+    "difficulty": "Simpel",
+    "image": "assets/pins/006_family/recipe_026.jpg",
+    "publish_at": "2026-10-25T14:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBVNP6Z?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "012_hp_veggie-recipe_016",
     "catalog_id": "012_hp_veggie:recipe_016",
     "book_id": "012_hp_veggie",
@@ -2711,6 +3956,21 @@
     "publish_at": "2026-10-25T17:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "editorial"
+  },
+  {
+    "id": "007_men-recipe_025",
+    "catalog_id": "007_men:recipe_025",
+    "creative_variant": "photo",
+    "book_id": "007_men",
+    "title": "Full English Breakfast",
+    "description": "Das legendäre englische Frühstück – Speck, Würstchen, Bohnen, Ei, Toast und mehr. Für richtig hungrige Männer. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Männer-Kochbuch‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/007_men/recipe_025.jpg",
+    "publish_at": "2026-10-25T20:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMH1JMYW?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   },
   {
     "id": "001_protein-recipe_017",
@@ -2728,6 +3988,36 @@
     "creative_variant": "photo"
   },
   {
+    "id": "008_liver-recipe_025",
+    "catalog_id": "008_liver:recipe_025",
+    "creative_variant": "bold",
+    "book_id": "008_liver",
+    "title": "Hähnchenbrust mit Kurkuma-Marinade",
+    "description": "Saftige Hähnchenbrust in einer goldenen Kurkuma-Marinade mit Ingwer und Zitrone. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Fettleber Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/008_liver/recipe_025.jpg",
+    "publish_at": "2026-10-26T11:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMQ23L4J?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "009_anti_entzuendung-recipe_025",
+    "catalog_id": "009_anti_entzuendung:recipe_025",
+    "creative_variant": "photo",
+    "book_id": "009_anti_entzuendung",
+    "title": "Forelle im Kräutermantel",
+    "description": "Zarte Forelle umhüllt von frischen Kräutern und im Ofen gebacken. Ein klassisches Fischgericht mit mediterranen Aromen. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Anti-Entzündliches Kochbuch‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/009_anti_entzuendung/recipe_025.jpg",
+    "publish_at": "2026-10-26T14:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GPKWWSS9?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
     "id": "003_vegetarisch-recipe_018",
     "catalog_id": "003_vegetarisch:recipe_018",
     "book_id": "003_vegetarisch",
@@ -2741,5 +4031,95 @@
     "publish_at": "2026-10-26T17:00:00Z",
     "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books",
     "creative_variant": "photo"
+  },
+  {
+    "id": "011_hp_basics-recipe_025",
+    "catalog_id": "011_hp_basics:recipe_025",
+    "creative_variant": "photo",
+    "book_id": "011_hp_basics",
+    "title": "Hähnchenspieße mit Joghurt-Dip",
+    "description": "Marinierte Hähnchenspieße mit kühlem Joghurt-Dip. Perfekt aus der Pfanne oder vom Grill. Entdecke dieses Rezept und 139 weitere Ideen in ‚Eiweißreich kochen: 140 proteinreiche Rezepte mit max. 5 Zutaten‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "15 min",
+    "servings": "2",
+    "difficulty": "Einfach",
+    "image": "assets/pins/011_hp_basics/recipe_025.jpg",
+    "publish_at": "2026-10-26T20:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H8K8XZFZ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "012_hp_veggie-recipe_025",
+    "catalog_id": "012_hp_veggie:recipe_025",
+    "creative_variant": "photo",
+    "book_id": "012_hp_veggie",
+    "title": "Paprika-Frittata",
+    "description": "Eine bunte Ofen-Frittata mit süßer Paprika, Zwiebel und Käse, die auf über 40 g Eiweiß kommt. Einfach, sättigend und ideal, um Gemüsereste zu verwerten. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches High Protein Kochbuch für Muskelaufbau‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/012_hp_veggie/recipe_025.jpg",
+    "publish_at": "2026-10-27T08:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0H9NYMR72?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "001_protein-recipe_026",
+    "catalog_id": "001_protein:recipe_026",
+    "creative_variant": "photo",
+    "book_id": "001_protein",
+    "title": "Hähnchen Süß-Sauer mit Ananas und Vollkornreis",
+    "description": "Dieses Hähnchen Süß-Sauer ist leichter als die klassische Version und bleibt dennoch herrlich aromatisch. Saftige Ananas und bunte Paprika bringen Frische und Farbe. Entdecke dieses Rezept und 139 weitere Ideen in ‚High Protein Power-Küche für Berufstätige‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/001_protein/recipe_026.jpg",
+    "publish_at": "2026-10-27T11:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0G1KMD28S?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "003_vegetarisch-recipe_027",
+    "catalog_id": "003_vegetarisch:recipe_027",
+    "creative_variant": "bold",
+    "book_id": "003_vegetarisch",
+    "title": "Rotes Linsen-Dal (Indischer Klassiker)",
+    "description": "Samtiges Dal aus roten Linsen mit Kreuzkümmel und Kurkuma. Ein nahrhaftes indisches Gericht, das in 20 Minuten auf dem Tisch steht. Entdecke dieses Rezept und 139 weitere Ideen in ‚Vegetarisches XXL Kochbuch: 140 schnelle Rezepte‘ von Leo Bergmann.",
+    "prep": "5 min",
+    "cook": "18 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/003_vegetarisch/recipe_027.jpg",
+    "publish_at": "2026-10-27T14:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHJLCKSV?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "004_meal_prep-recipe_026",
+    "catalog_id": "004_meal_prep:recipe_026",
+    "creative_variant": "photo",
+    "book_id": "004_meal_prep",
+    "title": "Caesar Wrap mit Hähnchenstreifen",
+    "description": "Der klassische Caesar Salad im praktischen Wrap-Format. Ideal für eine schnelle Mittagspause ohne Besteck. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Meal Prep Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "15 min",
+    "cook": "10 min",
+    "servings": "2",
+    "difficulty": "Leicht",
+    "image": "assets/pins/004_meal_prep/recipe_026.jpg",
+    "publish_at": "2026-10-27T17:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GHMMF8LP?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
+  },
+  {
+    "id": "005_low_carb-recipe_027",
+    "catalog_id": "005_low_carb:recipe_027",
+    "creative_variant": "photo",
+    "book_id": "005_low_carb",
+    "title": "Schweinemedaillons in Pfeffer-Rahm-Soße",
+    "description": "Zarte Schweinemedaillons in einer würzigen Pfeffer-Sahne-Soße. Ein festliches Gericht, das in 30 Minuten auf dem Tisch steht. Entdecke dieses Rezept und 139 weitere Ideen in ‚XXL Low Carb Kochbuch für Anfänger‘ von Leo Bergmann.",
+    "prep": "10 min",
+    "cook": "20 min",
+    "servings": "2",
+    "difficulty": "Mittel",
+    "image": "assets/pins/005_low_carb/recipe_027.jpg",
+    "publish_at": "2026-10-27T20:00:00Z",
+    "amazon_url": "https://www.amazon.de/dp/B0GMBPQ4HJ?utm_source=pinterest&utm_medium=organic&utm_campaign=leo_bergmann_books"
   }
 ]

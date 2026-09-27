@@ -3,10 +3,13 @@
   "timezone": "Europe/Berlin",
   "daily_budget_eur": 0,
   "paid_channels_enabled": false,
-  "pins_per_day": 2,
+  "pins_per_day": 5,
   "publish_hours": [
     9,
-    18
+    12,
+    15,
+    18,
+    21
   ],
   "schedule_horizon_days": 30,
   "title_cooldown_days": 180,

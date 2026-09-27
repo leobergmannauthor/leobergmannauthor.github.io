@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-09-26T17:37:00Z",
+  "last_updated_at": "2026-09-27T06:17:41Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -2609,6 +2609,44 @@
       }
     },
     {
+      "content_id": "004_meal_prep-recipe_017",
+      "title": "Pute-Käse-Vollkornsandwich",
+      "scheduled_at": "2026-09-28T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_017.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_017.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-29T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_018",
+      "title": "Rührei mit Krabben und Dill",
+      "scheduled_at": "2026-09-28T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-29T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "007_men-recipe_011",
       "title": "Hackfleisch-Pide",
       "scheduled_at": "2026-09-28T16:00:00Z",
@@ -2622,6 +2660,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-29T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_017",
+      "title": "Mangold mit Pinienkernen",
+      "scheduled_at": "2026-09-28T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_017.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_017.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-29T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2647,6 +2704,44 @@
       }
     },
     {
+      "content_id": "006_family-recipe_018",
+      "title": "Himbeer-Kokos-Porridge",
+      "scheduled_at": "2026-09-29T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-30T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_017",
+      "title": "Speck-Käse-Kugeln",
+      "scheduled_at": "2026-09-29T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_017.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_017.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-30T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "009_anti_entzuendung-recipe_011",
       "title": "Grüner Smoothie mit Ingwer und Spinat",
       "scheduled_at": "2026-09-29T16:00:00Z",
@@ -2660,6 +2755,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-09-30T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_017",
+      "title": "Rührei mit Tofu und Gemüse",
+      "scheduled_at": "2026-09-29T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_017.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_017.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-09-30T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2685,6 +2799,44 @@
       }
     },
     {
+      "content_id": "009_anti_entzuendung-recipe_017",
+      "title": "Vollkorn-Bagel mit Lachs und Avocado",
+      "scheduled_at": "2026-09-30T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_017.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_017.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-01T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_018",
+      "title": "Hähnchen Caesar Bowl mit Joghurt-Dressing",
+      "scheduled_at": "2026-09-30T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-01T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "012_hp_veggie-recipe_011",
       "title": "Herzhafte Haferflocken mit Ei und Käse",
       "scheduled_at": "2026-09-30T16:00:00Z",
@@ -2698,6 +2850,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-01T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_019",
+      "title": "Grüner Smoothie Vitaminbombe",
+      "scheduled_at": "2026-09-30T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-01T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2723,6 +2894,44 @@
       }
     },
     {
+      "content_id": "012_hp_veggie-recipe_017",
+      "title": "Haferkleie-Porridge mit Ei",
+      "scheduled_at": "2026-10-01T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_017.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_017.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-02T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_018",
+      "title": "Kokos-Milchreis mit Mango",
+      "scheduled_at": "2026-10-01T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-02T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "003_vegetarisch-recipe_012",
       "title": "Omelett mit Champignons und Käse",
       "scheduled_at": "2026-10-01T16:00:00Z",
@@ -2736,6 +2945,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-02T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_019",
+      "title": "Smoothie 'Rote Kraft' mit Himbeeren und Mandelmilch",
+      "scheduled_at": "2026-10-01T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-02T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2761,6 +2989,44 @@
       }
     },
     {
+      "content_id": "006_family-recipe_019",
+      "title": "Buntes Obst-Omelett",
+      "scheduled_at": "2026-10-02T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-03T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_018",
+      "title": "Knusprige Kartoffelwedges",
+      "scheduled_at": "2026-10-02T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-03T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "005_low_carb-recipe_012",
       "title": "Spiegelei auf gebratenen Champignons",
       "scheduled_at": "2026-10-02T16:00:00Z",
@@ -2774,6 +3040,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-03T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_018",
+      "title": "Gedämpfter Pak Choi",
+      "scheduled_at": "2026-10-02T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-03T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2799,6 +3084,44 @@
       }
     },
     {
+      "content_id": "009_anti_entzuendung-recipe_018",
+      "title": "Ingwer-Karotten-Saft mit Kurkuma",
+      "scheduled_at": "2026-10-03T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-04T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_018",
+      "title": "Proteinreicher Milchreis mit Skyr",
+      "scheduled_at": "2026-10-03T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-04T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "007_men-recipe_012",
       "title": "Ofenkartoffeln mit Sour Cream",
       "scheduled_at": "2026-10-03T16:00:00Z",
@@ -2812,6 +3135,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-04T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_018",
+      "title": "Hüttenkäse-Bowl mit Tomaten und Ei",
+      "scheduled_at": "2026-10-03T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_018.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_018.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-04T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2837,6 +3179,44 @@
       }
     },
     {
+      "content_id": "001_protein-recipe_019",
+      "title": "Pute Gemüse Pfanne mit Cashews",
+      "scheduled_at": "2026-10-04T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-05T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_020",
+      "title": "Spiegelei im Toast-Rahmen (Egg in a Hole)",
+      "scheduled_at": "2026-10-04T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-05T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "009_anti_entzuendung-recipe_012",
       "title": "Walnuss-Bananen-Haferbrei",
       "scheduled_at": "2026-10-04T16:00:00Z",
@@ -2850,6 +3230,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-05T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_019",
+      "title": "Waffeln auf Vorrat (Einfrieren & Toasten)",
+      "scheduled_at": "2026-10-04T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-05T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2875,6 +3274,44 @@
       }
     },
     {
+      "content_id": "005_low_carb-recipe_020",
+      "title": "Gefüllte Frühstückseier mit Senfcreme",
+      "scheduled_at": "2026-10-05T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-06T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_020",
+      "title": "Energiekugeln (No Bake)",
+      "scheduled_at": "2026-10-05T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-06T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "012_hp_veggie-recipe_012",
       "title": "Apfel-Zimt-Quark mit Walnüssen",
       "scheduled_at": "2026-10-05T16:00:00Z",
@@ -2888,6 +3325,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-06T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_019",
+      "title": "Schnelle Salsa",
+      "scheduled_at": "2026-10-05T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-06T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2913,6 +3369,44 @@
       }
     },
     {
+      "content_id": "008_liver-recipe_019",
+      "title": "Kürbis-Wedges mit Rosmarin",
+      "scheduled_at": "2026-10-06T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-07T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_019",
+      "title": "Hirse-Frühstücksbrei mit Beeren",
+      "scheduled_at": "2026-10-06T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-07T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "003_vegetarisch-recipe_013",
       "title": "Knuspriges Granola selbstgemacht",
       "scheduled_at": "2026-10-06T16:00:00Z",
@@ -2926,6 +3420,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-07T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_019",
+      "title": "Bananen-Ei-Pfannkuchen",
+      "scheduled_at": "2026-10-06T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-07T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2951,6 +3464,44 @@
       }
     },
     {
+      "content_id": "012_hp_veggie-recipe_019",
+      "title": "Mandel-Quark mit Himbeeren",
+      "scheduled_at": "2026-10-07T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-08T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_020",
+      "title": "Skyr Quark Creme mit Kakao und Beeren",
+      "scheduled_at": "2026-10-07T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-08T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "005_low_carb-recipe_013",
       "title": "Warmer Kokos-Porridge (No-Oats)",
       "scheduled_at": "2026-10-07T16:00:00Z",
@@ -2964,6 +3515,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-08T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_021",
+      "title": "Kichererbsen-Curry mit Kokosmilch",
+      "scheduled_at": "2026-10-07T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-08T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -2989,6 +3559,44 @@
       }
     },
     {
+      "content_id": "004_meal_prep-recipe_020",
+      "title": "Rührei-Wrap mit Schinken",
+      "scheduled_at": "2026-10-08T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-09T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_021",
+      "title": "Hähnchenbrust im knusprigen Bacon-Mantel",
+      "scheduled_at": "2026-10-08T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-09T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "007_men-recipe_013",
       "title": "Pulled Pork Sliders",
       "scheduled_at": "2026-10-08T16:00:00Z",
@@ -3002,6 +3610,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-09T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_020",
+      "title": "Pastinaken-Karotten-Püree",
+      "scheduled_at": "2026-10-08T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-09T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3027,6 +3654,44 @@
       }
     },
     {
+      "content_id": "006_family-recipe_021",
+      "title": "Blitz-Nudeln mit Erbsen-Sahne-Soße",
+      "scheduled_at": "2026-10-09T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-10T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_020",
+      "title": "Tomate-Mozzarella-Sticks",
+      "scheduled_at": "2026-10-09T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-10T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "009_anti_entzuendung-recipe_013",
       "title": "Beeren-Mandel-Müsli ohne Zucker",
       "scheduled_at": "2026-10-09T16:00:00Z",
@@ -3040,6 +3705,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-10T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_020",
+      "title": "Harzer Käse auf Roggenbrot mit Ei",
+      "scheduled_at": "2026-10-09T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-10T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3065,6 +3749,44 @@
       }
     },
     {
+      "content_id": "009_anti_entzuendung-recipe_020",
+      "title": "Omega-3-Power-Bowl mit Hanfsamen",
+      "scheduled_at": "2026-10-10T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-11T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_021",
+      "title": "Quark-Gnocchi mit Spinat und Tomaten",
+      "scheduled_at": "2026-10-10T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-11T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "012_hp_veggie-recipe_013",
       "title": "Spinat-Käse-Muffins",
       "scheduled_at": "2026-10-10T16:00:00Z",
@@ -3078,6 +3800,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-11T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_022",
+      "title": "Gebratener Reis mit Gemüse und Ei",
+      "scheduled_at": "2026-10-10T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-11T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3103,6 +3844,44 @@
       }
     },
     {
+      "content_id": "012_hp_veggie-recipe_020",
+      "title": "Käse-Spinat-Omelett-Wrap",
+      "scheduled_at": "2026-10-11T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_020.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_020.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-12T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_021",
+      "title": "Schichtsalat im Glas: Griechisch mit Feta",
+      "scheduled_at": "2026-10-11T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-12T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "003_vegetarisch-recipe_014",
       "title": "Bananenbrot ohne Zuckerzusatz",
       "scheduled_at": "2026-10-11T16:00:00Z",
@@ -3116,6 +3895,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-12T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_022",
+      "title": "Zucchini-Nudeln (Zoodles) mit Bolognese-Soße",
+      "scheduled_at": "2026-10-11T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-12T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3141,6 +3939,44 @@
       }
     },
     {
+      "content_id": "006_family-recipe_022",
+      "title": "Kartoffel-Zucchini-Puffer",
+      "scheduled_at": "2026-10-12T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-13T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_021",
+      "title": "Grillwürstchen im Blätterteig",
+      "scheduled_at": "2026-10-12T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-13T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "005_low_carb-recipe_014",
       "title": "Tomate-Mozzarella-Frühstücksteller",
       "scheduled_at": "2026-10-12T16:00:00Z",
@@ -3154,6 +3990,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-13T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_021",
+      "title": "Grüner Spargel mit Zitrone",
+      "scheduled_at": "2026-10-12T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-13T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3179,6 +4034,44 @@
       }
     },
     {
+      "content_id": "009_anti_entzuendung-recipe_021",
+      "title": "Kurkuma-Lachs mit Brokkoli",
+      "scheduled_at": "2026-10-13T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-14T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_021",
+      "title": "Hähnchenbrust mit Kräuterquark",
+      "scheduled_at": "2026-10-13T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-14T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "007_men-recipe_014",
       "title": "Bier-Käse-Dip",
       "scheduled_at": "2026-10-13T16:00:00Z",
@@ -3192,6 +4085,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-14T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_021",
+      "title": "Frittata mit Zucchini und Feta",
+      "scheduled_at": "2026-10-13T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_021.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_021.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-14T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3217,6 +4129,44 @@
       }
     },
     {
+      "content_id": "001_protein-recipe_022",
+      "title": "Erbsenprotein Pasta mit Hähnchen und Tomaten",
+      "scheduled_at": "2026-10-14T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-15T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_023",
+      "title": "Gnocchi-Pfanne mit Tomaten und Mozzarella",
+      "scheduled_at": "2026-10-14T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-15T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "009_anti_entzuendung-recipe_014",
       "title": "Räucherlachs-Gurken-Röllchen",
       "scheduled_at": "2026-10-14T16:00:00Z",
@@ -3230,6 +4180,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-15T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_022",
+      "title": "Couscous-Salat mit Minze und Granatapfel",
+      "scheduled_at": "2026-10-14T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-15T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3255,6 +4224,44 @@
       }
     },
     {
+      "content_id": "005_low_carb-recipe_023",
+      "title": "Saftige Frikadellen mit Feta-Füllung",
+      "scheduled_at": "2026-10-15T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-16T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_023",
+      "title": "Schnelle Gnocchi-Pfanne mit Tomaten",
+      "scheduled_at": "2026-10-15T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-16T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "012_hp_veggie-recipe_014",
       "title": "Grüne Protein-Smoothie-Bowl",
       "scheduled_at": "2026-10-15T16:00:00Z",
@@ -3268,6 +4275,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-16T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_022",
+      "title": "Aioli",
+      "scheduled_at": "2026-10-15T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-16T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3293,6 +4319,44 @@
       }
     },
     {
+      "content_id": "008_liver-recipe_022",
+      "title": "Tomaten-Gurken-Salat mediterran",
+      "scheduled_at": "2026-10-16T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-17T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_022",
+      "title": "Makrele mit Ingwer-Glasur",
+      "scheduled_at": "2026-10-16T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-17T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "003_vegetarisch-recipe_015",
       "title": "Frühstücks-Wrap mit Rührei und Spinat",
       "scheduled_at": "2026-10-16T16:00:00Z",
@@ -3306,6 +4370,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-17T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_022",
+      "title": "Putengeschnetzeltes mit Paprika",
+      "scheduled_at": "2026-10-16T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-17T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3331,6 +4414,44 @@
       }
     },
     {
+      "content_id": "012_hp_veggie-recipe_022",
+      "title": "Käse-Souffléomelett",
+      "scheduled_at": "2026-10-17T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_022.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_022.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-18T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_023",
+      "title": "Seitan Gemüse Wok mit Vollkornreis",
+      "scheduled_at": "2026-10-17T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-18T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "005_low_carb-recipe_016",
       "title": "Keto-Brötchen mit Flohsamenschalen",
       "scheduled_at": "2026-10-17T16:00:00Z",
@@ -3344,6 +4465,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-18T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_024",
+      "title": "Schupfnudel-Pfanne mit Sauerkraut",
+      "scheduled_at": "2026-10-17T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-18T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3369,6 +4509,44 @@
       }
     },
     {
+      "content_id": "004_meal_prep-recipe_023",
+      "title": "Nudelsalat 'Caprese' mit Pesto-Dressing",
+      "scheduled_at": "2026-10-18T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-19T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_024",
+      "title": "Puten-Geschnetzeltes in Champignon-Rahm-Soße",
+      "scheduled_at": "2026-10-18T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-19T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "007_men-recipe_015",
       "title": "Strammer Max",
       "scheduled_at": "2026-10-18T16:00:00Z",
@@ -3382,6 +4560,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-19T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_023",
+      "title": "Rucola mit Granatapfelkernen",
+      "scheduled_at": "2026-10-18T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-19T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3407,6 +4604,44 @@
       }
     },
     {
+      "content_id": "006_family-recipe_024",
+      "title": "Linsen-Bolognese (Veggie)",
+      "scheduled_at": "2026-10-19T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-20T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_023",
+      "title": "Speck und Rührei",
+      "scheduled_at": "2026-10-19T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-20T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "009_anti_entzuendung-recipe_015",
       "title": "Kurkuma-Rührei mit Kräutern",
       "scheduled_at": "2026-10-19T16:00:00Z",
@@ -3420,6 +4655,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-20T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_023",
+      "title": "Hähnchen-Gemüse-Pfanne",
+      "scheduled_at": "2026-10-19T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-20T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3445,6 +4699,44 @@
       }
     },
     {
+      "content_id": "009_anti_entzuendung-recipe_023",
+      "title": "Sardinen auf geröstetem Vollkornbrot",
+      "scheduled_at": "2026-10-20T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-21T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_024",
+      "title": "Garnelen Zoodle Alfredo light",
+      "scheduled_at": "2026-10-20T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-21T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "012_hp_veggie-recipe_015",
       "title": "Rührei mit Champignons und Käse",
       "scheduled_at": "2026-10-20T16:00:00Z",
@@ -3458,6 +4750,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-21T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_025",
+      "title": "Cremige Champignon-Rahm-Soße mit Spätzle",
+      "scheduled_at": "2026-10-20T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-21T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3483,6 +4794,44 @@
       }
     },
     {
+      "content_id": "012_hp_veggie-recipe_023",
+      "title": "Ofen-Eier mit Spinat und Käse",
+      "scheduled_at": "2026-10-21T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_023.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_023.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-22T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_024",
+      "title": "Asiatischer Glasnudelsalat mit Erdnuss-Dressing",
+      "scheduled_at": "2026-10-21T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-22T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "003_vegetarisch-recipe_017",
       "title": "Hüttenkäse-Bowl mit Radieschen und Gurke",
       "scheduled_at": "2026-10-21T16:00:00Z",
@@ -3496,6 +4845,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-22T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_025",
+      "title": "Klassischer Hackbraten 'Falscher Hase' (Low Carb)",
+      "scheduled_at": "2026-10-21T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-22T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3521,6 +4889,44 @@
       }
     },
     {
+      "content_id": "006_family-recipe_025",
+      "title": "Fischstäbchen-Wrap",
+      "scheduled_at": "2026-10-22T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-23T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_024",
+      "title": "Bauernfrühstück",
+      "scheduled_at": "2026-10-22T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-23T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "005_low_carb-recipe_017",
       "title": "Griechischer Joghurt mit Walnüssen und Zimt",
       "scheduled_at": "2026-10-22T16:00:00Z",
@@ -3534,6 +4940,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-23T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_024",
+      "title": "Bunter Gemüse-Antipasti-Teller",
+      "scheduled_at": "2026-10-22T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-23T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3559,6 +4984,44 @@
       }
     },
     {
+      "content_id": "009_anti_entzuendung-recipe_024",
+      "title": "Lachs-Spinat-Pfanne mit Knoblauch",
+      "scheduled_at": "2026-10-23T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-24T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_024",
+      "title": "Putenschnitzel mit Zitrone",
+      "scheduled_at": "2026-10-23T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-24T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "007_men-recipe_016",
       "title": "Mini-Frikadellen",
       "scheduled_at": "2026-10-23T16:00:00Z",
@@ -3572,6 +5035,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-24T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_024",
+      "title": "Halloumi mit Ei und Tomaten",
+      "scheduled_at": "2026-10-23T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_024.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_024.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-24T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3597,6 +5079,44 @@
       }
     },
     {
+      "content_id": "001_protein-recipe_025",
+      "title": "Lachs-Burger auf Salatbett",
+      "scheduled_at": "2026-10-24T10:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-25T10:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_026",
+      "title": "Halloumi-Gemüse-Pfanne mediterran",
+      "scheduled_at": "2026-10-24T13:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-25T13:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "009_anti_entzuendung-recipe_016",
       "title": "Chia-Kokos-Pudding mit Mango",
       "scheduled_at": "2026-10-24T16:00:00Z",
@@ -3610,6 +5130,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-25T16:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_025",
+      "title": "Linsen-Salat mit Roter Bete & Ziegenkäse",
+      "scheduled_at": "2026-10-24T19:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-25T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3635,6 +5174,44 @@
       }
     },
     {
+      "content_id": "005_low_carb-recipe_026",
+      "title": "Hähnchen-Curry mit Blumenkohlreis",
+      "scheduled_at": "2026-10-25T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-26T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_026",
+      "title": "Reis-Pfanne 'Kunterbunt'",
+      "scheduled_at": "2026-10-25T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-26T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "012_hp_veggie-recipe_016",
       "title": "Protein-French-Toast",
       "scheduled_at": "2026-10-25T17:00:00Z",
@@ -3648,6 +5225,25 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-26T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_025",
+      "title": "Full English Breakfast",
+      "scheduled_at": "2026-10-25T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-26T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
@@ -3673,6 +5269,44 @@
       }
     },
     {
+      "content_id": "008_liver-recipe_025",
+      "title": "Hähnchenbrust mit Kurkuma-Marinade",
+      "scheduled_at": "2026-10-26T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-27T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_025",
+      "title": "Forelle im Kräutermantel",
+      "scheduled_at": "2026-10-26T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-27T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
       "content_id": "003_vegetarisch-recipe_018",
       "title": "Blaubeer-Pfannkuchen",
       "scheduled_at": "2026-10-26T17:00:00Z",
@@ -3686,6 +5320,120 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-27T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_025",
+      "title": "Hähnchenspieße mit Joghurt-Dip",
+      "scheduled_at": "2026-10-26T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-27T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_025",
+      "title": "Paprika-Frittata",
+      "scheduled_at": "2026-10-27T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_025.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_025.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-28T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_026",
+      "title": "Hähnchen Süß-Sauer mit Ananas und Vollkornreis",
+      "scheduled_at": "2026-10-27T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-28T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_027",
+      "title": "Rotes Linsen-Dal (Indischer Klassiker)",
+      "scheduled_at": "2026-10-27T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_027.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_027.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-28T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_026",
+      "title": "Caesar Wrap mit Hähnchenstreifen",
+      "scheduled_at": "2026-10-27T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-28T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_027",
+      "title": "Schweinemedaillons in Pfeffer-Rahm-Soße",
+      "scheduled_at": "2026-10-27T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_027.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_027.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-28T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
