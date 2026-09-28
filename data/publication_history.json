@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-09-27T18:24:56Z",
+  "last_updated_at": "2026-09-28T09:47:51Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -2563,7 +2563,7 @@
         "first_repository_observed_at": "2026-09-27T09:16:31Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-09-28T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -2596,12 +2596,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_012.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_012.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-09-28T07:00:00Z",
+        "first_repository_observed_at": "2026-09-28T09:47:51Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-09-29T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5434,6 +5434,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-10-28T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_027",
+      "title": "Würstchen-Gulasch",
+      "scheduled_at": "2026-10-28T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_027.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_027.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-29T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_026",
+      "title": "Omelett mit Käse und Schinken",
+      "scheduled_at": "2026-10-28T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-29T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_026",
+      "title": "Putenschnitzel mit Kräuterkruste",
+      "scheduled_at": "2026-10-28T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-29T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_026",
+      "title": "Thunfisch-Avocado-Bowl",
+      "scheduled_at": "2026-10-28T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-29T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_026",
+      "title": "Rinderhack-Bällchen in Tomatensauce",
+      "scheduled_at": "2026-10-28T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_026.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_026.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-10-29T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
