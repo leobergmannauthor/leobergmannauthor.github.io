@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-02T19:19:38Z",
+  "last_updated_at": "2026-10-03T09:10:02Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -2981,7 +2981,7 @@
         "first_repository_observed_at": "2026-10-02T09:46:57Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-03T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3071,12 +3071,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_013.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_013.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-03T07:00:00Z",
+        "first_repository_observed_at": "2026-10-03T09:10:02Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-04T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5909,6 +5909,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-11-02T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_028",
+      "title": "Käse-Quiche ohne Boden",
+      "scheduled_at": "2026-11-02T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_028.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_028.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-03T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_029",
+      "title": "Tofu-Satay-Spieße mit Erdnusssauce und Reis",
+      "scheduled_at": "2026-11-02T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_029.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_029.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-03T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_030",
+      "title": "Chili sin Carne",
+      "scheduled_at": "2026-11-02T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_030.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_030.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-03T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_029",
+      "title": "Kartoffelsalat mit Essig-Öl (Hält länger als Mayo)",
+      "scheduled_at": "2026-11-02T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_029.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_029.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-03T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_030",
+      "title": "Würzige Hackbällchen in Tomaten-Paprika-Soße",
+      "scheduled_at": "2026-11-02T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_030.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_030.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-03T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
