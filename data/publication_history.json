@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-07T10:16:48Z",
+  "last_updated_at": "2026-10-07T19:59:22Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -3399,7 +3399,7 @@
         "first_repository_observed_at": "2026-10-06T19:32:53Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-07T13:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3418,7 +3418,7 @@
         "first_repository_observed_at": "2026-10-06T19:32:53Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-07T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3437,7 +3437,7 @@
         "first_repository_observed_at": "2026-10-06T19:32:53Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-07T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3489,12 +3489,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_020.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_020.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-07T13:00:00Z",
+        "first_repository_observed_at": "2026-10-07T19:59:22Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-08T13:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3508,12 +3508,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_013.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_013.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-07T16:00:00Z",
+        "first_repository_observed_at": "2026-10-07T19:59:22Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-08T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3527,12 +3527,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_021.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_021.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-07T19:00:00Z",
+        "first_repository_observed_at": "2026-10-07T19:59:22Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-08T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
