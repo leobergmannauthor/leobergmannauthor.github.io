@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-09T19:32:49Z",
+  "last_updated_at": "2026-10-10T09:51:24Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -3646,7 +3646,7 @@
         "first_repository_observed_at": "2026-10-09T10:34:29Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-10T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3736,12 +3736,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_013.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_013.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-10T07:00:00Z",
+        "first_repository_observed_at": "2026-10-10T09:51:24Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-11T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6574,6 +6574,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-11-09T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_033",
+      "title": "Gefüllte Paprika mit Hackfleisch (ohne Reis)",
+      "scheduled_at": "2026-11-09T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_033.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_033.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-10T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_033",
+      "title": "Ofen-Pfannkuchen vom Blech",
+      "scheduled_at": "2026-11-09T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_033.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_033.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-10T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_032",
+      "title": "Würstchen-Ei-Muffins",
+      "scheduled_at": "2026-11-09T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_032.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_032.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-10T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_034",
+      "title": "Putengeschnetzeltes mit Brokkoli",
+      "scheduled_at": "2026-11-09T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_034.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_034.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-10T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_032",
+      "title": "Seelachs auf Gemüsebett",
+      "scheduled_at": "2026-11-09T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_032.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_032.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-10T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
