@@ -6,7 +6,7 @@
   "item_count": 1960,
   "ready_count": 1820,
   "blocked_count": 140,
-  "available_count": 1185,
+  "available_count": 1180,
   "items": [
     {
       "catalog_id": "001_protein:recipe_001",
@@ -9968,8 +9968,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/004_meal_prep/recipe_033.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-11T08:00:00Z",
       "pin_url": null,
       "source_fingerprint": "6c65502c478c1d8718e7de9b4d0c3025d474649465b3d654d803b3377fcc0d69",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -13070,8 +13070,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/005_low_carb/recipe_034.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-11T11:00:00Z",
       "pin_url": null,
       "source_fingerprint": "aa07cd907480530289644b1897a29784fbd984bc34b7023c144de2ccf63b8612",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -16150,8 +16150,8 @@
       "difficulty": "Simpel",
       "image": "assets/pins/006_family/recipe_034.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-11T14:00:00Z",
       "pin_url": null,
       "source_fingerprint": "dedcd6f7930c4646b316f67304492512e57b4fc6a5d5bef18b8e6a81852f6862",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -19208,8 +19208,8 @@
       "difficulty": "Anspruchsvoll",
       "image": "assets/pins/007_men/recipe_033.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-11T17:00:00Z",
       "pin_url": null,
       "source_fingerprint": "8a19f81ada8f318c4fe9a062af3faab4b76047c053631184dde92f007d768d7d",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -22332,8 +22332,8 @@
       "difficulty": "Mittel",
       "image": "assets/pins/008_liver/recipe_035.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-11T20:00:00Z",
       "pin_url": null,
       "source_fingerprint": "1ab32b3ad5052b0694285955c74baa1789d1882f679e1a64ff0e5f402dad080f",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
