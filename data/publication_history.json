@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-12T10:50:43Z",
+  "last_updated_at": "2026-10-12T22:08:38Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -3874,7 +3874,7 @@
         "first_repository_observed_at": "2026-10-11T18:55:28Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-12T13:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3893,7 +3893,7 @@
         "first_repository_observed_at": "2026-10-11T18:55:28Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-12T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3912,7 +3912,7 @@
         "first_repository_observed_at": "2026-10-12T10:50:43Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-12T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3964,12 +3964,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_021.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_021.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-12T13:00:00Z",
+        "first_repository_observed_at": "2026-10-12T22:08:38Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-13T13:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -3983,12 +3983,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_014.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_014.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-12T16:00:00Z",
+        "first_repository_observed_at": "2026-10-12T22:08:38Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-13T16:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -4002,12 +4002,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_021.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_021.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-12T19:00:00Z",
+        "first_repository_observed_at": "2026-10-12T22:08:38Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-13T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6859,6 +6859,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-11-12T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_033",
+      "title": "Sardinen-Bruschetta mit Tomaten",
+      "scheduled_at": "2026-11-12T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_033.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_033.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-13T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_033",
+      "title": "Hähnchen-Paprika-Gulasch",
+      "scheduled_at": "2026-11-12T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_033.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_033.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-13T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_033",
+      "title": "Käse-Frittata mit Kräutern",
+      "scheduled_at": "2026-11-12T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_033.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_033.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-13T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_034",
+      "title": "Skyr Cheesecake Oats im Glas",
+      "scheduled_at": "2026-11-12T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_034.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_034.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-13T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "002_airfryer-recipe_004",
+      "title": "Süßkartoffel-Wedges mit Rosmarin",
+      "scheduled_at": "2026-11-12T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/002_airfryer-recipe_004.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/002_airfryer/recipe_004.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-13T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
