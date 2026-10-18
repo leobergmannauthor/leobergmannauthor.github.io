@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-17T17:10:51Z",
+  "last_updated_at": "2026-10-18T08:02:29Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -4387,7 +4387,7 @@
         "first_repository_observed_at": "2026-10-17T07:48:40Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-17T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -4406,7 +4406,7 @@
         "first_repository_observed_at": "2026-10-17T07:48:40Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-18T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -4477,12 +4477,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_024.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_024.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-17T19:00:00Z",
+        "first_repository_observed_at": "2026-10-18T08:02:29Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-18T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -4496,12 +4496,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_016.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_016.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-18T07:00:00Z",
+        "first_repository_observed_at": "2026-10-18T08:02:29Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-19T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -7334,6 +7334,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-11-17T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_036",
+      "title": "Linsen-Dal mit Ei und Basmatireis",
+      "scheduled_at": "2026-11-17T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_036.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_036.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-18T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "002_airfryer-recipe_006",
+      "title": "Auberginen-Chips mit Za'atar",
+      "scheduled_at": "2026-11-17T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/002_airfryer-recipe_006.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/002_airfryer/recipe_006.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-18T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_037",
+      "title": "Pilz-Stroganoff mit Reis",
+      "scheduled_at": "2026-11-17T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_037.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_037.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-18T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_036",
+      "title": "Tortellini-Salat mit Rucola",
+      "scheduled_at": "2026-11-17T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_036.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_036.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-18T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_037",
+      "title": "Rindergulasch mit Paprika und Zwiebeln",
+      "scheduled_at": "2026-11-17T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_037.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_037.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-18T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
