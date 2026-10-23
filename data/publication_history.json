@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-22T18:33:13Z",
+  "last_updated_at": "2026-10-23T08:33:28Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -4862,7 +4862,7 @@
         "first_repository_observed_at": "2026-10-22T08:37:10Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-22T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -4881,7 +4881,7 @@
         "first_repository_observed_at": "2026-10-22T08:37:10Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-23T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -4952,12 +4952,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_024.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_024.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-22T19:00:00Z",
+        "first_repository_observed_at": "2026-10-23T08:33:28Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-23T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -4971,12 +4971,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_017.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_017.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-23T07:00:00Z",
+        "first_repository_observed_at": "2026-10-23T08:33:28Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-24T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -7809,6 +7809,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-11-22T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_038",
+      "title": "Poke Bowl Style mit mariniertem Lachs (Gar)",
+      "scheduled_at": "2026-11-22T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_038.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_038.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-23T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_039",
+      "title": "Putenschnitzel mit Parmesan-Mandel-Panade",
+      "scheduled_at": "2026-11-22T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_039.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_039.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-23T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_040",
+      "title": "Pellkartoffeln mit Quark-Variationen",
+      "scheduled_at": "2026-11-22T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_040.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_040.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-23T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_038",
+      "title": "Käse-Speck-Waffeln",
+      "scheduled_at": "2026-11-22T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_038.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_038.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-23T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_040",
+      "title": "Putenmedaillons mit Kräutern",
+      "scheduled_at": "2026-11-22T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_040.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_040.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-23T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
