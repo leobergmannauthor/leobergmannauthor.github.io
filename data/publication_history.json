@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-23T18:22:28Z",
+  "last_updated_at": "2026-10-24T08:08:32Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -4957,7 +4957,7 @@
         "first_repository_observed_at": "2026-10-23T08:33:28Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-23T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -4976,7 +4976,7 @@
         "first_repository_observed_at": "2026-10-23T08:33:28Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-24T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5047,12 +5047,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_024.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_024.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-23T19:00:00Z",
+        "first_repository_observed_at": "2026-10-24T08:08:32Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-24T19:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5066,12 +5066,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_016.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_016.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-24T07:00:00Z",
+        "first_repository_observed_at": "2026-10-24T08:08:32Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-25T07:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -7904,6 +7904,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-11-23T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_038",
+      "title": "Lachs-Brokkoli-Bowl mit Quinoa",
+      "scheduled_at": "2026-11-23T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_038.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_038.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-24T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_038",
+      "title": "Rindersteak mit Kräuterbutter",
+      "scheduled_at": "2026-11-23T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_038.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_038.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-24T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_038",
+      "title": "Bergkäse-Kartoffel-Frittata",
+      "scheduled_at": "2026-11-23T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_038.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_038.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-24T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_039",
+      "title": "Protein Pizza Wrap mit Pute und Spinat",
+      "scheduled_at": "2026-11-23T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_039.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_039.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-24T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "002_airfryer-recipe_009",
+      "title": "Kürbis-Spalten mit Ahornsirup",
+      "scheduled_at": "2026-11-23T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/002_airfryer-recipe_009.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/002_airfryer/recipe_009.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-24T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
