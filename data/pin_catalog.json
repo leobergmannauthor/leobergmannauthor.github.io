@@ -6,7 +6,7 @@
   "item_count": 1960,
   "ready_count": 1820,
   "blocked_count": 140,
-  "available_count": 1110,
+  "available_count": 1105,
   "items": [
     {
       "catalog_id": "001_protein:recipe_001",
@@ -3302,8 +3302,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/002_airfryer/recipe_010.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-26T08:00:00Z",
       "pin_url": null,
       "source_fingerprint": "4d72e19f1f60e76095fabac214e870cf90febe31f687c056595ba131399e5078",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -7064,8 +7064,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/003_vegetarisch/recipe_041.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-26T11:00:00Z",
       "pin_url": null,
       "source_fingerprint": "1c8288e2742c210d9a61a406b7dbb1c51999ad854e825aefc6f4177a5e8fc1dd",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -10122,8 +10122,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/004_meal_prep/recipe_040.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-26T14:00:00Z",
       "pin_url": null,
       "source_fingerprint": "543688e19aac77c47b05c313a25ff4b60578983073850a98953491593ba31761",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -13224,8 +13224,8 @@
       "difficulty": "Anspruchsvoll",
       "image": "assets/pins/005_low_carb/recipe_041.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-26T17:00:00Z",
       "pin_url": null,
       "source_fingerprint": "6469b8854a8208ace322845c657b3bad3e27841651e01cb969ac6b449d337480",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -16326,8 +16326,8 @@
       "difficulty": "Einfach",
       "image": "assets/pins/006_family/recipe_042.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-11-26T20:00:00Z",
       "pin_url": null,
       "source_fingerprint": "804b0ebc2adde52b4f9a34fd08058e6cb518afa320c433273e349415393953bd",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
