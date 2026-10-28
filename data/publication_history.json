@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-27T19:26:38Z",
+  "last_updated_at": "2026-10-28T09:40:40Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -5337,7 +5337,7 @@
         "first_repository_observed_at": "2026-10-27T09:00:35Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-27T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5356,7 +5356,7 @@
         "first_repository_observed_at": "2026-10-27T09:00:35Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-28T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5427,12 +5427,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_027.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_027.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-27T20:00:00Z",
+        "first_repository_observed_at": "2026-10-28T09:40:40Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-28T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5446,12 +5446,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_027.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_027.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-28T08:00:00Z",
+        "first_repository_observed_at": "2026-10-28T09:40:40Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-10-29T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8284,6 +8284,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-11-27T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_040",
+      "title": "Leberkäse mit Spiegelei",
+      "scheduled_at": "2026-11-27T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_040.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_040.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-28T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_042",
+      "title": "Puten-Hackbällchen mit Gemüse",
+      "scheduled_at": "2026-11-27T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_042.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_042.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-28T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_040",
+      "title": "Makrele mit Rosmarin und Zitrone",
+      "scheduled_at": "2026-11-27T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_040.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_040.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-28T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_040",
+      "title": "Hähnchen-Zucchini-Spieße",
+      "scheduled_at": "2026-11-27T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_040.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_040.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-28T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_040",
+      "title": "Käse-Rührei mit Schnittlauch",
+      "scheduled_at": "2026-11-27T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_040.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_040.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-11-28T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
