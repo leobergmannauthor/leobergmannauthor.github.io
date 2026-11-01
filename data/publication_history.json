@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-10-31T18:33:55Z",
+  "last_updated_at": "2026-11-01T10:28:40Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -5717,7 +5717,7 @@
         "first_repository_observed_at": "2026-10-31T09:39:41Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-10-31T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5736,7 +5736,7 @@
         "first_repository_observed_at": "2026-10-31T09:39:41Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-01T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5807,12 +5807,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_029.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_029.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-10-31T20:00:00Z",
+        "first_repository_observed_at": "2026-11-01T10:28:40Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-01T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -5826,12 +5826,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_029.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_029.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-01T08:00:00Z",
+        "first_repository_observed_at": "2026-11-01T10:28:40Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-02T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8664,6 +8664,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-01T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_043",
+      "title": "Rindfleisch-Streifen mit grünen Bohnen",
+      "scheduled_at": "2026-12-01T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_043.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_043.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-02T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_044",
+      "title": "Süßkartoffel-Toasties",
+      "scheduled_at": "2026-12-01T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_044.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_044.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-02T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_042",
+      "title": "Weißwurstfrühstück",
+      "scheduled_at": "2026-12-01T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_042.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_042.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-02T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_044",
+      "title": "Puten-Pilz-Ragout",
+      "scheduled_at": "2026-12-01T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_044.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_044.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-02T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_042",
+      "title": "Lachs-Spinat-Wraps",
+      "scheduled_at": "2026-12-01T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_042.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_042.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-02T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
