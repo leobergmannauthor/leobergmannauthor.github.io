@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-02T22:47:19Z",
+  "last_updated_at": "2026-11-03T10:53:16Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -5926,7 +5926,7 @@
         "first_repository_observed_at": "2026-11-02T11:08:27Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-03T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6016,12 +6016,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_030.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_030.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-03T08:00:00Z",
+        "first_repository_observed_at": "2026-11-03T10:53:16Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-04T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8854,6 +8854,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-03T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_043",
+      "title": "Brokkoli-Salat mit Apfel und Walnüssen (Roh)",
+      "scheduled_at": "2026-12-03T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_043.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_043.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-04T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_044",
+      "title": "Saltimbocca vom Hähnchen mit Salbei und Schinken",
+      "scheduled_at": "2026-12-03T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_044.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_044.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-04T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_045",
+      "title": "Mini-Frikadellen mit Gurkensalat",
+      "scheduled_at": "2026-12-03T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_045.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_045.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-04T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_043",
+      "title": "Huevos Rancheros",
+      "scheduled_at": "2026-12-03T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_043.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_043.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-04T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_045",
+      "title": "Hähnchenbrust mit Senf-Kruste",
+      "scheduled_at": "2026-12-03T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_045.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_045.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-04T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
