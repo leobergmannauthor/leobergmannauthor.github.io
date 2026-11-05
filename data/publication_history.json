@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-04T20:49:52Z",
+  "last_updated_at": "2026-11-05T10:57:04Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -6116,7 +6116,7 @@
         "first_repository_observed_at": "2026-11-04T10:56:11Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-05T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6206,12 +6206,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_031.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_031.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-05T08:00:00Z",
+        "first_repository_observed_at": "2026-11-05T10:57:04Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-06T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -9044,6 +9044,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-05T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_045",
+      "title": "Shakshuka mit Feta (Grüne Version mit Spinat)",
+      "scheduled_at": "2026-12-05T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_045.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_045.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-06T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_044",
+      "title": "Falafel-Bowl mit Tahini-Soße",
+      "scheduled_at": "2026-12-05T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_044.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_044.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-06T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "005_low_carb-recipe_045",
+      "title": "Schweinekrustenbraten mit Rosenkohl",
+      "scheduled_at": "2026-12-05T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_045.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_045.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-06T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_046",
+      "title": "Lachs-Nudeln (Zitronensoße)",
+      "scheduled_at": "2026-12-05T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_046.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_046.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-06T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_044",
+      "title": "Käsebrot deluxe",
+      "scheduled_at": "2026-12-05T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_044.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_044.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-06T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
