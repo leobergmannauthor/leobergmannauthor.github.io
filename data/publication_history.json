@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-05T21:05:37Z",
+  "last_updated_at": "2026-11-06T10:53:46Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -6211,7 +6211,7 @@
         "first_repository_observed_at": "2026-11-05T10:57:04Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-06T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6301,12 +6301,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_030.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_030.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-06T08:00:00Z",
+        "first_repository_observed_at": "2026-11-06T10:53:46Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-07T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -9139,6 +9139,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-06T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_046",
+      "title": "Puten-Tomaten-Auflauf",
+      "scheduled_at": "2026-12-06T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_046.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_046.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-07T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_044",
+      "title": "Lachs-Frikadellen mit Dill",
+      "scheduled_at": "2026-12-06T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_044.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_044.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-07T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_045",
+      "title": "Putenmedaillons mit Pilzrahm",
+      "scheduled_at": "2026-12-06T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_045.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_045.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-07T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_044",
+      "title": "Linsen-Frikadellen mit Joghurt",
+      "scheduled_at": "2026-12-06T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_044.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_044.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-07T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_045",
+      "title": "Hähnchen Paprika Pfanne mit Quarkdip",
+      "scheduled_at": "2026-12-06T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_045.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_045.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-07T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null

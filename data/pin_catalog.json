@@ -6,7 +6,7 @@
   "item_count": 1960,
   "ready_count": 1820,
   "blocked_count": 140,
-  "available_count": 1060,
+  "available_count": 1055,
   "items": [
     {
       "catalog_id": "001_protein:recipe_001",
@@ -992,8 +992,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/001_protein/recipe_045.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-12-06T20:00:00Z",
       "pin_url": null,
       "source_fingerprint": "a31472ea297e289b3834132d5f1d2eb4169421ddcf297e1ea9b36f995da98ee1",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -22574,8 +22574,8 @@
       "difficulty": "Leicht",
       "image": "assets/pins/008_liver/recipe_046.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-12-06T08:00:00Z",
       "pin_url": null,
       "source_fingerprint": "f0e30c0da80eeeb6fb48e587111c9c72c623a8247349b27cecb943fb7abc5bfb",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -25610,8 +25610,8 @@
       "difficulty": "Mittel",
       "image": "assets/pins/009_anti_entzuendung/recipe_044.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-12-06T11:00:00Z",
       "pin_url": null,
       "source_fingerprint": "0a583f6c6e890b25832073cae15ac572ea90d726752d2c143eddd06fdbd3e446",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -28712,8 +28712,8 @@
       "difficulty": "Einfach",
       "image": "assets/pins/011_hp_basics/recipe_045.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-12-06T14:00:00Z",
       "pin_url": null,
       "source_fingerprint": "8f373496198f2215244becc44d8acce5dbb855213b023362294b26fda5eb532b",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
@@ -31770,8 +31770,8 @@
       "difficulty": "Mittel",
       "image": "assets/pins/012_hp_veggie/recipe_044.jpg",
       "asset_status": "ready",
-      "publication_status": "available",
-      "scheduled_at": null,
+      "publication_status": "scheduled",
+      "scheduled_at": "2026-12-06T17:00:00Z",
       "pin_url": null,
       "source_fingerprint": "d3034d656cd14ac60ace9afc30506a260eaf6fdce461b34858db11c472ea76e0",
       "creative_version": "de-recipe-v4-food-first-1000x1500"
