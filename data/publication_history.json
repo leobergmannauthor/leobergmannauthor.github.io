@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-09T11:33:04Z",
+  "last_updated_at": "2026-11-09T23:26:52Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -6534,7 +6534,7 @@
         "first_repository_observed_at": "2026-11-08T18:50:03Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-09T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6553,7 +6553,7 @@
         "first_repository_observed_at": "2026-11-08T18:50:03Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-09T17:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6572,7 +6572,7 @@
         "first_repository_observed_at": "2026-11-09T11:33:04Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-09T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6624,12 +6624,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_032.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_032.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-09T14:00:00Z",
+        "first_repository_observed_at": "2026-11-09T23:26:52Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-10T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6643,12 +6643,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_034.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_034.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-09T17:00:00Z",
+        "first_repository_observed_at": "2026-11-09T23:26:52Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-10T17:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6662,12 +6662,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_032.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_032.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-09T20:00:00Z",
+        "first_repository_observed_at": "2026-11-09T23:26:52Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-10T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -9519,6 +9519,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-10T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "006_family-recipe_048",
+      "title": "Hähnchenschenkel vom Blech",
+      "scheduled_at": "2026-12-10T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_048.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_048.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-11T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "007_men-recipe_046",
+      "title": "Katerfrühstück",
+      "scheduled_at": "2026-12-10T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_046.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_046.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-11T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_048",
+      "title": "Putenstreifen mit Paprika",
+      "scheduled_at": "2026-12-10T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_048.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_048.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-11T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_046",
+      "title": "Wolfsbarsch mit Fenchel",
+      "scheduled_at": "2026-12-10T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_046.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_046.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-11T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_047",
+      "title": "Rindfleischstreifen mit Brokkoli",
+      "scheduled_at": "2026-12-10T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_047.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_047.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-11T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
