@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-11T10:58:21Z",
+  "last_updated_at": "2026-11-11T21:25:43Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -6705,7 +6705,7 @@
         "first_repository_observed_at": "2026-11-10T11:13:18Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-11T11:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6724,7 +6724,7 @@
         "first_repository_observed_at": "2026-11-10T20:49:57Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-11T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6743,7 +6743,7 @@
         "first_repository_observed_at": "2026-11-10T20:49:57Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-11T17:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6762,7 +6762,7 @@
         "first_repository_observed_at": "2026-11-10T20:49:57Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-11T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6795,12 +6795,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/005_low_carb-recipe_034.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/005_low_carb/recipe_034.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-11T11:00:00Z",
+        "first_repository_observed_at": "2026-11-11T21:25:43Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-12T11:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6814,12 +6814,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/006_family-recipe_034.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/006_family/recipe_034.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-11T14:00:00Z",
+        "first_repository_observed_at": "2026-11-11T21:25:43Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-12T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6833,12 +6833,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/007_men-recipe_033.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/007_men/recipe_033.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-11T17:00:00Z",
+        "first_repository_observed_at": "2026-11-11T21:25:43Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-12T17:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6852,12 +6852,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_035.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_035.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-11T20:00:00Z",
+        "first_repository_observed_at": "2026-11-11T21:25:43Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-12T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
