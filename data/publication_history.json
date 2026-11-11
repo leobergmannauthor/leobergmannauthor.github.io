@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-10T20:49:57Z",
+  "last_updated_at": "2026-11-11T10:58:21Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -6686,7 +6686,7 @@
         "first_repository_observed_at": "2026-11-10T11:13:18Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-11T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -6776,12 +6776,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_033.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_033.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-11T08:00:00Z",
+        "first_repository_observed_at": "2026-11-11T10:58:21Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-12T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -9614,6 +9614,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-11T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_046",
+      "title": "Weiße-Bohnen-Püree mit Spiegelei",
+      "scheduled_at": "2026-12-11T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_046.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_046.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-12T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_047",
+      "title": "Rindergeschnetzeltes mit Pilzen und Vollkornnudeln",
+      "scheduled_at": "2026-12-11T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_047.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_047.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-12T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "002_airfryer-recipe_019",
+      "title": "Sellerie-Schnitzel paniert",
+      "scheduled_at": "2026-12-11T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/002_airfryer-recipe_019.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/002_airfryer/recipe_019.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-12T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_048",
+      "title": "Brokkoli-Mandel-Pfanne mit Reis",
+      "scheduled_at": "2026-12-11T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_048.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_048.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-12T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "004_meal_prep-recipe_047",
+      "title": "Hirse-Salat mit Paprika und Mais",
+      "scheduled_at": "2026-12-11T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/004_meal_prep-recipe_047.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/004_meal_prep/recipe_047.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-12T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
