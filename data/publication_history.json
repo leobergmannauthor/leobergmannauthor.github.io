@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-23T12:42:02Z",
+  "last_updated_at": "2026-11-24T01:40:11Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -7864,7 +7864,7 @@
         "first_repository_observed_at": "2026-11-22T20:43:46Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-23T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -7883,7 +7883,7 @@
         "first_repository_observed_at": "2026-11-22T20:43:46Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-23T17:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -7902,7 +7902,7 @@
         "first_repository_observed_at": "2026-11-22T20:43:46Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-23T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -7954,12 +7954,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_038.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_038.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-23T14:00:00Z",
+        "first_repository_observed_at": "2026-11-24T01:40:11Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-24T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -7973,12 +7973,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_039.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_039.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-23T17:00:00Z",
+        "first_repository_observed_at": "2026-11-24T01:40:11Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-24T17:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -7992,12 +7992,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/002_airfryer-recipe_009.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/002_airfryer/recipe_009.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-23T20:00:00Z",
+        "first_repository_observed_at": "2026-11-24T01:40:11Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-24T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -10849,6 +10849,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-24T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_053",
+      "title": "Garnelen in Knoblauch-Öl",
+      "scheduled_at": "2026-12-24T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_053.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_053.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-25T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_052",
+      "title": "Linsen-Dal mit Ei",
+      "scheduled_at": "2026-12-24T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_052.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_052.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-25T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_053",
+      "title": "Linsennudeln Bolognese mit Rinderhack",
+      "scheduled_at": "2026-12-24T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_053.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_053.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-25T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "002_airfryer-recipe_028",
+      "title": "Hähnchenbrust mit Zitrone und Thymian",
+      "scheduled_at": "2026-12-24T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/002_airfryer-recipe_028.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/002_airfryer/recipe_028.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-25T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "003_vegetarisch-recipe_054",
+      "title": "Gefüllte Paprika mit Reis und Feta",
+      "scheduled_at": "2026-12-24T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/003_vegetarisch-recipe_054.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/003_vegetarisch/recipe_054.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-25T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
