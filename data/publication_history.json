@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-25T12:56:41Z",
+  "last_updated_at": "2026-11-25T23:05:52Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -8054,7 +8054,7 @@
         "first_repository_observed_at": "2026-11-24T23:28:54Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-25T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8073,7 +8073,7 @@
         "first_repository_observed_at": "2026-11-24T23:28:54Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-25T17:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8092,7 +8092,7 @@
         "first_repository_observed_at": "2026-11-24T23:28:54Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-25T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8144,12 +8144,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_039.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_039.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-25T14:00:00Z",
+        "first_repository_observed_at": "2026-11-25T23:05:52Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-26T14:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8163,12 +8163,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_039.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_039.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-25T17:00:00Z",
+        "first_repository_observed_at": "2026-11-25T23:05:52Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-26T17:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8182,12 +8182,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_040.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_040.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-25T20:00:00Z",
+        "first_repository_observed_at": "2026-11-25T23:05:52Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-26T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -11039,6 +11039,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-26T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_053",
+      "title": "Hähnchen-Brokkoli-Curry",
+      "scheduled_at": "2026-12-26T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_053.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_053.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-27T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_054",
+      "title": "Kabeljau mit Kräutern aus dem Ofen",
+      "scheduled_at": "2026-12-26T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_054.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_054.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-27T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_053",
+      "title": "Kichererbsen-Küchlein mit Joghurt",
+      "scheduled_at": "2026-12-26T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_053.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_053.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-27T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_054",
+      "title": "Gefüllte Paprika mit Putenhack und Quinoa",
+      "scheduled_at": "2026-12-26T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_054.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_054.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-27T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "002_airfryer-recipe_029",
+      "title": "Lammkoteletts mit Rosmarin",
+      "scheduled_at": "2026-12-26T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/002_airfryer-recipe_029.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/002_airfryer/recipe_029.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-27T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
