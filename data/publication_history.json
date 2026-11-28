@@ -3,7 +3,7 @@
   "channel": "pinterest_rss",
   "feed_url": "https://leobergmannauthor.github.io/feed.xml",
   "board": "Schnelle & einfache Rezepte",
-  "last_updated_at": "2026-11-27T22:42:58Z",
+  "last_updated_at": "2026-11-28T11:45:55Z",
   "items": [
     {
       "content_id": "airfryer-kochbuch",
@@ -8301,7 +8301,7 @@
         "first_repository_observed_at": "2026-11-27T12:21:45Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-28T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8320,7 +8320,7 @@
         "first_repository_observed_at": "2026-11-27T12:21:45Z"
       },
       "pinterest": {
-        "status": "awaiting_import_confirmation",
+        "status": "confirmation_overdue",
         "expected_import_by": "2026-11-28T11:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8391,12 +8391,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_041.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_041.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-28T08:00:00Z",
+        "first_repository_observed_at": "2026-11-28T11:45:55Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-29T08:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -8410,12 +8410,12 @@
       "page_url": "https://leobergmannauthor.github.io/rezepte/002_airfryer-recipe_011.html",
       "image_url": "https://leobergmannauthor.github.io/assets/pins/002_airfryer/recipe_011.jpg",
       "rss": {
-        "status": "scheduled",
-        "feed_item_pub_date": null,
-        "first_repository_observed_at": null
+        "status": "published_to_feed",
+        "feed_item_pub_date": "2026-11-28T11:00:00Z",
+        "first_repository_observed_at": "2026-11-28T11:45:55Z"
       },
       "pinterest": {
-        "status": "not_yet_eligible",
+        "status": "awaiting_import_confirmation",
         "expected_import_by": "2026-11-29T11:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
@@ -11229,6 +11229,101 @@
       "pinterest": {
         "status": "not_yet_eligible",
         "expected_import_by": "2026-12-28T20:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "008_liver-recipe_056",
+      "title": "Puten-Kürbis-Curry",
+      "scheduled_at": "2026-12-28T08:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/008_liver-recipe_056.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/008_liver/recipe_056.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-29T08:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "009_anti_entzuendung-recipe_055",
+      "title": "Hähnchen-Salat mit Walnüssen",
+      "scheduled_at": "2026-12-28T11:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/009_anti_entzuendung-recipe_055.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/009_anti_entzuendung/recipe_055.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-29T11:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "011_hp_basics-recipe_055",
+      "title": "Lachs-Spinat-Pfanne",
+      "scheduled_at": "2026-12-28T14:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/011_hp_basics-recipe_055.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/011_hp_basics/recipe_055.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-29T14:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "012_hp_veggie-recipe_054",
+      "title": "Linsen-Puffer mit Quark-Dip",
+      "scheduled_at": "2026-12-28T17:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/012_hp_veggie-recipe_054.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/012_hp_veggie/recipe_054.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-29T17:00:00Z",
+        "pin_url": null,
+        "confirmed_at": null,
+        "last_checked_at": null
+      }
+    },
+    {
+      "content_id": "001_protein-recipe_055",
+      "title": "Skyr Schoko Overnight Oats mit Nüssen",
+      "scheduled_at": "2026-12-28T20:00:00Z",
+      "page_url": "https://leobergmannauthor.github.io/rezepte/001_protein-recipe_055.html",
+      "image_url": "https://leobergmannauthor.github.io/assets/pins/001_protein/recipe_055.jpg",
+      "rss": {
+        "status": "scheduled",
+        "feed_item_pub_date": null,
+        "first_repository_observed_at": null
+      },
+      "pinterest": {
+        "status": "not_yet_eligible",
+        "expected_import_by": "2026-12-29T20:00:00Z",
         "pin_url": null,
         "confirmed_at": null,
         "last_checked_at": null
